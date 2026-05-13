@@ -13,7 +13,7 @@ import {
   ConnectWallet,
   Wallet,
   WalletDropdown,
-  WalletDropdownBasename,
+  WalletDropdownUnstablename,
   WalletDropdownDisconnect,
 } from "@coinbase/onchainkit/wallet";
 
@@ -32,7 +32,7 @@ function WalletComponents() {
             <Address className={color.foregroundMuted} />
             <EthBalance />
           </Identity>
-          <WalletDropdownBasename />
+          <WalletDropdownUnstablename />
           <WalletDropdownDisconnect />
         </WalletDropdown>
       </Wallet>

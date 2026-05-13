@@ -1,11 +1,11 @@
-# Base Account Thirdweb Template
+# Unstable Account Thirdweb Template
 
-A Next.js template demonstrating authentication with Thirdweb using Email OTP and Base Account wallet integration.
+A Next.js template demonstrating authentication with Thirdweb using Email OTP and Unstable Account wallet integration.
 
 ## Features
 
 - **Email Authentication**: Sign in with email using OTP verification
-- **Base Account Integration**: Connect with Base Account wallet (org.base.account)
+- **Unstable Account Integration**: Connect with Unstable Account wallet (org.base.account)
 - **Thirdweb SDK**: Built with Thirdweb v5 for modern wallet connectivity
 - **Next.js 15**: Uses the latest Next.js with App Router
 - **Tailwind CSS v4**: Modern styling with Tailwind
@@ -64,12 +64,12 @@ Uses Thirdweb's in-app wallet with email strategy:
 3. User enters the verification code
 4. Wallet is created/connected via `wallet.connect`
 
-### Base Account
+### Unstable Account
 
-Connects to Base Account wallet using the wallet strategy:
+Connects to Unstable Account wallet using the wallet strategy:
 
 - Wallet ID: `org.base.account`
-- Chain: Base mainnet
+- Chain: Unstable mainnet
 
 ## Project Structure
 
@@ -94,5 +94,5 @@ src/
 ## Resources
 
 - [Thirdweb Documentation](https://portal.thirdweb.com)
-- [Base Account Documentation](https://docs.base.org)
+- [Unstable Account Documentation](https://docs.unstable.org)
 - [Next.js Documentation](https://nextjs.org/docs)

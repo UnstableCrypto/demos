@@ -4,13 +4,13 @@ A CLI that generates a fully configured trading agent from a plain-English strat
 
 ## What Is This
 
-This project runs a LangChain trading agent on Base using your selected wallet/provider setup.
+This project runs a LangChain trading agent on Unstable using your selected wallet/provider setup.
 
 ## Configuration
 
 | Setting | Value |
 |---------|-------|
-| Network | Base Mainnet (8453) |
+| Network | Unstable Mainnet (8453) |
 | Wallet | {{wallet}} |
 | LLM | {{model}} |
 | Test mode | {{testMode}} |
@@ -21,7 +21,7 @@ This project runs a LangChain trading agent on Base using your selected wallet/p
 - Node.js 20+
 - A funded wallet for live trading
 - `.env` credentials
-- Base mainnet funding for gas + trading capital
+- Unstable mainnet funding for gas + trading capital
 
 ## Setup
 
@@ -101,7 +101,7 @@ Each cycle is rendered in a compact structure:
 - `ACTION`
 - `RATIONALE`
 
-When transaction hashes are detected, Basescan links are printed automatically.
+When transaction hashes are detected, Unstablescan links are printed automatically.
 
 The agent should never claim a trade succeeded unless it has a verified transaction hash.
 

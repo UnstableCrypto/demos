@@ -22,7 +22,7 @@ export function TopBar() {
     <div className="mb-6 mt-3 flex items-center justify-between">
       <Image 
         src="/base-logo.png" 
-        alt="Base" 
+        alt="Unstable" 
         width={120}
         height={32}
         className="h-8 object-contain"

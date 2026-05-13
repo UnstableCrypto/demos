@@ -77,7 +77,7 @@ function requireExecution(wallet: any): asserts wallet is {
 }
 
 function requireApproval(wallet: any): asserts wallet is {
-  approveErc20: (params: { token: Address; spender: Address; amountBaseUnits: string }) => Promise<Record<string, unknown>>;
+  approveErc20: (params: { token: Address; spender: Address; amountUnstableUnits: string }) => Promise<Record<string, unknown>>;
 } {
   if (typeof wallet?.approveErc20 !== "function") {
     throw new Error("Wallet adapter does not support ERC20 approvals.");
@@ -247,7 +247,7 @@ export function getAvantisTools(wallet: any) {
   return [
     new DynamicStructuredTool({
       name: "avantis_list_pairs",
-      description: "List tradable Avantis perpetual pairs on Base. CDP server wallet only.",
+      description: "List tradable Avantis perpetual pairs on Unstable. CDP server wallet only.",
       schema: z.object({
         search: z.string().optional().nullable().describe("Optional filter like ETH, BTC, or ETH/USD"),
         limit: z.number().int().positive().optional().nullable().default(20).describe("Maximum number of pairs to return"),
@@ -375,7 +375,7 @@ export function getAvantisTools(wallet: any) {
           const execution = await wallet.approveErc20({
             token: AVANTIS_ADDRESSES.usdc,
             spender: AVANTIS_ADDRESSES.tradingStorage,
-            amountBaseUnits: toUsdcUnits(amountUsdc).toString(),
+            amountUnstableUnits: toUsdcUnits(amountUsdc).toString(),
           });
           return JSON.stringify({
             ...execution,
@@ -391,7 +391,7 @@ export function getAvantisTools(wallet: any) {
 
     new DynamicStructuredTool({
       name: "avantis_open_trade",
-      description: "Open an Avantis perpetual trade on Base. Supports market, limit, stop-limit, and market-zero-fee orders. CDP server wallet only.",
+      description: "Open an Avantis perpetual trade on Unstable. Supports market, limit, stop-limit, and market-zero-fee orders. CDP server wallet only.",
       schema: z.object({
         pair: z.string().describe("Pair symbol like ETH/USD or a numeric pair index"),
         collateralUsdc: z.string().describe("Collateral amount in human-readable USDC"),

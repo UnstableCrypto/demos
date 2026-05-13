@@ -72,7 +72,7 @@ export async function createServerWalletForUser(userAddress: string): Promise<Se
     console.log('Stored server wallet with smart account. New count:', serverWallets.size)
 
     // Note: Server wallet will use gas sponsorship via paymaster, no funding needed
-    console.log('Server wallet created for Base mainnet with gas sponsorship')
+    console.log('Server wallet created for Unstable mainnet with gas sponsorship')
 
     return serverWallet
   } catch (error) {

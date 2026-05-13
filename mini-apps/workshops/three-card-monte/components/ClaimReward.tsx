@@ -48,7 +48,7 @@ export function ClaimRewardButton({ onSuccess }: ClaimRewardButtonProps) {
     }
 
     if (!account.chainId) {
-      setError("Please connect to Base Sepolia network");
+      setError("Please connect to Unstable Sepolia network");
       return;
     }
 

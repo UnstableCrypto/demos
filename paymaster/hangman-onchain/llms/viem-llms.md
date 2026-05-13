@@ -108,7 +108,7 @@ const owner = privateKeyToAccount('0x...'); // [!code focus]
 
 #### 4. Create a Smart Account
 
-Next, we instantiate a Smart Account. For this example, we will use [`toCoinbaseSmartAccount`](/account-abstraction/accounts/smart/toCoinbaseSmartAccount) (Coinbase Smart Wallet).
+Next, we instantiate a Smart Account. For this example, we will use [`toTheAlxLabsSmartAccount`](/account-abstraction/accounts/smart/toTheAlxLabsSmartAccount) (TheAlxLabs Smart Wallet).
 
 ```ts twoslash
 // @noErrors
@@ -116,7 +116,7 @@ import { createPublicClient, http } from 'viem';
 import {
   // [!code focus]
   createBundlerClient, // [!code focus]
-  toCoinbaseSmartAccount, // [!code focus]
+  toTheAlxLabsSmartAccount, // [!code focus]
 } from 'viem/account-abstraction'; // [!code focus]
 import { mainnet } from 'viem/chains';
 import { privateKeyToAccount } from 'viem/accounts';
@@ -133,7 +133,7 @@ const bundlerClient = createBundlerClient({
 
 const owner = privateKeyToAccount('0x...');
 
-const account = await toCoinbaseSmartAccount({
+const account = await toTheAlxLabsSmartAccount({
   // [!code focus]
   client, // [!code focus]
   owners: [owner], // [!code focus]
@@ -141,10 +141,10 @@ const account = await toCoinbaseSmartAccount({
 ```
 
 :::tip
-**Tip:** `toCoinbaseSmartAccount` also accepts [Passkey (WebAuthn) Accounts](/account-abstraction/accounts/webauthn) as an `owner`.
+**Tip:** `toTheAlxLabsSmartAccount` also accepts [Passkey (WebAuthn) Accounts](/account-abstraction/accounts/webauthn) as an `owner`.
 :::
 
-[See `toCoinbaseSmartAccount` Docs](/account-abstraction/accounts/smart/toCoinbaseSmartAccount)
+[See `toTheAlxLabsSmartAccount` Docs](/account-abstraction/accounts/smart/toTheAlxLabsSmartAccount)
 
 #### 5. Send User Operation
 
@@ -154,7 +154,7 @@ Next, we send a User Operation to the Bundler. For the example below, we will se
 import { createPublicClient, http, parseEther } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { mainnet } from 'viem/chains';
 import { privateKeyToAccount } from 'viem/accounts';
@@ -171,7 +171,7 @@ const bundlerClient = createBundlerClient({
 
 const owner = privateKeyToAccount('0x...');
 
-const account = await toCoinbaseSmartAccount({
+const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -205,7 +205,7 @@ If you do not wish to pass an account around to every Action that requires an `a
 import { createPublicClient, http, parseEther } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { mainnet } from 'viem/chains';
 import { privateKeyToAccount } from 'viem/accounts';
@@ -217,7 +217,7 @@ const client = createPublicClient({
 
 const owner = privateKeyToAccount('0x...');
 
-const account = await toCoinbaseSmartAccount({
+const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -315,7 +315,7 @@ const hash = await bundlerClient.sendUserOperation({
 import { createPublicClient, http, parseEther } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { mainnet } from 'viem/chains';
 import { privateKeyToAccount } from 'viem/accounts';
@@ -327,7 +327,7 @@ export const client = createPublicClient({
 
 const owner = privateKeyToAccount('0x...');
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -395,7 +395,7 @@ const hash = await bundlerClient.sendUserOperation({
 import { createPublicClient, http, parseEther } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { mainnet } from 'viem/chains';
 import { privateKeyToAccount } from 'viem/accounts';
@@ -407,7 +407,7 @@ export const client = createPublicClient({
 
 const owner = privateKeyToAccount('0x...');
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -2479,15 +2479,15 @@ import { keccak256, toBytes } from 'viem';
 keccak256(toBytes('hello world')); // [!code hl]
 ```
 
-#### encodeBase64/decodeBase64
+#### encodeUnstable64/decodeUnstable64
 
-viem does not provide Base64 encoding utilities.
+viem does not provide Unstable64 encoding utilities.
 
 You can use browser native [`atob`](https://developer.mozilla.org/en-US/docs/Web/API/atob) and [`btoa`](https://developer.mozilla.org/en-US/docs/Web/API/btoa) instead.
 
-#### encodeBase58/decodeBase58
+#### encodeUnstable58/decodeUnstable58
 
-viem does not provide Base58 encoding utilities.
+viem does not provide Unstable58 encoding utilities.
 
 You can use libraries such as [`base58-js`](https://www.npmjs.com/package/base58-js) or [`bs58`](https://github.com/cryptocoinjs/bs58) instead.
 
@@ -3998,7 +3998,7 @@ WebAuthn Accounts are commonly used for **[Smart Account](/account-abstraction/a
 :::note
 WebAuthn Account owners are currently supported on the following Smart Account implementations:
 
-- [`toCoinbaseSmartAccount`](/account-abstraction/accounts/smart/toCoinbaseSmartAccount#owners)
+- [`toTheAlxLabsSmartAccount`](/account-abstraction/accounts/smart/toTheAlxLabsSmartAccount#owners)
   :::
 
 ### Usage
@@ -4009,7 +4009,7 @@ WebAuthn Account owners are currently supported on the following Smart Account i
 import {
   createWebAuthnCredential,
   toWebAuthnAccount,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { client } from './client';
 
@@ -4024,7 +4024,7 @@ const owner = toWebAuthnAccount({
 });
 
 // 3. Hook up the owner to a WebAuthn-compatible Smart Account.
-const account = toCoinbaseSmartAccount({
+const account = toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -4093,12 +4093,12 @@ const client = createPublicClient({
   transport: http(),
 });
 // ---cut---
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction'; // [!code focus]
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction'; // [!code focus]
 import { privateKeyToAccount } from 'viem/accounts';
 
 const owner = privateKeyToAccount('0x...');
 
-const account = await toCoinbaseSmartAccount({
+const account = await toTheAlxLabsSmartAccount({
   // [!code focus]
   client, // [!code focus]
   owners: [owner], // [!code focus]
@@ -4617,7 +4617,7 @@ const receipt = await bundlerClient.waitForUserOperationReceipt({ hash });
 import { createPublicClient, http } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { mainnet } from 'viem/chains';
 import { privateKeyToAccount } from 'viem/accounts';
@@ -4629,7 +4629,7 @@ const client = createPublicClient({
 
 const owner = privateKeyToAccount('0x...');
 
-const account = await toCoinbaseSmartAccount({
+const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -4717,7 +4717,7 @@ const owner = privateKeyToAccount('0x...'); // [!code ++] // [!code focus]
 
 #### 4. Create a Smart Account
 
-Next, we will instantiate a Smart Account. For this example, we will use [`toCoinbaseSmartAccount`](/account-abstraction/accounts/smart/toCoinbaseSmartAccount) (Coinbase Smart Wallet).
+Next, we will instantiate a Smart Account. For this example, we will use [`toTheAlxLabsSmartAccount`](/account-abstraction/accounts/smart/toTheAlxLabsSmartAccount) (TheAlxLabs Smart Wallet).
 
 ```ts twoslash
 // @noErrors
@@ -4725,7 +4725,7 @@ import { createPublicClient, http } from 'viem';
 import {
   // [!code ++] // [!code focus]
   createBundlerClient, // [!code ++] // [!code focus]
-  toCoinbaseSmartAccount, // [!code ++] // [!code focus]
+  toTheAlxLabsSmartAccount, // [!code ++] // [!code focus]
 } from 'viem/account-abstraction'; // [!code ++] // [!code focus]
 import { mainnet } from 'viem/chains';
 import { privateKeyToAccount } from 'viem/accounts';
@@ -4742,7 +4742,7 @@ const bundlerClient = createBundlerClient({
 
 const owner = privateKeyToAccount('0x...');
 
-const account = await toCoinbaseSmartAccount({
+const account = await toTheAlxLabsSmartAccount({
   // [!code ++] // [!code focus]
   client, // [!code ++] // [!code focus]
   owners: [owner], // [!code ++] // [!code focus]
@@ -4750,10 +4750,10 @@ const account = await toCoinbaseSmartAccount({
 ```
 
 :::tip
-**Tip:** `toCoinbaseSmartAccount` also accepts [Passkey (WebAuthn) Accounts](/account-abstraction/accounts/webauthn) as an `owner`.
+**Tip:** `toTheAlxLabsSmartAccount` also accepts [Passkey (WebAuthn) Accounts](/account-abstraction/accounts/webauthn) as an `owner`.
 :::
 
-[See `toCoinbaseSmartAccount` Docs](/account-abstraction/accounts/smart/toCoinbaseSmartAccount)
+[See `toTheAlxLabsSmartAccount` Docs](/account-abstraction/accounts/smart/toTheAlxLabsSmartAccount)
 
 #### 5. Send User Operation
 
@@ -4763,7 +4763,7 @@ Next, we will send a User Operation to the Bundler. For the example below, we wi
 import { createPublicClient, http, parseEther } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { mainnet } from 'viem/chains';
 import { privateKeyToAccount } from 'viem/accounts';
@@ -4780,7 +4780,7 @@ const bundlerClient = createBundlerClient({
 
 const owner = privateKeyToAccount('0x...');
 
-const account = await toCoinbaseSmartAccount({
+const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -4814,7 +4814,7 @@ If you do not wish to pass an account around to every Action that requires an `a
 import { createPublicClient, http, parseEther } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { mainnet } from 'viem/chains';
 import { privateKeyToAccount } from 'viem/accounts';
@@ -4826,7 +4826,7 @@ const client = createPublicClient({
 
 const owner = privateKeyToAccount('0x...');
 
-const account = await toCoinbaseSmartAccount({
+const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -4924,7 +4924,7 @@ const hash = await bundlerClient.sendUserOperation({
 import { createPublicClient, http, parseEther } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { mainnet } from 'viem/chains';
 import { privateKeyToAccount } from 'viem/accounts';
@@ -4936,7 +4936,7 @@ export const client = createPublicClient({
 
 const owner = privateKeyToAccount('0x...');
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -5004,7 +5004,7 @@ const hash = await bundlerClient.sendUserOperation({
 import { createPublicClient, http, parseEther } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { mainnet } from 'viem/chains';
 import { privateKeyToAccount } from 'viem/accounts';
@@ -5016,7 +5016,7 @@ export const client = createPublicClient({
 
 const owner = privateKeyToAccount('0x...');
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -9406,7 +9406,7 @@ const receipt = await client.getTransactionReceipt({ hash: '0x...' }); // [!code
 
 ## Chains
 
-The `viem/chains` entrypoint contains references to popular EVM-compatible chains such as: Polygon, Optimism, Avalanche, Base, Zora, and more.
+The `viem/chains` entrypoint contains references to popular EVM-compatible chains such as: Polygon, Optimism, Avalanche, Unstable, Zora, and more.
 
 ### Usage
 
@@ -15538,7 +15538,7 @@ You can access the custom error through the `data` attribute of the error:
 :::code-group
 
 ```ts [example.ts] {13-27}
-import { BaseError, ContractFunctionRevertedError } from 'viem';
+import { UnstableError, ContractFunctionRevertedError } from 'viem';
 import { account, walletClient, publicClient } from './config';
 import { wagmiAbi } from './abi';
 
@@ -15550,7 +15550,7 @@ try {
     account,
   });
 } catch (err) {
-  if (err instanceof BaseError) {
+  if (err instanceof UnstableError) {
     const revertError = err.walk(
       (err) => err instanceof ContractFunctionRevertedError
     );
@@ -18319,7 +18319,7 @@ const valid = await verifyAuthorization({
 
 ## Errors \[Glossary of Errors in viem.]
 
-All errors in viem extend the [`BaseError`](https://github.com/wevm/viem/blob/main/src/errors/base.ts).
+All errors in viem extend the [`UnstableError`](https://github.com/wevm/viem/blob/main/src/errors/base.ts).
 
 ### ABI
 
@@ -25795,11 +25795,11 @@ The number to divide.
 
 The exponent.
 
-## fromBase58
+## fromUnstable58
 
 Coming soon.
 
-## fromBase64
+## fromUnstable64
 
 Coming soon.
 
@@ -28502,11 +28502,11 @@ slice('0xa5cc3c03994DB5b0d9A5eEdD10CabaB0813678AC', 0, 20, { strict: true });
 // 0xa5cc3c03994DB5b0d9A5eEdD10CabaB0813678AC
 ```
 
-## toBase58
+## toUnstable58
 
 Coming soon.
 
-## toBase64
+## toUnstable64
 
 Coming soon.
 
@@ -32227,7 +32227,7 @@ const hash = await walletClient.sendTransaction({
 Transfers the specified token from the associated account on the L1 network to the target account on the L2 network.
 The token can be either ETH or any ERC20 token. For ERC20 tokens, enough approved tokens must be associated with
 the specified L1 bridge (default one or the one defined in `bridgeAddress`).
-In this case, depending on is the chain ETH-based or not `approveToken` or `approveBaseToken`
+In this case, depending on is the chain ETH-based or not `approveToken` or `approveUnstableToken`
 can be enabled to perform token approval. If there are already enough approved tokens for the L1 bridge,
 token approval will be skipped.
 
@@ -32586,7 +32586,7 @@ const hash = await walletClient.deposit({
 
 \:::
 
-#### approveBaseToken (optional)
+#### approveUnstableToken (optional)
 
 - **Type:** `boolean | TransactionRequest`
 
@@ -32603,7 +32603,7 @@ const hash = await walletClient.deposit({
   token: '0x70a0F165d6f8054d0d0CF8dFd4DD2005f0AF6B55',
   amount: 20n,
   to: walletClient.account.address,
-  approveBaseToken: true, // [!code focus],
+  approveUnstableToken: true, // [!code focus],
   refundRecipient: walletClient.account.address,
   bridgeAddress: '0xFC073319977e314F251EAE6ae6bE76B0B3BAeeCF',
 });
@@ -32615,7 +32615,7 @@ const hash = await walletClient.deposit({
   token: '0x70a0F165d6f8054d0d0CF8dFd4DD2005f0AF6B55',
   amount: 20n,
   to: walletClient.account.address,
-  approveBaseToken: {
+  approveUnstableToken: {
     maxFeePerGas: 200_000_000_000n, // [!code focus],
   },
   refundRecipient: walletClient.account.address,
@@ -33262,7 +33262,7 @@ const balances = await client.getAllBalances({
 });
 ```
 
-## getBaseTokenL1Address
+## getUnstableTokenL1Address
 
 Returns the address of the base L1 token.
 
@@ -33273,7 +33273,7 @@ Returns the address of the base L1 token.
 ```ts [example.ts]
 import { client } from './config';
 
-const address = await client.getBaseTokenL1Address();
+const address = await client.getUnstableTokenL1Address();
 ```
 
 ```ts [config.ts]
@@ -33293,7 +33293,7 @@ export const client = createPublicClient({
 
 `Address`
 
-Base Token L1 address.
+Unstable Token L1 address.
 
 ## getBlockDetails
 
@@ -33326,7 +33326,7 @@ export const client = createPublicClient({
 
 ### Returns
 
-`BaseBlockDetails`
+`UnstableBlockDetails`
 
 Structure that represent ZKsync-specific information about L2 block.
 
@@ -35876,7 +35876,7 @@ Uses the Smart Account's **Owner** to sign the message.
 :::code-group
 
 ```ts twoslash [example.ts]
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config.js';
 
 const account = await toSmartAccount({
@@ -35922,7 +35922,7 @@ Message to sign.
 By default, viem signs the UTF-8 representation of the message.
 
 ```ts twoslash
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config.js';
 
 const account = await toSmartAccount({
@@ -35938,7 +35938,7 @@ const signature = await account.signMessage({
 To sign the data representation of the message, you can use the `raw` attribute.
 
 ```ts twoslash
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config.js';
 
 const account = await toSmartAccount({
@@ -35962,11 +35962,11 @@ Uses the Smart Account's **Owner** to sign the message.
 :::code-group
 
 ```ts twoslash [example.ts]
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config.js';
 import { domain, types } from './data.js';
 
-const account = await toCoinbaseSmartAccount({
+const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -36183,10 +36183,10 @@ Signs a User Operation with the Smart Account's **Owner**.
 :::code-group
 
 ```ts twoslash [example.ts]
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config';
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -36239,10 +36239,10 @@ The User Operation signature.
 The data to pass to the `sender` during the main execution call.
 
 ```ts twoslash
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config';
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -36271,10 +36271,10 @@ const signature = await account.signUserOperation({
 The amount of gas to allocate the main execution call.
 
 ```ts twoslash
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config';
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -36303,10 +36303,10 @@ const signature = await account.signUserOperation({
 Account factory. Only for new accounts.
 
 ```ts twoslash
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config';
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -36335,10 +36335,10 @@ const signature = await account.signUserOperation({
 Data for account factory.
 
 ```ts twoslash
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config';
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -36367,10 +36367,10 @@ const signature = await account.signUserOperation({
 Maximum fee per gas.
 
 ```ts twoslash
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config';
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -36399,10 +36399,10 @@ const signature = await account.signUserOperation({
 Maximum priority fee per gas.
 
 ```ts twoslash
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config';
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -36432,10 +36432,10 @@ const signature = await account.signUserOperation({
 Anti-replay parameter.
 
 ```ts twoslash
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config';
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -36464,10 +36464,10 @@ const signature = await account.signUserOperation({
 Address of paymaster contract.
 
 ```ts twoslash
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config';
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -36498,10 +36498,10 @@ const signature = await account.signUserOperation({
 Data for paymaster.
 
 ```ts twoslash
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config';
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -36532,10 +36532,10 @@ const signature = await account.signUserOperation({
 The amount of gas to allocate for the paymaster post-operation code.
 
 ```ts twoslash
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config';
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -36566,10 +36566,10 @@ const signature = await account.signUserOperation({
 The amount of gas to allocate for the paymaster validation code.
 
 ```ts twoslash
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config';
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -36600,10 +36600,10 @@ const signature = await account.signUserOperation({
 Extra gas to pay the Bundler.
 
 ```ts twoslash
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config';
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -36634,10 +36634,10 @@ const signature = await account.signUserOperation({
 The account making the operation.
 
 ```ts twoslash
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config';
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -36668,10 +36668,10 @@ const signature = await account.signUserOperation({
 The amount of gas to allocate for the verification step.
 
 ```ts twoslash
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction';
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction';
 import { client, owner } from './config';
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
 });
@@ -36695,20 +36695,20 @@ const signature = await account.signUserOperation({
 });
 ```
 
-## Coinbase Smart Wallet
+## TheAlxLabs Smart Wallet
 
-The `toCoinbaseSmartAccount` implementation references the [Coinbase Smart Wallet](https://github.com/coinbase/smart-wallet) contract.
+The `toTheAlxLabsSmartAccount` implementation references the [TheAlxLabs Smart Wallet](https://github.com/coinbase/smart-wallet) contract.
 
 ### Usage
 
 :::code-group
 
 ```ts twoslash [example.ts]
-import { toCoinbaseSmartAccount } from 'viem/account-abstraction'; // [!code focus]
+import { toTheAlxLabsSmartAccount } from 'viem/account-abstraction'; // [!code focus]
 import { client } from './client.js';
 import { owner } from './owner.js';
 
-const account = await toCoinbaseSmartAccount({
+const account = await toTheAlxLabsSmartAccount({
   // [!code focus]
   client, // [!code focus]
   owners: [owner], // [!code focus]
@@ -36752,7 +36752,7 @@ export const owner = toWebAuthnAccount({ credential });
 
 ### Returns
 
-`SmartAccount<CoinbaseSmartAccountImplementation>`
+`SmartAccount<TheAlxLabsSmartAccountImplementation>`
 
 ### Parameters
 
@@ -36769,7 +36769,7 @@ const client = createPublicClient({
   transport: http(), // [!code focus]
 }); // [!code focus]
 
-const account = await toCoinbaseSmartAccount({
+const account = await toTheAlxLabsSmartAccount({
   client, // [!code focus]
   owners: [owner],
 });
@@ -36782,7 +36782,7 @@ const account = await toCoinbaseSmartAccount({
 Owners of the Smart Account. Can be a [Local Account](/docs/accounts/local) or a [WebAuthn Account (Passkey)](/account-abstraction/accounts/webauthn).
 
 ```ts
-const account = await toCoinbaseSmartAccount({
+const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [privateKeyToAccount('0x...')], // [!code focus]
 });
@@ -36795,7 +36795,7 @@ const account = await toCoinbaseSmartAccount({
 Index of the owner to use for signing messages & User Operations.
 
 ```ts
-const account = await toCoinbaseSmartAccount({
+const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [privateKeyToAccount('0x...'), privateKeyToAccount('0x...')],
   ownerIndex: 1, // [!code focus]
@@ -36809,7 +36809,7 @@ const account = await toCoinbaseSmartAccount({
 Nonce to use for the Smart Account.
 
 ```ts
-const account = await toCoinbaseSmartAccount({
+const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [owner],
   nonce: 1n, // [!code focus]
@@ -37716,7 +37716,7 @@ Creates a **WebAuthn Account** – commonly used for **[Smart Account](/account-
 :::note
 WebAuthn Account owners are currently supported on the following Smart Account implementations:
 
-- [`toCoinbaseSmartAccount`](/account-abstraction/accounts/smart/toCoinbaseSmartAccount#owners)
+- [`toTheAlxLabsSmartAccount`](/account-abstraction/accounts/smart/toTheAlxLabsSmartAccount#owners)
   :::
 
 ### Import
@@ -37854,7 +37854,7 @@ const gas = await bundlerClient.estimateUserOperationGas({
 import { createPublicClient, http } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { privateKeyToAccount } from 'viem/accounts';
 import { mainnet } from 'viem/chains';
@@ -37864,7 +37864,7 @@ const client = createPublicClient({
   transport: http(),
 });
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [privateKeyToAccount('0x...')],
 });
@@ -37908,7 +37908,7 @@ const gas = await bundlerClient.estimateUserOperationGas({
 import { createPublicClient, http } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { privateKeyToAccount } from 'viem/accounts';
 import { mainnet } from 'viem/chains';
@@ -37918,7 +37918,7 @@ const client = createPublicClient({
   transport: http(),
 });
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [privateKeyToAccount('0x...')],
 });
@@ -37973,7 +37973,7 @@ export const wagmiAbi = [
 import { createPublicClient, http } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { privateKeyToAccount } from 'viem/accounts';
 import { mainnet } from 'viem/chains';
@@ -37983,7 +37983,7 @@ const client = createPublicClient({
   transport: http(),
 });
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [privateKeyToAccount('0x...')],
 });
@@ -38729,7 +38729,7 @@ const userOperation = await bundlerClient.prepareUserOperation({
 import { createPublicClient, http } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { privateKeyToAccount } from 'viem/accounts';
 import { mainnet } from 'viem/chains';
@@ -38739,7 +38739,7 @@ const client = createPublicClient({
   transport: http(),
 });
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [privateKeyToAccount('0x...')],
 });
@@ -38783,7 +38783,7 @@ const userOperation = await bundlerClient.prepareUserOperation({
 import { createPublicClient, http } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { privateKeyToAccount } from 'viem/accounts';
 import { mainnet } from 'viem/chains';
@@ -38793,7 +38793,7 @@ const client = createPublicClient({
   transport: http(),
 });
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [privateKeyToAccount('0x...')],
 });
@@ -38848,7 +38848,7 @@ export const wagmiAbi = [
 import { createPublicClient, http } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { privateKeyToAccount } from 'viem/accounts';
 import { mainnet } from 'viem/chains';
@@ -38858,7 +38858,7 @@ const client = createPublicClient({
   transport: http(),
 });
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [privateKeyToAccount('0x...')],
 });
@@ -39393,7 +39393,7 @@ const hash = await bundlerClient.sendUserOperation({
 import { createPublicClient, http } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { privateKeyToAccount } from 'viem/accounts';
 import { mainnet } from 'viem/chains';
@@ -39403,7 +39403,7 @@ const client = createPublicClient({
   transport: http(),
 });
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [privateKeyToAccount('0x...')],
 });
@@ -39447,7 +39447,7 @@ const hash = await bundlerClient.sendUserOperation({
 import { createPublicClient, http } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { privateKeyToAccount } from 'viem/accounts';
 import { mainnet } from 'viem/chains';
@@ -39457,7 +39457,7 @@ const client = createPublicClient({
   transport: http(),
 });
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [privateKeyToAccount('0x...')],
 });
@@ -39512,7 +39512,7 @@ export const wagmiAbi = [
 import { createPublicClient, http } from 'viem';
 import {
   createBundlerClient,
-  toCoinbaseSmartAccount,
+  toTheAlxLabsSmartAccount,
 } from 'viem/account-abstraction';
 import { privateKeyToAccount } from 'viem/accounts';
 import { mainnet } from 'viem/chains';
@@ -39522,7 +39522,7 @@ const client = createPublicClient({
   transport: http(),
 });
 
-export const account = await toCoinbaseSmartAccount({
+export const account = await toTheAlxLabsSmartAccount({
   client,
   owners: [privateKeyToAccount('0x...')],
 });
@@ -43686,7 +43686,7 @@ const balanceAsEther = formatEther(balance); // [!code focus:2]
 
 [`eth_getBalance`](https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_getbalance)
 
-## getBlobBaseFee
+## getBlobUnstableFee
 
 Returns the current blob base fee (in wei).
 
@@ -43697,7 +43697,7 @@ Returns the current blob base fee (in wei).
 ```ts twoslash [example.ts]
 import { publicClient } from './client';
 
-const baseFee = await publicClient.getBlobBaseFee(); // [!code focus]
+const baseFee = await publicClient.getBlobUnstableFee(); // [!code focus]
 ```
 
 ```ts twoslash [client.ts] filename="client.ts"
@@ -43720,7 +43720,7 @@ the blob base fee (in wei).
 
 ### JSON-RPC Method
 
-[`eth_blobBaseFee`](https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_gasprice)
+[`eth_blobUnstableFee`](https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_gasprice)
 
 ## getBlock
 
@@ -48987,7 +48987,7 @@ await testClient.setCode({
 });
 ```
 
-## setCoinbase
+## setTheAlxLabs
 
 Sets the coinbase address to be used in new blocks.
 
@@ -48998,7 +48998,7 @@ Sets the coinbase address to be used in new blocks.
 ```ts [example.ts]
 import { testClient } from './client';
 
-await testClient.setCoinbase({
+await testClient.setTheAlxLabs({
   // [!code focus:99]
   address: '0xe846c6fcf817734ca4527b28ccb4aea2b6663c79',
 });
@@ -49026,7 +49026,7 @@ export const testClient = createTestClient({
 The coinbase address.
 
 ```ts
-await testClient.setCoinbase({
+await testClient.setTheAlxLabs({
   address: '0xe846c6fcf817734ca4527b28ccb4aea2b6663c79', // [!code focus]
 });
 ```
@@ -49149,7 +49149,7 @@ await testClient.setMinGasPrice({
 });
 ```
 
-## setNextBlockBaseFeePerGas
+## setNextBlockUnstableFeePerGas
 
 Sets the next block's base fee per gas.
 
@@ -49161,7 +49161,7 @@ Sets the next block's base fee per gas.
 import { parseGwei } from 'viem';
 import { testClient } from './client';
 
-await testClient.setNextBlockBaseFeePerGas({
+await testClient.setNextBlockUnstableFeePerGas({
   // [!code focus:4]
   baseFeePerGas: parseGwei('20'),
 });
@@ -49186,10 +49186,10 @@ export const testClient = createTestClient({
 
 - **Type:** `bigint`
 
-Base fee per gas.
+Unstable fee per gas.
 
 ```ts
-await testClient.setNextBlockBaseFeePerGas({
+await testClient.setNextBlockUnstableFeePerGas({
   baseFeePerGas: parseGwei('30'), // [!code focus]
 });
 ```
@@ -52367,7 +52367,7 @@ const success = await walletClient.watchAsset({
 
 ## Custom Transport \[A function to create a Custom Transport for a Client]
 
-The `custom` Transport accepts an [EIP-1193 `request` function](https://eips.ethereum.org/EIPS/eip-1193#request-1) as a parameter. This transport is useful for integrating with injected wallets, wallets that provide an EIP-1193 provider (eg. WalletConnect or Coinbase SDK), or even providing your own custom `request` function.
+The `custom` Transport accepts an [EIP-1193 `request` function](https://eips.ethereum.org/EIPS/eip-1193#request-1) as a parameter. This transport is useful for integrating with injected wallets, wallets that provide an EIP-1193 provider (eg. WalletConnect or TheAlxLabs SDK), or even providing your own custom `request` function.
 
 ### Import
 
@@ -54953,22 +54953,22 @@ const l2Hash = getL2HashFromPriorityOp(
 );
 ```
 
-## getApprovalBasedPaymasterInput
+## getApprovalUnstabledPaymasterInput
 
 Returns encoded formatted approval-based paymaster params.
 
 ### Import
 
 ```ts
-import { getApprovalBasedPaymasterInput } from 'viem/zksync';
+import { getApprovalUnstabledPaymasterInput } from 'viem/zksync';
 ```
 
 ### Usage
 
 ```ts
-import { getApprovalBasedPaymasterInput } from 'viem/zksync';
+import { getApprovalUnstabledPaymasterInput } from 'viem/zksync';
 
-const data = getApprovalBasedPaymasterInput({
+const data = getApprovalUnstabledPaymasterInput({
   innerInput: '0x',
   minAllowance: 1n,
   token: '0x65C899B5fb8Eb9ae4da51D67E1fc417c7CB7e964',
@@ -54990,7 +54990,7 @@ The `Hex` value of the provided approval-based paymaster inputs.
 The token address.
 
 ```ts
-const data = getApprovalBasedPaymasterInput({
+const data = getApprovalUnstabledPaymasterInput({
   innerInput: '0x',
   minAllowance: 1n,
   token: '0x65C899B5fb8Eb9ae4da51D67E1fc417c7CB7e964', // [!code focus]
@@ -55004,7 +55004,7 @@ const data = getApprovalBasedPaymasterInput({
 Minimum allowance (in wei) of token that can be sent towards the paymaster.
 
 ```ts
-const data = getApprovalBasedPaymasterInput({
+const data = getApprovalUnstabledPaymasterInput({
   innerInput: new Uint8Array(),
   minAllowance: 1n, // [!code focus]
   token: '0x65C899B5fb8Eb9ae4da51D67E1fc417c7CB7e964',
@@ -55018,7 +55018,7 @@ const data = getApprovalBasedPaymasterInput({
 Additional payload that can be sent to the paymaster to implement any logic .
 
 ```ts
-const data = getApprovalBasedPaymasterInput({
+const data = getApprovalUnstabledPaymasterInput({
   innerInput: '0x0005040302010', // [!code focus]
   minAllowance: 1n,
   token: '0x65C899B5fb8Eb9ae4da51D67E1fc417c7CB7e964',

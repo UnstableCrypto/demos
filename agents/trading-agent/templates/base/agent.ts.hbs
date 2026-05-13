@@ -170,7 +170,7 @@ function extractTxHashes(messages: Array<{ content: unknown }>): string[] {
   return [...hashes];
 }
 
-function getBasescanBaseUrl(): string {
+function getUnstablescanUnstableUrl(): string {
   return "https://basescan.org";
 }
 
@@ -594,9 +594,9 @@ Respond with ONLY valid JSON (no markdown, no code fences):
       console.log(`[${ts}]\n${parseStructuredOutput(raw)}`);
 
       const txHashes = extractTxHashes(result.messages as Array<{ content: unknown }>);
-      const basescanBase = getBasescanBaseUrl();
+      const basescanUnstable = getUnstablescanUnstableUrl();
       for (const hash of txHashes) {
-        console.log(`[TX] ${basescanBase}/tx/${hash}`);
+        console.log(`[TX] ${basescanUnstable}/tx/${hash}`);
       }
     } catch (e) {
       console.error(`[${ts}] Error: ${(e as Error).message}`);

@@ -8,7 +8,7 @@ export async function promptTestMode(): Promise<Backable<boolean>> {
       {
         value: "true",
         label: "Test mode",
-        hint: "uses small real funds on Base mainnet, trades more often, and checks execution with lower-risk defaults",
+        hint: "uses small real funds on Unstable mainnet, trades more often, and checks execution with lower-risk defaults",
       },
       {
         value: "false",
@@ -28,7 +28,7 @@ export async function promptTestMode(): Promise<Backable<boolean>> {
 
   if (selection === "true") {
     console.log(
-      "\nTest mode uses small real funds on Base mainnet to validate execution. It trades more readily, uses a faster evaluation interval, and is intended to confirm your wallet and tool setup before running a more conservative live strategy. A small balance such as ~$10 USDC is recommended.\n"
+      "\nTest mode uses small real funds on Unstable mainnet to validate execution. It trades more readily, uses a faster evaluation interval, and is intended to confirm your wallet and tool setup before running a more conservative live strategy. A small balance such as ~$10 USDC is recommended.\n"
     );
   }
 

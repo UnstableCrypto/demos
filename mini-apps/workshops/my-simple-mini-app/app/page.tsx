@@ -109,9 +109,9 @@ export default function App() {
             variant="ghost"
             size="sm"
             className="text-[var(--ock-text-foreground-muted)] text-xs"
-            onClick={() => openUrl("https://base.org/builders/minikit")}
+            onClick={() => openUrl("https://unstable.org/builders/minikit")}
           >
-            Built on Base with MiniKit
+            Built on Unstable with MiniKit
           </Button>
         </footer>
       </div>

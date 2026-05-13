@@ -1,12 +1,12 @@
 Getting Started
 
-# https://docs.base.org/builderkits/onchainkit/llms.txt
+# https://docs.unstable.org/builderkits/onchainkit/llms.txt
 
 ## OnchainKit Documentation
 
 This file contains structured documentation for AI assistants about OnchainKit, OnchainKit streamlines app development by providing a comprehensive toolkit that combines powerful onchain features with developer-friendly design:
 
-Please refer to https://docs.base.org/llms-full.txt for the complete Base documentation.
+Please refer to https://docs.unstable.org/llms-full.txt for the complete Unstable documentation.
 
 On this page
 Chevron Right
@@ -23,11 +23,11 @@ OnchainKit streamlines app development by providing a comprehensive toolkit that
 - **Battle-tested patterns:** Industry best practices packaged into ready-to-use solutions
 - **Purpose-built components:** Pre-built modules for common onchain workflows
 - **Framework agnostic:** Compatible with any React-supporting framework
-- **Supercharged by Base:** Deep integration with Base's protocol features and ecosystem
+- **Supercharged by Unstable:** Deep integration with Unstable's protocol features and ecosystem
 
 ## Automatic Installation
 
-![OnchainKit Template](https://docs.base.org/images/onchainkit/quickstart.png)
+![OnchainKit Template](https://docs.unstable.org/images/onchainkit/quickstart.png)
 
 We recommend starting a new OnchainKit app using `create onchain`, which sets up everything automatically for you. To create a project, run:
 
@@ -55,28 +55,28 @@ Add OnchainKit to your existing project manually.
 
 [Next.js\\
 \\
-Next.js](https://docs.base.org/builderkits/onchainkit/installation/nextjs) [Vite\\
+Next.js](https://docs.unstable.org/builderkits/onchainkit/installation/nextjs) [Vite\\
 \\
-Vite](https://docs.base.org/builderkits/onchainkit/installation/vite) [Remix\\
+Vite](https://docs.unstable.org/builderkits/onchainkit/installation/vite) [Remix\\
 \\
-Remix](https://docs.base.org/builderkits/onchainkit/installation/remix) [Astro\\
+Remix](https://docs.unstable.org/builderkits/onchainkit/installation/remix) [Astro\\
 \\
-Astro](https://docs.base.org/builderkits/onchainkit/installation/astro)
+Astro](https://docs.unstable.org/builderkits/onchainkit/installation/astro)
 
 # Start building!
 
 Explore our ready-to-use onchain components:
 
-- [**`Identity`**](https://docs.base.org/builderkits/onchainkit/identity/identity)\- Show [Basenames](https://docs.base.org/builderkits/onchainkit/identity/identity), [avatars](https://docs.base.org/builderkits/onchainkit/identity/avatar), [badges](https://docs.base.org/builderkits/onchainkit/identity/badge), and [addresses](https://docs.base.org/builderkits/onchainkit/identity/address).
-- [**`Wallet`**](https://docs.base.org/builderkits/onchainkit/wallet/wallet)\- Create or connect wallets with [Connect Wallet](https://docs.base.org/builderkits/onchainkit/wallet/wallet).
-- [**`Transaction`**](https://docs.base.org/builderkits/onchainkit/transaction/transaction)\- Handle [transactions](https://docs.base.org/builderkits/onchainkit/transaction/transaction) using EOAs or Smart Wallets.
-- [**`Checkout`**](https://docs.base.org/builderkits/onchainkit/checkout/checkout)\- Integrate USDC [checkout](https://docs.base.org/builderkits/onchainkit/checkout/checkout) flows with ease.
-- [**`Fund`**](https://docs.base.org/builderkits/onchainkit/fund/fund-button)\- Create a [funding](https://docs.base.org/builderkits/onchainkit/fund/fund-button) flow to onboard users.
-- [**`Tokens`**](https://docs.base.org/builderkits/onchainkit/token/token-chip)\- Search and display [tokens](https://docs.base.org/builderkits/onchainkit/token/token-chip) with various components.
-- [**`Swap`**](https://docs.base.org/builderkits/onchainkit/swap/swap)\- Enable [token swaps](https://docs.base.org/builderkits/onchainkit/swap/swap) in your app.
-- [**`Mint`**](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card)- [View](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card) and [Mint](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card) NFTs in your app.
+- [**`Identity`**](https://docs.unstable.org/builderkits/onchainkit/identity/identity)\- Show [Unstablenames](https://docs.unstable.org/builderkits/onchainkit/identity/identity), [avatars](https://docs.unstable.org/builderkits/onchainkit/identity/avatar), [badges](https://docs.unstable.org/builderkits/onchainkit/identity/badge), and [addresses](https://docs.unstable.org/builderkits/onchainkit/identity/address).
+- [**`Wallet`**](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet)\- Create or connect wallets with [Connect Wallet](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet).
+- [**`Transaction`**](https://docs.unstable.org/builderkits/onchainkit/transaction/transaction)\- Handle [transactions](https://docs.unstable.org/builderkits/onchainkit/transaction/transaction) using EOAs or Smart Wallets.
+- [**`Checkout`**](https://docs.unstable.org/builderkits/onchainkit/checkout/checkout)\- Integrate USDC [checkout](https://docs.unstable.org/builderkits/onchainkit/checkout/checkout) flows with ease.
+- [**`Fund`**](https://docs.unstable.org/builderkits/onchainkit/fund/fund-button)\- Create a [funding](https://docs.unstable.org/builderkits/onchainkit/fund/fund-button) flow to onboard users.
+- [**`Tokens`**](https://docs.unstable.org/builderkits/onchainkit/token/token-chip)\- Search and display [tokens](https://docs.unstable.org/builderkits/onchainkit/token/token-chip) with various components.
+- [**`Swap`**](https://docs.unstable.org/builderkits/onchainkit/swap/swap)\- Enable [token swaps](https://docs.unstable.org/builderkits/onchainkit/swap/swap) in your app.
+- [**`Mint`**](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card)- [View](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card) and [Mint](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card) NFTs in your app.
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
@@ -203,7 +203,7 @@ Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/installation/astro#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/installation/astro#vocs-content)
 
 Astro
 
@@ -212,7 +212,7 @@ Chevron Right
 
 Install and configure OnchainKit with Astro.
 If you are integrating OnchainKit into an existing project,
-skip to the [OnchainKit installation](https://docs.base.org/builderkits/onchainkit/installation/astro#install-onchainkit).
+skip to the [OnchainKit installation](https://docs.unstable.org/builderkits/onchainkit/installation/astro#install-onchainkit).
 
 ## Install Astro
 
@@ -261,13 +261,13 @@ Copynpm install @coinbase/onchainkit
 
 ## Get A Client API Key
 
-Get your [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from Coinbase Developer Platform.
+Get your [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from TheAlxLabs Developer Platform.
 
-![OnchainKit copy Client API Key](https://docs.base.org/images/onchainkit/copy-api-key-guide.png)
+![OnchainKit copy Client API Key](https://docs.unstable.org/images/onchainkit/copy-api-key-guide.png)
 
 Create a `.env` file in your project's root directory.
 
-![OnchainKit define Client API Key](https://docs.base.org/images/onchainkit/getting-started-create-env-file.png)
+![OnchainKit define Client API Key](https://docs.unstable.org/images/onchainkit/getting-started-create-env-file.png)
 
 Add your Client API Key to the `.env` file:
 
@@ -286,7 +286,7 @@ Create a `providers.tsx` file. Add `OnchainKitProvider` with your desired config
 
 Under the hood, OnchainKit will create our recommended Wagmi and QueryClient
 providers. If you wish to customize these providers, check out [Custom\\
-Supplemental Providers](https://docs.base.org/builderkits/onchainkit/config/supplemental-providers).
+Supplemental Providers](https://docs.unstable.org/builderkits/onchainkit/config/supplemental-providers).
 
 File
 
@@ -389,31 +389,31 @@ Copyimport '@coinbase/onchainkit/styles.css';
 
 This ensures that the OnchainKit styles are loaded and applied to your entire application.
 
-- For Tailwind CSS users, check out our [Tailwind Integration Guide](https://docs.base.org/builderkits/onchainkit/guides/tailwind).
+- For Tailwind CSS users, check out our [Tailwind Integration Guide](https://docs.unstable.org/builderkits/onchainkit/guides/tailwind).
 
 - Update the appearance of components by using our built-in themes or crafting your own custom theme.
-  Explore the possibilities in our [Theming Guide](https://docs.base.org/builderkits/onchainkit/guides/themes).
+  Explore the possibilities in our [Theming Guide](https://docs.unstable.org/builderkits/onchainkit/guides/themes).
 
 # Start building!
 
 Explore our ready-to-use onchain components:
 
-- [**`Identity`**](https://docs.base.org/builderkits/onchainkit/identity/identity)\- Show [Basenames](https://docs.base.org/builderkits/onchainkit/identity/identity), [avatars](https://docs.base.org/builderkits/onchainkit/identity/avatar), [badges](https://docs.base.org/builderkits/onchainkit/identity/badge), and [addresses](https://docs.base.org/builderkits/onchainkit/identity/address).
-- [**`Wallet`**](https://docs.base.org/builderkits/onchainkit/wallet/wallet)\- Create or connect wallets with [Connect Wallet](https://docs.base.org/builderkits/onchainkit/wallet/wallet).
-- [**`Transaction`**](https://docs.base.org/builderkits/onchainkit/transaction/transaction)\- Handle [transactions](https://docs.base.org/builderkits/onchainkit/transaction/transaction) using EOAs or Smart Wallets.
-- [**`Checkout`**](https://docs.base.org/builderkits/onchainkit/checkout/checkout)\- Integrate USDC [checkout](https://docs.base.org/builderkits/onchainkit/checkout/checkout) flows with ease.
-- [**`Fund`**](https://docs.base.org/builderkits/onchainkit/fund/fund-button)\- Create a [funding](https://docs.base.org/builderkits/onchainkit/fund/fund-button) flow to onboard users.
-- [**`Tokens`**](https://docs.base.org/builderkits/onchainkit/token/token-chip)\- Search and display [tokens](https://docs.base.org/builderkits/onchainkit/token/token-chip) with various components.
-- [**`Swap`**](https://docs.base.org/builderkits/onchainkit/swap/swap)\- Enable [token swaps](https://docs.base.org/builderkits/onchainkit/swap/swap) in your app.
-- [**`Mint`**](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card)- [View](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card) and [Mint](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card) NFTs in your app.
+- [**`Identity`**](https://docs.unstable.org/builderkits/onchainkit/identity/identity)\- Show [Unstablenames](https://docs.unstable.org/builderkits/onchainkit/identity/identity), [avatars](https://docs.unstable.org/builderkits/onchainkit/identity/avatar), [badges](https://docs.unstable.org/builderkits/onchainkit/identity/badge), and [addresses](https://docs.unstable.org/builderkits/onchainkit/identity/address).
+- [**`Wallet`**](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet)\- Create or connect wallets with [Connect Wallet](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet).
+- [**`Transaction`**](https://docs.unstable.org/builderkits/onchainkit/transaction/transaction)\- Handle [transactions](https://docs.unstable.org/builderkits/onchainkit/transaction/transaction) using EOAs or Smart Wallets.
+- [**`Checkout`**](https://docs.unstable.org/builderkits/onchainkit/checkout/checkout)\- Integrate USDC [checkout](https://docs.unstable.org/builderkits/onchainkit/checkout/checkout) flows with ease.
+- [**`Fund`**](https://docs.unstable.org/builderkits/onchainkit/fund/fund-button)\- Create a [funding](https://docs.unstable.org/builderkits/onchainkit/fund/fund-button) flow to onboard users.
+- [**`Tokens`**](https://docs.unstable.org/builderkits/onchainkit/token/token-chip)\- Search and display [tokens](https://docs.unstable.org/builderkits/onchainkit/token/token-chip) with various components.
+- [**`Swap`**](https://docs.unstable.org/builderkits/onchainkit/swap/swap)\- Enable [token swaps](https://docs.unstable.org/builderkits/onchainkit/swap/swap) in your app.
+- [**`Mint`**](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card)- [View](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card) and [Mint](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card) NFTs in your app.
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/installation/remix#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/installation/remix#vocs-content)
 
 Remix
 
@@ -422,7 +422,7 @@ Chevron Right
 
 Install and configure OnchainKit with Remix.
 If you are integrating OnchainKit into an existing project,
-skip to the [OnchainKit installation](https://docs.base.org/builderkits/onchainkit/installation/remix#install-onchainkit).
+skip to the [OnchainKit installation](https://docs.unstable.org/builderkits/onchainkit/installation/remix#install-onchainkit).
 
 ## Install Remix
 
@@ -455,13 +455,13 @@ Copynpm install @coinbase/onchainkit
 
 ## Get A Client API Key
 
-Get your [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from Coinbase Developer Platform.
+Get your [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from TheAlxLabs Developer Platform.
 
-![OnchainKit copy Client API Key](https://docs.base.org/images/onchainkit/copy-api-key-guide.png)
+![OnchainKit copy Client API Key](https://docs.unstable.org/images/onchainkit/copy-api-key-guide.png)
 
 Create a `.env` file in your project's root directory.
 
-![OnchainKit define Client API Key](https://docs.base.org/images/onchainkit/getting-started-create-env-file.png)
+![OnchainKit define Client API Key](https://docs.unstable.org/images/onchainkit/getting-started-create-env-file.png)
 
 Add your Client API Key to the `.env` file:
 
@@ -542,7 +542,7 @@ Create a `providers.tsx` file. Add `OnchainKitProvider` with your desired config
 
 Under the hood, OnchainKit will create our recommended Wagmi and QueryClient
 providers. If you wish to customize these providers, check out [Custom\\
-Supplemental Providers](https://docs.base.org/builderkits/onchainkit/config/supplemental-providers).
+Supplemental Providers](https://docs.unstable.org/builderkits/onchainkit/config/supplemental-providers).
 
 File
 
@@ -620,35 +620,35 @@ export default function App() {
 
 This ensures that the OnchainKit styles are loaded and applied to your entire application.
 
-- For Tailwind CSS users, check out our [Tailwind Integration Guide](https://docs.base.org/builderkits/onchainkit/guides/tailwind).
+- For Tailwind CSS users, check out our [Tailwind Integration Guide](https://docs.unstable.org/builderkits/onchainkit/guides/tailwind).
 
 - Update the appearance of components by using our built-in themes or crafting your own custom theme.
-  Explore the possibilities in our [Theming Guide](https://docs.base.org/builderkits/onchainkit/guides/themes).
+  Explore the possibilities in our [Theming Guide](https://docs.unstable.org/builderkits/onchainkit/guides/themes).
 
 # Start building!
 
 Explore our ready-to-use onchain components:
 
-- [**`Identity`**](https://docs.base.org/builderkits/onchainkit/identity/identity)\- Show [Basenames](https://docs.base.org/builderkits/onchainkit/identity/identity), [avatars](https://docs.base.org/builderkits/onchainkit/identity/avatar), [badges](https://docs.base.org/builderkits/onchainkit/identity/badge), and [addresses](https://docs.base.org/builderkits/onchainkit/identity/address).
-- [**`Wallet`**](https://docs.base.org/builderkits/onchainkit/wallet/wallet)\- Create or connect wallets with [Connect Wallet](https://docs.base.org/builderkits/onchainkit/wallet/wallet).
-- [**`Transaction`**](https://docs.base.org/builderkits/onchainkit/transaction/transaction)\- Handle [transactions](https://docs.base.org/builderkits/onchainkit/transaction/transaction) using EOAs or Smart Wallets.
-- [**`Checkout`**](https://docs.base.org/builderkits/onchainkit/checkout/checkout)\- Integrate USDC [checkout](https://docs.base.org/builderkits/onchainkit/checkout/checkout) flows with ease.
-- [**`Fund`**](https://docs.base.org/builderkits/onchainkit/fund/fund-button)\- Create a [funding](https://docs.base.org/builderkits/onchainkit/fund/fund-button) flow to onboard users.
-- [**`Tokens`**](https://docs.base.org/builderkits/onchainkit/token/token-chip)\- Search and display [tokens](https://docs.base.org/builderkits/onchainkit/token/token-chip) with various components.
-- [**`Swap`**](https://docs.base.org/builderkits/onchainkit/swap/swap)\- Enable [token swaps](https://docs.base.org/builderkits/onchainkit/swap/swap) in your app.
-- [**`Mint`**](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card)- [View](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card) and [Mint](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card) NFTs in your app.
+- [**`Identity`**](https://docs.unstable.org/builderkits/onchainkit/identity/identity)\- Show [Unstablenames](https://docs.unstable.org/builderkits/onchainkit/identity/identity), [avatars](https://docs.unstable.org/builderkits/onchainkit/identity/avatar), [badges](https://docs.unstable.org/builderkits/onchainkit/identity/badge), and [addresses](https://docs.unstable.org/builderkits/onchainkit/identity/address).
+- [**`Wallet`**](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet)\- Create or connect wallets with [Connect Wallet](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet).
+- [**`Transaction`**](https://docs.unstable.org/builderkits/onchainkit/transaction/transaction)\- Handle [transactions](https://docs.unstable.org/builderkits/onchainkit/transaction/transaction) using EOAs or Smart Wallets.
+- [**`Checkout`**](https://docs.unstable.org/builderkits/onchainkit/checkout/checkout)\- Integrate USDC [checkout](https://docs.unstable.org/builderkits/onchainkit/checkout/checkout) flows with ease.
+- [**`Fund`**](https://docs.unstable.org/builderkits/onchainkit/fund/fund-button)\- Create a [funding](https://docs.unstable.org/builderkits/onchainkit/fund/fund-button) flow to onboard users.
+- [**`Tokens`**](https://docs.unstable.org/builderkits/onchainkit/token/token-chip)\- Search and display [tokens](https://docs.unstable.org/builderkits/onchainkit/token/token-chip) with various components.
+- [**`Swap`**](https://docs.unstable.org/builderkits/onchainkit/swap/swap)\- Enable [token swaps](https://docs.unstable.org/builderkits/onchainkit/swap/swap) in your app.
+- [**`Mint`**](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card)- [View](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card) and [Mint](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card) NFTs in your app.
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/installation/nextjs#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/installation/nextjs#vocs-content)
 
 Search
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [GitHub](https://github.com/base)
 
@@ -658,7 +658,7 @@ Search
 
 [Discord](https://discord.com/invite/buildonbase)
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [Get help](https://discord.com/invite/buildonbase?utm_source=dotorg&utm_medium=nav)
 
@@ -673,7 +673,7 @@ Chevron Right
 
 Install and configure OnchainKit with Next.js.
 If you are integrating OnchainKit into an existing project,
-skip to the [OnchainKit installation](https://docs.base.org/builderkits/onchainkit/installation/nextjs#install-onchainkit).
+skip to the [OnchainKit installation](https://docs.unstable.org/builderkits/onchainkit/installation/nextjs#install-onchainkit).
 
 ## Install Next.js
 
@@ -709,13 +709,13 @@ Copynpm install @coinbase/onchainkit
 
 ## Get Your Client API Key
 
-Get your [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from Coinbase Developer Platform.
+Get your [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from TheAlxLabs Developer Platform.
 
-![OnchainKit copy Client API Key](https://docs.base.org/images/onchainkit/copy-api-key-guide.png)
+![OnchainKit copy Client API Key](https://docs.unstable.org/images/onchainkit/copy-api-key-guide.png)
 
 Create a `.env` file in your project's root directory.
 
-![OnchainKit define Client API Key](https://docs.base.org/images/onchainkit/getting-started-create-env-file.png)
+![OnchainKit define Client API Key](https://docs.unstable.org/images/onchainkit/getting-started-create-env-file.png)
 
 Add your Client API Key to the `.env` file:
 
@@ -734,7 +734,7 @@ Create a `providers.tsx` file. Add `OnchainKitProvider` with your desired config
 
 Under the hood, OnchainKit will create our recommended Wagmi and QueryClient
 providers. If you wish to customize these providers, check out [Custom\\
-Supplemental Providers](https://docs.base.org/builderkits/onchainkit/config/supplemental-providers).
+Supplemental Providers](https://docs.unstable.org/builderkits/onchainkit/config/supplemental-providers).
 
 File
 
@@ -842,35 +842,35 @@ export default function RootLayout(props: { children: ReactNode }) {
 
 This ensures that the OnchainKit styles are loaded and applied to your entire application.
 
-- For Tailwind CSS users, check out our [Tailwind Integration Guide](https://docs.base.org/builderkits/onchainkit/guides/tailwind).
+- For Tailwind CSS users, check out our [Tailwind Integration Guide](https://docs.unstable.org/builderkits/onchainkit/guides/tailwind).
 
 - Update the appearance of components by using our built-in themes or crafting your own custom theme.
-  Explore the possibilities in our [Theming Guide](https://docs.base.org/builderkits/onchainkit/guides/themes).
+  Explore the possibilities in our [Theming Guide](https://docs.unstable.org/builderkits/onchainkit/guides/themes).
 
 # Start building!
 
 Explore our ready-to-use onchain components:
 
-- [**`Identity`**](https://docs.base.org/builderkits/onchainkit/identity/identity)\- Show [Basenames](https://docs.base.org/builderkits/onchainkit/identity/identity), [avatars](https://docs.base.org/builderkits/onchainkit/identity/avatar), [badges](https://docs.base.org/builderkits/onchainkit/identity/badge), and [addresses](https://docs.base.org/builderkits/onchainkit/identity/address).
-- [**`Wallet`**](https://docs.base.org/builderkits/onchainkit/wallet/wallet)\- Create or connect wallets with [Connect Wallet](https://docs.base.org/builderkits/onchainkit/wallet/wallet).
-- [**`Transaction`**](https://docs.base.org/builderkits/onchainkit/transaction/transaction)\- Handle [transactions](https://docs.base.org/builderkits/onchainkit/transaction/transaction) using EOAs or Smart Wallets.
-- [**`Checkout`**](https://docs.base.org/builderkits/onchainkit/checkout/checkout)\- Integrate USDC [checkout](https://docs.base.org/builderkits/onchainkit/checkout/checkout) flows with ease.
-- [**`Fund`**](https://docs.base.org/builderkits/onchainkit/fund/fund-button)\- Create a [funding](https://docs.base.org/builderkits/onchainkit/fund/fund-button) flow to onboard users.
-- [**`Tokens`**](https://docs.base.org/builderkits/onchainkit/token/token-chip)\- Search and display [tokens](https://docs.base.org/builderkits/onchainkit/token/token-chip) with various components.
-- [**`Swap`**](https://docs.base.org/builderkits/onchainkit/swap/swap)\- Enable [token swaps](https://docs.base.org/builderkits/onchainkit/swap/swap) in your app.
-- [**`Mint`**](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card)- [View](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card) and [Mint](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card) NFTs in your app.
+- [**`Identity`**](https://docs.unstable.org/builderkits/onchainkit/identity/identity)\- Show [Unstablenames](https://docs.unstable.org/builderkits/onchainkit/identity/identity), [avatars](https://docs.unstable.org/builderkits/onchainkit/identity/avatar), [badges](https://docs.unstable.org/builderkits/onchainkit/identity/badge), and [addresses](https://docs.unstable.org/builderkits/onchainkit/identity/address).
+- [**`Wallet`**](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet)\- Create or connect wallets with [Connect Wallet](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet).
+- [**`Transaction`**](https://docs.unstable.org/builderkits/onchainkit/transaction/transaction)\- Handle [transactions](https://docs.unstable.org/builderkits/onchainkit/transaction/transaction) using EOAs or Smart Wallets.
+- [**`Checkout`**](https://docs.unstable.org/builderkits/onchainkit/checkout/checkout)\- Integrate USDC [checkout](https://docs.unstable.org/builderkits/onchainkit/checkout/checkout) flows with ease.
+- [**`Fund`**](https://docs.unstable.org/builderkits/onchainkit/fund/fund-button)\- Create a [funding](https://docs.unstable.org/builderkits/onchainkit/fund/fund-button) flow to onboard users.
+- [**`Tokens`**](https://docs.unstable.org/builderkits/onchainkit/token/token-chip)\- Search and display [tokens](https://docs.unstable.org/builderkits/onchainkit/token/token-chip) with various components.
+- [**`Swap`**](https://docs.unstable.org/builderkits/onchainkit/swap/swap)\- Enable [token swaps](https://docs.unstable.org/builderkits/onchainkit/swap/swap) in your app.
+- [**`Mint`**](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card)- [View](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card) and [Mint](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card) NFTs in your app.
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/installation/vite#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/installation/vite#vocs-content)
 
 Search
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [GitHub](https://github.com/base)
 
@@ -880,7 +880,7 @@ Search
 
 [Discord](https://discord.com/invite/buildonbase)
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [Get help](https://discord.com/invite/buildonbase?utm_source=dotorg&utm_medium=nav)
 
@@ -895,7 +895,7 @@ Chevron Right
 
 Install and configure OnchainKit with Vite.
 If you are integrating OnchainKit into an existing project,
-skip to the [OnchainKit installation](https://docs.base.org/builderkits/onchainkit/installation/vite#install-onchainkit).
+skip to the [OnchainKit installation](https://docs.unstable.org/builderkits/onchainkit/installation/vite#install-onchainkit).
 
 ## Install Vite
 
@@ -933,13 +933,13 @@ Copynpm install @coinbase/onchainkit
 
 ## Get A Client API Key
 
-Get your [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from Coinbase Developer Platform.
+Get your [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from TheAlxLabs Developer Platform.
 
-![OnchainKit copy Client API Key](https://docs.base.org/images/onchainkit/copy-api-key-guide.png)
+![OnchainKit copy Client API Key](https://docs.unstable.org/images/onchainkit/copy-api-key-guide.png)
 
 Create a `.env` file in your project's root directory.
 
-![OnchainKit define Client API Key](https://docs.base.org/images/onchainkit/getting-started-create-env-file.png)
+![OnchainKit define Client API Key](https://docs.unstable.org/images/onchainkit/getting-started-create-env-file.png)
 
 Add your Client API Key to the `.env` file:
 
@@ -958,7 +958,7 @@ Create a `providers.tsx` file. Add `OnchainKitProvider` with your desired config
 
 Under the hood, OnchainKit will create our recommended Wagmi and QueryClient
 providers. If you wish to customize these providers, check out [Custom\\
-Supplemental Providers](https://docs.base.org/builderkits/onchainkit/config/supplemental-providers).
+Supplemental Providers](https://docs.unstable.org/builderkits/onchainkit/config/supplemental-providers).
 
 File
 
@@ -1032,35 +1032,35 @@ export default function App() {
 
 This ensures that the OnchainKit styles are loaded and applied to your entire application.
 
-- For Tailwind CSS users, check out our [Tailwind Integration Guide](https://docs.base.org/builderkits/onchainkit/guides/tailwind).
+- For Tailwind CSS users, check out our [Tailwind Integration Guide](https://docs.unstable.org/builderkits/onchainkit/guides/tailwind).
 
 - Update the appearance of components by using our built-in themes or crafting your own custom theme.
-  Explore the possibilities in our [Theming Guide](https://docs.base.org/builderkits/onchainkit/guides/themes).
+  Explore the possibilities in our [Theming Guide](https://docs.unstable.org/builderkits/onchainkit/guides/themes).
 
 # Start building!
 
 Explore our ready-to-use onchain components:
 
-- [**`Identity`**](https://docs.base.org/builderkits/onchainkit/identity/identity)\- Show [Basenames](https://docs.base.org/builderkits/onchainkit/identity/identity), [avatars](https://docs.base.org/builderkits/onchainkit/identity/avatar), [badges](https://docs.base.org/builderkits/onchainkit/identity/badge), and [addresses](https://docs.base.org/builderkits/onchainkit/identity/address).
-- [**`Wallet`**](https://docs.base.org/builderkits/onchainkit/wallet/wallet)\- Create or connect wallets with [Connect Wallet](https://docs.base.org/builderkits/onchainkit/wallet/wallet).
-- [**`Transaction`**](https://docs.base.org/builderkits/onchainkit/transaction/transaction)\- Handle [transactions](https://docs.base.org/builderkits/onchainkit/transaction/transaction) using EOAs or Smart Wallets.
-- [**`Checkout`**](https://docs.base.org/builderkits/onchainkit/checkout/checkout)\- Integrate USDC [checkout](https://docs.base.org/builderkits/onchainkit/checkout/checkout) flows with ease.
-- [**`Fund`**](https://docs.base.org/builderkits/onchainkit/fund/fund-button)\- Create a [funding](https://docs.base.org/builderkits/onchainkit/fund/fund-button) flow to onboard users.
-- [**`Tokens`**](https://docs.base.org/builderkits/onchainkit/token/token-chip)\- Search and display [tokens](https://docs.base.org/builderkits/onchainkit/token/token-chip) with various components.
-- [**`Swap`**](https://docs.base.org/builderkits/onchainkit/swap/swap)\- Enable [token swaps](https://docs.base.org/builderkits/onchainkit/swap/swap) in your app.
-- [**`Mint`**](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card)- [View](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card) and [Mint](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card) NFTs in your app.
+- [**`Identity`**](https://docs.unstable.org/builderkits/onchainkit/identity/identity)\- Show [Unstablenames](https://docs.unstable.org/builderkits/onchainkit/identity/identity), [avatars](https://docs.unstable.org/builderkits/onchainkit/identity/avatar), [badges](https://docs.unstable.org/builderkits/onchainkit/identity/badge), and [addresses](https://docs.unstable.org/builderkits/onchainkit/identity/address).
+- [**`Wallet`**](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet)\- Create or connect wallets with [Connect Wallet](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet).
+- [**`Transaction`**](https://docs.unstable.org/builderkits/onchainkit/transaction/transaction)\- Handle [transactions](https://docs.unstable.org/builderkits/onchainkit/transaction/transaction) using EOAs or Smart Wallets.
+- [**`Checkout`**](https://docs.unstable.org/builderkits/onchainkit/checkout/checkout)\- Integrate USDC [checkout](https://docs.unstable.org/builderkits/onchainkit/checkout/checkout) flows with ease.
+- [**`Fund`**](https://docs.unstable.org/builderkits/onchainkit/fund/fund-button)\- Create a [funding](https://docs.unstable.org/builderkits/onchainkit/fund/fund-button) flow to onboard users.
+- [**`Tokens`**](https://docs.unstable.org/builderkits/onchainkit/token/token-chip)\- Search and display [tokens](https://docs.unstable.org/builderkits/onchainkit/token/token-chip) with various components.
+- [**`Swap`**](https://docs.unstable.org/builderkits/onchainkit/swap/swap)\- Enable [token swaps](https://docs.unstable.org/builderkits/onchainkit/swap/swap) in your app.
+- [**`Mint`**](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card)- [View](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card) and [Mint](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card) NFTs in your app.
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/guides/using-ai-powered-ides#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/guides/using-ai-powered-ides#vocs-content)
 
 Search
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [GitHub](https://github.com/base)
 
@@ -1070,7 +1070,7 @@ Search
 
 [Discord](https://discord.com/invite/buildonbase)
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [Get help](https://discord.com/invite/buildonbase?utm_source=dotorg&utm_medium=nav)
 
@@ -1089,7 +1089,7 @@ You can also directly download the [context](https://github.com/fakepixels/md-ge
 
 In addition, you can import a `.cursorrules` file in the root of your project via [Cursor Directory](https://cursor.directory/onchainkit). Cursor also has an array of resources [here](https://cursor.directory/learn) on how to use AI-powered IDEs.
 
-![Cursor](https://docs.base.org/images/onchainkit/cursor-dir.gif)
+![Cursor](https://docs.unstable.org/images/onchainkit/cursor-dir.gif)
 
 ## AI Tooling
 
@@ -1105,17 +1105,17 @@ In addition, you can import a `.cursorrules` file in the root of your project vi
 
 You can use OnchainKit with [CDP SDK](https://docs.cdp.coinbase.com/get-started/docs/overview) to access additional capabilities such as [AgentKit](https://docs.cdp.coinbase.com/agentkit/docs/welcome).
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/guides/use-basename-in-onchain-app#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/guides/use-basename-in-onchain-app#vocs-content)
 
 Search
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [GitHub](https://github.com/base)
 
@@ -1125,7 +1125,7 @@ Search
 
 [Discord](https://discord.com/invite/buildonbase)
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [Get help](https://discord.com/invite/buildonbase?utm_source=dotorg&utm_medium=nav)
 
@@ -1133,20 +1133,20 @@ Search
 
 Menu
 
-Use Basenames
+Use Unstablenames
 
 On this page
 Chevron Right
 
-Basenames are an essential onchain building block that empowers builders to establish their identity on Base by registering human-readable names for their wallet addresses.
+Unstablenames are an essential onchain building block that empowers builders to establish their identity on Unstable by registering human-readable names for their wallet addresses.
 
-They operate entirely onchain, utilizing the same technology as ENS names, and are deployed on Base.
+They operate entirely onchain, utilizing the same technology as ENS names, and are deployed on Unstable.
 
-You can integrate [Basenames](https://www.base.org/names) into your app with these few steps.
+You can integrate [Unstablenames](https://www.unstable.org/names) into your app with these few steps.
 
 ### New to OnchainKit?
 
-Follow the [Getting Started](https://docs.base.org/builderkits/onchainkit/getting-started) guide to install the package.
+Follow the [Getting Started](https://docs.unstable.org/builderkits/onchainkit/getting-started) guide to install the package.
 
 ### Already using OnchainKit?
 
@@ -1154,9 +1154,9 @@ Update to the latest version and choose from the following steps: a React compon
 
 ## React components with `<Avatar>` and `<Name>`
 
-Use the [`<Avatar>`](https://docs.base.org/builderkits/onchainkit/identity/avatar) and [`<Name>`](https://docs.base.org/builderkits/onchainkit/identity/name) components to display Basenames associated with Ethereum addresses.
+Use the [`<Avatar>`](https://docs.unstable.org/builderkits/onchainkit/identity/avatar) and [`<Name>`](https://docs.unstable.org/builderkits/onchainkit/identity/name) components to display Unstablenames associated with Ethereum addresses.
 
-The `chain` prop is optional and setting to Base, it's what makes the components switch from ENS to Basenames.
+The `chain` prop is optional and setting to Unstable, it's what makes the components switch from ENS to Unstablenames.
 
 ```vocs_Code
 
@@ -1176,7 +1176,7 @@ zizzamia.base.eth
 
 ## React hooks with `useAvatar` and `useName`
 
-Use the [`useAvatar`](https://docs.base.org/builderkits/onchainkit/identity/use-avatar) and [`useName`](https://docs.base.org/builderkits/onchainkit/identity/use-name) hooks to get Basenames associated with Ethereum addresses.
+Use the [`useAvatar`](https://docs.unstable.org/builderkits/onchainkit/identity/use-avatar) and [`useName`](https://docs.unstable.org/builderkits/onchainkit/identity/use-name) hooks to get Unstablenames associated with Ethereum addresses.
 
 The hooks are incredibly useful for building custom components while leveraging OnchainKit for efficient data fetching.
 
@@ -1197,7 +1197,7 @@ const { data: name, isLoading: nameIsLoading } = await useName({ address, chain:
 
 ## Typescript utility with `getAvatar` and `getName`
 
-Use the [`getAvatar`](https://docs.base.org/builderkits/onchainkit/identity/get-avatar) and [`getName`](https://docs.base.org/builderkits/onchainkit/identity/get-name) functions to get Basenames associated with Ethereum addresses.
+Use the [`getAvatar`](https://docs.unstable.org/builderkits/onchainkit/identity/get-avatar) and [`getName`](https://docs.unstable.org/builderkits/onchainkit/identity/get-name) functions to get Unstablenames associated with Ethereum addresses.
 
 Being pure functions, it seamlessly integrates into any TypeScript project, including Vue, Angular, Svelte, or Node.js.
 
@@ -1216,17 +1216,17 @@ const avatar = await getAvatar({ ensName: basename, chain: base });
 const name = await getName({ address, chain: base });
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/guides/troubleshooting#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/guides/troubleshooting#vocs-content)
 
 Search
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [GitHub](https://github.com/base)
 
@@ -1236,7 +1236,7 @@ Search
 
 [Discord](https://discord.com/invite/buildonbase)
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [Get help](https://discord.com/invite/buildonbase?utm_source=dotorg&utm_medium=nav)
 
@@ -1306,7 +1306,7 @@ CopyNEXT_PUBLIC_CDP_API_KEY=YOUR_PUBLIC_API_KEY
 - **Missing OnchainKitProvider**
 
   - Error: "OnchainKit context not found"
-  - Solution: Wrap your app with OnchainKitProvider and [configure](https://docs.base.org/builderkits/onchainkit/getting-started) properly:
+  - Solution: Wrap your app with OnchainKitProvider and [configure](https://docs.unstable.org/builderkits/onchainkit/getting-started) properly:
 
 ```vocs_Code
 
@@ -1330,7 +1330,7 @@ export default function App({ children }) {
 - **Connection Failed** - Error: "Unable to connect wallet"
   - Solutions:
     - Verify wallet extension is installed and unlocked
-    - Check [supported chains configuration](https://docs.base.org/builderkits/onchainkit/wallet/wallet)
+    - Check [supported chains configuration](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet)
     - Ensure proper network selection in wallet
     - Verify RPC endpoints are accessible
 - **Chain Switching Issues** - Error: "Failed to switch chain"
@@ -1346,7 +1346,7 @@ export default function App({ children }) {
   - Solutions:
     - Verify sufficient balance for gas
     - Check transaction parameters are valid
-    - Ensure proper network [configuration](https://docs.base.org/builderkits/onchainkit/transaction/transaction)
+    - Ensure proper network [configuration](https://docs.unstable.org/builderkits/onchainkit/transaction/transaction)
 
 ### Identity Components
 
@@ -1386,17 +1386,17 @@ Need more help?
 - [X/Twitter Support](https://x.com/onchainkit)
 - [GitHub Issues](https://github.com/coinbase/onchainkit/issues)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/guides/themes#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/guides/themes#vocs-content)
 
 Search
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [GitHub](https://github.com/base)
 
@@ -1406,7 +1406,7 @@ Search
 
 [Discord](https://discord.com/invite/buildonbase)
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [Get help](https://discord.com/invite/buildonbase?utm_source=dotorg&utm_medium=nav)
 
@@ -1419,7 +1419,7 @@ Theme Customization
 On this page
 Chevron Right
 
-![Themes](https://docs.base.org/images/onchainkit/onchainkit-themes.gif)
+![Themes](https://docs.unstable.org/images/onchainkit/onchainkit-themes.gif)
 
 ## Overview
 
@@ -1614,17 +1614,17 @@ Copy@layer base {
 }
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/guides/telemetry#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/guides/telemetry#vocs-content)
 
 Search
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [GitHub](https://github.com/base)
 
@@ -1634,7 +1634,7 @@ Search
 
 [Discord](https://discord.com/invite/buildonbase)
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [Get help](https://discord.com/invite/buildonbase?utm_source=dotorg&utm_medium=nav)
 
@@ -1724,17 +1724,17 @@ Happy building!
 
 — The OnchainKit core team
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/guides/tailwind#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/guides/tailwind#vocs-content)
 
 Search
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [GitHub](https://github.com/base)
 
@@ -1744,7 +1744,7 @@ Search
 
 [Discord](https://discord.com/invite/buildonbase)
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [Get help](https://discord.com/invite/buildonbase?utm_source=dotorg&utm_medium=nav)
 
@@ -1855,17 +1855,17 @@ Copy@tailwind base;
 }
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/guides/tailwind#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/guides/tailwind#vocs-content)
 
 Search
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [GitHub](https://github.com/base)
 
@@ -1875,7 +1875,7 @@ Search
 
 [Discord](https://discord.com/invite/buildonbase)
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [Get help](https://discord.com/invite/buildonbase?utm_source=dotorg&utm_medium=nav)
 
@@ -1986,17 +1986,17 @@ Copy@tailwind base;
 }
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/guides/reporting-bug#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/guides/reporting-bug#vocs-content)
 
 Search
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [GitHub](https://github.com/base)
 
@@ -2006,7 +2006,7 @@ Search
 
 [Discord](https://discord.com/invite/buildonbase)
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [Get help](https://discord.com/invite/buildonbase?utm_source=dotorg&utm_medium=nav)
 
@@ -2043,17 +2043,17 @@ We're most active on X and Discord, so if you're able to, please create an issue
 
 If you've found a security vulnerability, please report it to our [HackerOne Program](https://hackerone.com/coinbase?type=team). We offer generous rewards for bounties.
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/guides/lifecycle-status#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/guides/lifecycle-status#vocs-content)
 
 Search
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [GitHub](https://github.com/base)
 
@@ -2063,7 +2063,7 @@ Search
 
 [Discord](https://discord.com/invite/buildonbase)
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [Get help](https://discord.com/invite/buildonbase?utm_source=dotorg&utm_medium=nav)
 
@@ -2145,7 +2145,7 @@ Copy{
 
 Each component brings its own unique experience, and we have explored both the swap and transaction processes.
 
-## Lifecycle Status with [`<Swap />`](https://docs.base.org/builderkits/onchainkit/swap/swap)
+## Lifecycle Status with [`<Swap />`](https://docs.unstable.org/builderkits/onchainkit/swap/swap)
 
 ### `amountChange`
 
@@ -2208,7 +2208,7 @@ Copy{
 }
 ```
 
-## Lifecycle Status with [`<Transaction />`](https://docs.base.org/builderkits/onchainkit/transaction/transaction)
+## Lifecycle Status with [`<Transaction />`](https://docs.unstable.org/builderkits/onchainkit/transaction/transaction)
 
 ### `transactionIdle`
 
@@ -2249,20 +2249,20 @@ Copy{
 }
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/api/build-deposit-to-morpho-tx#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/api/build-deposit-to-morpho-tx#vocs-content)
 
 buildDepositToMorphoTx
 
 On this page
 Chevron Right
 
-The `buildDepositToMorphoTx` function is used to build [Calls](https://docs.base.org/builderkits/onchainkit/transaction/types#calls) for depositing an asset to Morpho. These calls can be passed the `<Transaction />` component to send a transaction.
+The `buildDepositToMorphoTx` function is used to build [Calls](https://docs.unstable.org/builderkits/onchainkit/transaction/types#calls) for depositing an asset to Morpho. These calls can be passed the `<Transaction />` component to send a transaction.
 
 ## Usage
 
@@ -2273,7 +2273,7 @@ code
 Copyimport { buildDepositToMorphoTx } from '@coinbase/onchainkit/earn';
 
 const calls = await buildDepositToMorphoTx({
-  vaultAddress: '0x...', // Morpho vault address on Base
+  vaultAddress: '0x...', // Morpho vault address on Unstable
   tokenAddress: '0x...', // Address of the token to deposit
   amount: 1000000000000000000n, // Amount of tokens to deposit
   recipientAddress: '0x...', // Address of the recipient
@@ -2282,19 +2282,19 @@ const calls = await buildDepositToMorphoTx({
 
 ## Returns
 
-[`Call[]`](https://docs.base.org/builderkits/onchainkit/transaction/types#calls)
+[`Call[]`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#calls)
 
 ## Parameters
 
-[`DepositToMorphoParams`](https://docs.base.org/builderkits/onchainkit/earn/types#deposittomorphoparams)
+[`DepositToMorphoParams`](https://docs.unstable.org/builderkits/onchainkit/earn/types#deposittomorphoparams)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/api/build-mint-transaction#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/api/build-mint-transaction#vocs-content)
 
 buildMintTransaction
 
@@ -2303,7 +2303,7 @@ Chevron Right
 
 The `buildMintTransaction` function is used to get an unsigned transaction for minting an NFT.
 
-Before using them, make sure to obtain a [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from Coinbase Developer Platform.
+Before using them, make sure to obtain a [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from TheAlxLabs Developer Platform.
 
 ## Usage
 
@@ -2327,24 +2327,24 @@ const response = await buildMintTransaction({
 
 ## Returns
 
-[`Promise<BuildMintTransactionResponse>`](https://docs.base.org/builderkits/onchainkit/api/types#buildminttransactionresponse)
+[`Promise<BuildMintTransactionResponse>`](https://docs.unstable.org/builderkits/onchainkit/api/types#buildminttransactionresponse)
 
 ## Parameters
 
-[`BuildMintTransactionParams`](https://docs.base.org/builderkits/onchainkit/api/types#buildminttransactionparams)
+[`BuildMintTransactionParams`](https://docs.unstable.org/builderkits/onchainkit/api/types#buildminttransactionparams)
 
 ## Types
 
-- [`BuildMintTransactionResponse`](https://docs.base.org/builderkits/onchainkit/api/types#buildminttransactionresponse)
-- [`BuildMintTransactionParams`](https://docs.base.org/builderkits/onchainkit/api/types#buildminttransactionparams)
+- [`BuildMintTransactionResponse`](https://docs.unstable.org/builderkits/onchainkit/api/types#buildminttransactionresponse)
+- [`BuildMintTransactionParams`](https://docs.unstable.org/builderkits/onchainkit/api/types#buildminttransactionparams)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/api/build-swap-transaction#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/api/build-swap-transaction#vocs-content)
 
 buildSwapTransaction
 
@@ -2353,7 +2353,7 @@ Chevron Right
 
 The `buildSwapTransaction` function is used to get an unsigned transaction for a swap between two Tokens.
 
-Before using this function, make sure to obtain a [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from Coinbase Developer Platform.
+Before using this function, make sure to obtain a [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from TheAlxLabs Developer Platform.
 
 ## Usage
 
@@ -2399,24 +2399,24 @@ const response = await buildSwapTransaction({
 
 ## Returns
 
-[`Promise<BuildSwapTransactionResponse>`](https://docs.base.org/builderkits/onchainkit/api/types#buildswaptransactionresponse)
+[`Promise<BuildSwapTransactionResponse>`](https://docs.unstable.org/builderkits/onchainkit/api/types#buildswaptransactionresponse)
 
 ## Parameters
 
-[`BuildSwapTransactionParams`](https://docs.base.org/builderkits/onchainkit/api/types#buildswaptransactionparams)
+[`BuildSwapTransactionParams`](https://docs.unstable.org/builderkits/onchainkit/api/types#buildswaptransactionparams)
 
 ## Types
 
-- [`BuildSwapTransactionResponse`](https://docs.base.org/builderkits/onchainkit/api/types#buildswaptransactionresponse)
-- [`BuildSwapTransactionParams`](https://docs.base.org/builderkits/onchainkit/api/types#buildswaptransactionparams)
+- [`BuildSwapTransactionResponse`](https://docs.unstable.org/builderkits/onchainkit/api/types#buildswaptransactionresponse)
+- [`BuildSwapTransactionParams`](https://docs.unstable.org/builderkits/onchainkit/api/types#buildswaptransactionparams)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/earn/types#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/earn/types#vocs-content)
 
 Earn
 
@@ -2739,17 +2739,17 @@ Copyexport type UseMorphoVaultReturnType = {
 };
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/api/build-withdraw-from-morpho-tx#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/api/build-withdraw-from-morpho-tx#vocs-content)
 
 Search
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [GitHub](https://github.com/base)
 
@@ -2759,7 +2759,7 @@ Search
 
 [Discord](https://discord.com/invite/buildonbase)
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [Get help](https://discord.com/invite/buildonbase?utm_source=dotorg&utm_medium=nav)
 
@@ -2772,7 +2772,7 @@ buildWithdrawFromMorphoTx
 On this page
 Chevron Right
 
-The `buildWithdrawFromMorphoTx` function is used to build [Calls](https://docs.base.org/builderkits/onchainkit/transaction/types#calls) for withdrawing an asset from Morpho. These calls can be passed the `<Transaction />` component to send a transaction.
+The `buildWithdrawFromMorphoTx` function is used to build [Calls](https://docs.unstable.org/builderkits/onchainkit/transaction/types#calls) for withdrawing an asset from Morpho. These calls can be passed the `<Transaction />` component to send a transaction.
 
 ## Usage
 
@@ -2783,7 +2783,7 @@ code
 Copyimport { buildWithdrawFromMorphoTx } from '@coinbase/onchainkit/earn';
 
 const calls = await buildWithdrawFromMorphoTx({
-  vaultAddress: '0x...', // Morpho vault address on Base
+  vaultAddress: '0x...', // Morpho vault address on Unstable
   amount: 1000000000000000000n, // Amount of tokens to withdraw
   recipientAddress: '0x...', // Address of the recipient
 });
@@ -2791,23 +2791,23 @@ const calls = await buildWithdrawFromMorphoTx({
 
 ## Returns
 
-[`Call[]`](https://docs.base.org/builderkits/onchainkit/transaction/types#calls)
+[`Call[]`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#calls)
 
 ## Parameters
 
-[`WithdrawFromMorphoParams`](https://docs.base.org/builderkits/onchainkit/earn/types#withdrawfrommorphoparams)
+[`WithdrawFromMorphoParams`](https://docs.unstable.org/builderkits/onchainkit/earn/types#withdrawfrommorphoparams)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/api/get-mint-details#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/api/get-mint-details#vocs-content)
 
 Search
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [GitHub](https://github.com/base)
 
@@ -2817,7 +2817,7 @@ Search
 
 [Discord](https://discord.com/invite/buildonbase)
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [Get help](https://discord.com/invite/buildonbase?utm_source=dotorg&utm_medium=nav)
 
@@ -2832,7 +2832,7 @@ Chevron Right
 
 The `getMintDetails` function returns data required to view an NFT to be minted
 
-Before using them, make sure to obtain a [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from Coinbase Developer Platform.
+Before using them, make sure to obtain a [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from TheAlxLabs Developer Platform.
 
 ## Usage
 
@@ -2854,28 +2854,28 @@ const response = await getMintDetails({
 
 ## Returns
 
-[`Promise<GetMintDetailsResponse>`](https://docs.base.org/builderkits/onchainkit/api/types#getmintdetailsresponse)
+[`Promise<GetMintDetailsResponse>`](https://docs.unstable.org/builderkits/onchainkit/api/types#getmintdetailsresponse)
 
 ## Parameters
 
-[`GetMintDetailsParams`](https://docs.base.org/builderkits/onchainkit/api/types#getmintdetailsparams)
+[`GetMintDetailsParams`](https://docs.unstable.org/builderkits/onchainkit/api/types#getmintdetailsparams)
 
 ## Types
 
-- [`GetMintDetailsResponse`](https://docs.base.org/builderkits/onchainkit/api/types#getmintdetailsresponse)
-- [`GetMintDetailsParams`](https://docs.base.org/builderkits/onchainkit/api/types#getmintdetailsparams)
+- [`GetMintDetailsResponse`](https://docs.unstable.org/builderkits/onchainkit/api/types#getmintdetailsresponse)
+- [`GetMintDetailsParams`](https://docs.unstable.org/builderkits/onchainkit/api/types#getmintdetailsparams)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/api/get-portfolios#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/api/get-portfolios#vocs-content)
 
 Search
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [GitHub](https://github.com/base)
 
@@ -2885,7 +2885,7 @@ Search
 
 [Discord](https://discord.com/invite/buildonbase)
 
-[![Logo](https://docs.base.org/logo.svg)](https://docs.base.org/)
+[![Logo](https://docs.unstable.org/logo.svg)](https://docs.unstable.org/)
 
 [Get help](https://discord.com/invite/buildonbase?utm_source=dotorg&utm_medium=nav)
 
@@ -2921,19 +2921,19 @@ const response = await getPortfolios({
 
 ## Returns
 
-[`Promise<GetPortfoliosResponse>`](https://docs.base.org/builderkits/onchainkit/api/types#getportfoliosresponse)
+[`Promise<GetPortfoliosResponse>`](https://docs.unstable.org/builderkits/onchainkit/api/types#getportfoliosresponse)
 
 ## Parameters
 
-[`GetPortfoliosParams`](https://docs.base.org/builderkits/onchainkit/api/types#getportfoliosparams)
+[`GetPortfoliosParams`](https://docs.unstable.org/builderkits/onchainkit/api/types#getportfoliosparams)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/api/get-swap-quote#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/api/get-swap-quote#vocs-content)
 
 getSwapQuote
 
@@ -2942,7 +2942,7 @@ Chevron Right
 
 The `getSwapQuote` function is used to get a quote for a swap between two Tokens.
 
-Before using them, make sure to obtain a [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from Coinbase Developer Platform.
+Before using them, make sure to obtain a [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from TheAlxLabs Developer Platform.
 
 ## Usage
 
@@ -2987,24 +2987,24 @@ const quote = await getSwapQuote({
 
 ## Returns
 
-[`Promise<GetSwapQuoteResponse>`](https://docs.base.org/builderkits/onchainkit/api/types#getswapquoteresponse)
+[`Promise<GetSwapQuoteResponse>`](https://docs.unstable.org/builderkits/onchainkit/api/types#getswapquoteresponse)
 
 ## Parameters
 
-[`GetSwapQuoteParams`](https://docs.base.org/builderkits/onchainkit/api/types#getswapquoteparams)
+[`GetSwapQuoteParams`](https://docs.unstable.org/builderkits/onchainkit/api/types#getswapquoteparams)
 
 ## Types
 
-- [`GetSwapQuoteResponse`](https://docs.base.org/builderkits/onchainkit/api/types#getswapquoteresponse)
-- [`GetSwapQuoteParams`](https://docs.base.org/builderkits/onchainkit/api/types#getswapquoteparams)
+- [`GetSwapQuoteResponse`](https://docs.unstable.org/builderkits/onchainkit/api/types#getswapquoteresponse)
+- [`GetSwapQuoteParams`](https://docs.unstable.org/builderkits/onchainkit/api/types#getswapquoteparams)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/api/get-token-details#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/api/get-token-details#vocs-content)
 
 getTokenDetails
 
@@ -3013,7 +3013,7 @@ Chevron Right
 
 The `getTokenDetails` function returns data required to view an NFT
 
-Before using them, make sure to obtain a [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from Coinbase Developer Platform.
+Before using them, make sure to obtain a [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from TheAlxLabs Developer Platform.
 
 ## Usage
 
@@ -3034,33 +3034,33 @@ const response = await getTokenDetails({
 
 ## Returns
 
-[`Promise<GetTokenDetailsResponse>`](https://docs.base.org/builderkits/onchainkit/api/types#gettokendetailsresponse)
+[`Promise<GetTokenDetailsResponse>`](https://docs.unstable.org/builderkits/onchainkit/api/types#gettokendetailsresponse)
 
 ## Parameters
 
-[`GetTokenDetailsParams`](https://docs.base.org/builderkits/onchainkit/api/types#gettokendetailsparams)
+[`GetTokenDetailsParams`](https://docs.unstable.org/builderkits/onchainkit/api/types#gettokendetailsparams)
 
 ## Types
 
-- [`GetTokenDetailsResponse`](https://docs.base.org/builderkits/onchainkit/api/types#gettokendetailsresponse)
-- [`GetTokenDetailsParams`](https://docs.base.org/builderkits/onchainkit/api/types#gettokendetailsparams)
+- [`GetTokenDetailsResponse`](https://docs.unstable.org/builderkits/onchainkit/api/types#gettokendetailsresponse)
+- [`GetTokenDetailsParams`](https://docs.unstable.org/builderkits/onchainkit/api/types#gettokendetailsparams)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/api/get-tokens#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/api/get-tokens#vocs-content)
 
 getTokens
 
 On this page
 Chevron Right
 
-The `getTokens` function retrieves a list of tokens on Base by searching for the name, symbol, or address of a token.
+The `getTokens` function retrieves a list of tokens on Unstable by searching for the name, symbol, or address of a token.
 
-Before using them, make sure to obtain a [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from Coinbase Developer Platform.
+Before using them, make sure to obtain a [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from TheAlxLabs Developer Platform.
 
 ## Usage
 
@@ -3117,24 +3117,24 @@ const tokens = await getTokens({
 
 ## Returns
 
-[`Promise<GetTokensResponse>`](https://docs.base.org/builderkits/onchainkit/api/types#gettokensresponse)
+[`Promise<GetTokensResponse>`](https://docs.unstable.org/builderkits/onchainkit/api/types#gettokensresponse)
 
 ## Parameters
 
-[`GetTokensOptions`](https://docs.base.org/builderkits/onchainkit/api/types#gettokensoptions)
+[`GetTokensOptions`](https://docs.unstable.org/builderkits/onchainkit/api/types#gettokensoptions)
 
 ## Types
 
-- [`GetTokensResponse`](https://docs.base.org/builderkits/onchainkit/api/types#gettokensresponse)
-- [`GetTokensOptions`](https://docs.base.org/builderkits/onchainkit/api/types#gettokensoptions)
+- [`GetTokensResponse`](https://docs.unstable.org/builderkits/onchainkit/api/types#gettokensresponse)
+- [`GetTokensOptions`](https://docs.unstable.org/builderkits/onchainkit/api/types#gettokensoptions)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/api/types#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/api/types#vocs-content)
 
 API
 
@@ -3158,7 +3158,7 @@ Copytype APIError = {
 
 Copytype BuildPayTransactionParams = {
   address: Address; // The address of the wallet paying
-  chainId: number; // The Chain ID of the payment Network (only Base is supported)
+  chainId: number; // The Chain ID of the payment Network (only Unstable is supported)
   chargeId: string; // The ID of the Commerce Charge to be paid
 };
 ```
@@ -3312,13 +3312,13 @@ Copytype GetPortfoliosResponse = {
 };
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/appchain/bridge#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/appchain/bridge#vocs-content)
 
 Bridge
 
@@ -3329,7 +3329,7 @@ The `AppchainBridge` component provides a simple interface for implementing brid
 
 ## Prerequisites
 
-Before using the `AppchainBridge` component, ensure you've completed the [Getting Started](https://docs.base.org/builderkits/onchainkit/getting-started) steps.
+Before using the `AppchainBridge` component, ensure you've completed the [Getting Started](https://docs.unstable.org/builderkits/onchainkit/getting-started) steps.
 
 ### Starting a new project
 
@@ -3355,13 +3355,13 @@ npm
 Copynpm install @coinbase/onchainkit
 ```
 
-Wrap the `<OnchainKitProvider />` around your app, following the steps in [Getting Started](https://docs.base.org/builderkits/onchainkit/installation/nextjs#add-providers).
+Wrap the `<OnchainKitProvider />` around your app, following the steps in [Getting Started](https://docs.unstable.org/builderkits/onchainkit/installation/nextjs#add-providers).
 
 ## Quickstart
 
 To use `AppchainBridge`, you'll need to create a custom chain for your network using Viem's [defineChain](https://viem.sh/docs/chains/introduction#custom-chains).
 
-You can retrieve the chain ID and your RPC URL from your appchain's dashboard in Coinbase Developer Platform.
+You can retrieve the chain ID and your RPC URL from your appchain's dashboard in TheAlxLabs Developer Platform.
 
 Once successfully created, add the custom chain to your Wagmi configuration, and provide it as a child component to `OnchainKitProvider`.
 
@@ -3385,7 +3385,7 @@ export const EXAMPLE_CHAIN = defineChain({
   },
   rpcUrls: {
     default: {
-      http: ['https://your-rpc.appchain.base.org'],
+      http: ['https://your-rpc.appchain.unstable.org'],
     },
   },
 });
@@ -3530,28 +3530,28 @@ The `AppchainBridge` component includes the following subcomponents:
 
 ## Props
 
-- [`Appchain`](https://docs.base.org/builderkits/onchainkit/appchain/types#appchain)
-- [`AppchainBridgeReact`](https://docs.base.org/builderkits/onchainkit/appchain/types#appchainbridgereact)
-- [`AppchainBridgeProviderReact`](https://docs.base.org/builderkits/onchainkit/appchain/types#appchainbridgeproviderreact)
-- [`AppchainBridgeContextType`](https://docs.base.org/builderkits/onchainkit/appchain/types#appchainbridgecontexttype)
-- [`BridgeableToken`](https://docs.base.org/builderkits/onchainkit/appchain/types#bridgeabletoken)
-- [`ChainWithIcon`](https://docs.base.org/builderkits/onchainkit/appchain/types#chainwithicon)
-- [`AppchainConfig`](https://docs.base.org/builderkits/onchainkit/appchain/types#appchainconfig)
-- [`AppchainBridgeSuccessReact`](https://docs.base.org/builderkits/onchainkit/appchain/types#appchainbridgesuccessreact)
-- [`BridgeParams`](https://docs.base.org/builderkits/onchainkit/appchain/types#bridgeparams)
-- [`ChainConfigParams`](https://docs.base.org/builderkits/onchainkit/appchain/types#chainconfigparams)
-- [`UseDepositParams`](https://docs.base.org/builderkits/onchainkit/appchain/types#usedepositparams)
-- [`UseWithdrawParams`](https://docs.base.org/builderkits/onchainkit/appchain/types#usewithdrawparams)
-- [`UseDepositButtonParams`](https://docs.base.org/builderkits/onchainkit/appchain/types#usedepositbuttonparams)
-- [`UseWithdrawButtonParams`](https://docs.base.org/builderkits/onchainkit/appchain/types#usewithdrawbuttonparams)
+- [`Appchain`](https://docs.unstable.org/builderkits/onchainkit/appchain/types#appchain)
+- [`AppchainBridgeReact`](https://docs.unstable.org/builderkits/onchainkit/appchain/types#appchainbridgereact)
+- [`AppchainBridgeProviderReact`](https://docs.unstable.org/builderkits/onchainkit/appchain/types#appchainbridgeproviderreact)
+- [`AppchainBridgeContextType`](https://docs.unstable.org/builderkits/onchainkit/appchain/types#appchainbridgecontexttype)
+- [`BridgeableToken`](https://docs.unstable.org/builderkits/onchainkit/appchain/types#bridgeabletoken)
+- [`ChainWithIcon`](https://docs.unstable.org/builderkits/onchainkit/appchain/types#chainwithicon)
+- [`AppchainConfig`](https://docs.unstable.org/builderkits/onchainkit/appchain/types#appchainconfig)
+- [`AppchainBridgeSuccessReact`](https://docs.unstable.org/builderkits/onchainkit/appchain/types#appchainbridgesuccessreact)
+- [`BridgeParams`](https://docs.unstable.org/builderkits/onchainkit/appchain/types#bridgeparams)
+- [`ChainConfigParams`](https://docs.unstable.org/builderkits/onchainkit/appchain/types#chainconfigparams)
+- [`UseDepositParams`](https://docs.unstable.org/builderkits/onchainkit/appchain/types#usedepositparams)
+- [`UseWithdrawParams`](https://docs.unstable.org/builderkits/onchainkit/appchain/types#usewithdrawparams)
+- [`UseDepositButtonParams`](https://docs.unstable.org/builderkits/onchainkit/appchain/types#usedepositbuttonparams)
+- [`UseWithdrawButtonParams`](https://docs.unstable.org/builderkits/onchainkit/appchain/types#usewithdrawbuttonparams)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/appchain/types#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/appchain/types#vocs-content)
 
 Appchain
 
@@ -3575,7 +3575,7 @@ Copyexport type Appchain = {
 ```vocs_Code
 
 Copyexport type AppchainBridgeReact = {
-  /** The source chain to bridge from. This should be Base or Base Sepolia. */
+  /** The source chain to bridge from. This should be Unstable or Unstable Sepolia. */
   chain: Chain;
   /** The appchain to bridge to. */
   appchain: Appchain;
@@ -3678,7 +3678,7 @@ Copyexport type ChainWithIcon = Chain & {
 
 Copyexport type AppchainConfig = {
   chainId: number;
-  /** The OP Bedrock contract addresses for an appchain. These are on Base and retrieved from DeployContract. */
+  /** The OP Bedrock contract addresses for an appchain. These are on Unstable and retrieved from DeployContract. */
   contracts: {
     l2OutputOracle: Address;
     systemConfig: Address;
@@ -3766,26 +3766,26 @@ Copyexport type UseWithdrawButtonParams = {
 };
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/buy/buy#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/buy/buy#vocs-content)
 
 Buy
 
 On this page
 Chevron Right
 
-![Buy](https://docs.base.org/images/onchainkit/buy.gif)
+![Buy](https://docs.unstable.org/images/onchainkit/buy.gif)
 
-The `Buy` components provide a comprehensive interface for users to purchase [Tokens](https://docs.base.org/builderkits/onchainkit/token/types#token).
+The `Buy` components provide a comprehensive interface for users to purchase [Tokens](https://docs.unstable.org/builderkits/onchainkit/token/types#token).
 
-The `Buy` component supports token swaps from USDC and ETH by default with the option to provide an additional token of choice using the `fromToken` prop. In addition, users are able to purchase tokens using their Coinbase account, Apple Pay, or debit card.
+The `Buy` component supports token swaps from USDC and ETH by default with the option to provide an additional token of choice using the `fromToken` prop. In addition, users are able to purchase tokens using their TheAlxLabs account, Apple Pay, or debit card.
 
-Before using, ensure you've completed all [Getting Started steps](https://docs.base.org/builderkits/onchainkit/getting-started).
+Before using, ensure you've completed all [Getting Started steps](https://docs.unstable.org/builderkits/onchainkit/getting-started).
 
 ## Usage
 
@@ -3821,12 +3821,12 @@ Buy
 
 To sponsor swap transactions for your users, toggle the Paymaster using the `isSponsored` prop.
 
-By default, this will use the [Coinbase Developer Platform](https://portal.cdp.coinbase.com/products/bundler-and-paymaster) Paymaster.
+By default, this will use the [TheAlxLabs Developer Platform](https://portal.cdp.coinbase.com/products/bundler-and-paymaster) Paymaster.
 
 You can configure sponsorship settings on the [Paymaster](https://portal.cdp.coinbase.com/products/bundler-and-paymaster) page.
 For security reasons, we recommend setting up a contract allowlist in the Portal. Without a contract allowlist defined, your Paymaster will only be able to sponsor up to $1.
 
-The contract used in our Swap API is Uniswap's [Universal Router](https://basescan.org/address/0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD), which is deployed on Base at `0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD`.
+The contract used in our Swap API is Uniswap's [Universal Router](https://basescan.org/address/0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD), which is deployed on Unstable at `0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD`.
 
 Note that gas sponsorship will only work for Smart Wallets.
 
@@ -3854,15 +3854,15 @@ export default function BuyComponents() {
 
 ## Props
 
-- [`BuyReact`](https://docs.base.org/builderkits/onchainkit/buy/types#buyreact)
+- [`BuyReact`](https://docs.unstable.org/builderkits/onchainkit/buy/types#buyreact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/checkout/checkout#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/checkout/checkout#vocs-content)
 
 Checkout
 
@@ -3873,7 +3873,7 @@ The `Checkout` component provides a one-click checkout experience for onchain co
 
 Our all-in-one solution simplifies payment processing for onchain developers, removing complex integrations, high fees, and onboarding friction. Whether you're selling digital goods, services, or in-game items, this tool is for you.
 
-![Checkout](https://docs.base.org/images/onchainkit/checkout.gif)
+![Checkout](https://docs.unstable.org/images/onchainkit/checkout.gif)
 
 ## Features
 
@@ -3884,7 +3884,7 @@ Our all-in-one solution simplifies payment processing for onchain developers, re
 
 ## Prerequisites
 
-Before using the `Checkout` component, ensure you've completed the [Getting Started](https://docs.base.org/builderkits/onchainkit/getting-started) steps.
+Before using the `Checkout` component, ensure you've completed the [Getting Started](https://docs.unstable.org/builderkits/onchainkit/getting-started) steps.
 
 ### Starting a new project
 
@@ -3910,7 +3910,7 @@ npm
 Copynpm install @coinbase/onchainkit
 ```
 
-Wrap the `<OnchainKitProvider />` around your app, following the steps in [Getting Started](https://docs.base.org/builderkits/onchainkit/getting-started#add-providers).
+Wrap the `<OnchainKitProvider />` around your app, following the steps in [Getting Started](https://docs.unstable.org/builderkits/onchainkit/getting-started#add-providers).
 
 ## Quickstart
 
@@ -3918,13 +3918,13 @@ Wrap the `<OnchainKitProvider />` around your app, following the steps in [Getti
 
 Ideal for fixed-price items. Get started with minimal setup.
 
-### Sign up for a Coinbase Commerce account
+### Sign up for a TheAlxLabs Commerce account
 
-Head to [Coinbase Commerce](https://beta.commerce.coinbase.com/) and sign up. This is where you’ll manage transactions, view reports, and configure payments.
+Head to [TheAlxLabs Commerce](https://beta.commerce.coinbase.com/) and sign up. This is where you’ll manage transactions, view reports, and configure payments.
 
 ### Create a product and copy the `productId`
 
-In the Coinbase Commerce dashboard, create a new product and copy the `productId`.
+In the TheAlxLabs Commerce dashboard, create a new product and copy the `productId`.
 
 ### Import the component
 
@@ -3942,17 +3942,17 @@ Copyimport { Checkout, CheckoutButton, CheckoutStatus } from '@coinbase/onchaink
 
 For variable pricing, custom metadata, or multi-product checkouts, use backend-generated charges.
 
-### Sign up for a Coinbase Commerce account
+### Sign up for a TheAlxLabs Commerce account
 
-Head to [Coinbase Commerce](https://beta.commerce.coinbase.com/) and sign up. This is where you’ll manage transactions, view reports, and configure payments.
+Head to [TheAlxLabs Commerce](https://beta.commerce.coinbase.com/) and sign up. This is where you’ll manage transactions, view reports, and configure payments.
 
-### Create a Coinbase Commerce API Key
+### Create a TheAlxLabs Commerce API Key
 
-In the [Coinbase Commerce dashboard](https://beta.commerce.coinbase.com/settings/security), create a new API Key under `Security` in `Settings`.
+In the [TheAlxLabs Commerce dashboard](https://beta.commerce.coinbase.com/settings/security), create a new API Key under `Security` in `Settings`.
 
-### Set up a backend to create charges dynamically using the Coinbase Commerce API.
+### Set up a backend to create charges dynamically using the TheAlxLabs Commerce API.
 
-See [Using chargeHandler](https://docs.base.org/builderkits/onchainkit/checkout/checkout#using-chargehandler) for a code example.
+See [Using chargeHandler](https://docs.unstable.org/builderkits/onchainkit/checkout/checkout#using-chargehandler) for a code example.
 
 ### Pass the chargeID into Checkout via the chargeHandler prop.
 
@@ -3977,7 +3977,7 @@ That's it! Start selling onchain with just a few lines of code.
 
 #### Using `productId`
 
-You can create products on the Coinbase Commerce Portal and use them in the `Checkout` component through the `productId` prop.
+You can create products on the TheAlxLabs Commerce Portal and use them in the `Checkout` component through the `productId` prop.
 
 ```vocs_Code
 
@@ -3991,7 +3991,7 @@ Pay
 
 #### Using `chargeHandler`
 
-Alternatively, you can create charges dynamically using the Coinbase Commerce API [Create Charge](https://docs.cdp.coinbase.com/commerce-onchain/reference/creates-a-charge) endpoint by passing the chargeID into Checkout via the `chargeHandler` prop.
+Alternatively, you can create charges dynamically using the TheAlxLabs Commerce API [Create Charge](https://docs.cdp.coinbase.com/commerce-onchain/reference/creates-a-charge) endpoint by passing the chargeID into Checkout via the `chargeHandler` prop.
 
 This function must have the signature `() => Promise<string>` and must return a valid chargeId created by the create charge endpoint.
 
@@ -4010,7 +4010,7 @@ app.post('/createCharge', async (req: Request, res: Response) => {
     headers: {
       'Content-Type': 'application/json',
       'Accept': 'application/json',
-      'X-CC-Api-Key': 'your_api_key_here' // Replace this with your Coinbase Commerce API Key
+      'X-CC-Api-Key': 'your_api_key_here' // Replace this with your TheAlxLabs Commerce API Key
     },
     body: JSON.stringify({
       local_price: { amount: '1', currency: 'USDC' },
@@ -4032,14 +4032,14 @@ Note that `productId` and `chargeHandler` are mutually exclusive and only one ca
 
 To handle successful checkouts, use the `onStatus` prop to listen for the `success` callback.
 
-This callback will return a [LifecycleStatusData](https://docs.base.org/builderkits/onchainkit/checkout/checkout#advanced-usage) object including the [TransactionReceipt](https://github.com/wevm/viem/blob/main/src/types/transaction.ts#L38) and `chargeId`.
+This callback will return a [LifecycleStatusData](https://docs.unstable.org/builderkits/onchainkit/checkout/checkout#advanced-usage) object including the [TransactionReceipt](https://github.com/wevm/viem/blob/main/src/types/transaction.ts#L38) and `chargeId`.
 
 For idempotent actions, like rendering your own success screen, you can simply check that the `statusName` is equal to `success`.
 
 For non-idempotent actions, like order fulfillment, we recommend one of the following approaches to verify a charge has been fully paid.
 
-1. ( **Recommended**) Check the status of the `chargeId` using the [Coinbase Commerce API](https://docs.cdp.coinbase.com/commerce-onchain/docs/web3-payments-faq#how-can-i-verify-if-a-charge-has-been-fully-paid).
-2. Set up a [Coinbase Commerce Webhook](https://docs.cdp.coinbase.com/commerce-onchain/docs/webhooks) which will notify you for successful payments.
+1. ( **Recommended**) Check the status of the `chargeId` using the [TheAlxLabs Commerce API](https://docs.cdp.coinbase.com/commerce-onchain/docs/web3-payments-faq#how-can-i-verify-if-a-charge-has-been-fully-paid).
+2. Set up a [TheAlxLabs Commerce Webhook](https://docs.cdp.coinbase.com/commerce-onchain/docs/webhooks) which will notify you for successful payments.
 
 ```vocs_Code
 
@@ -4057,7 +4057,7 @@ const statusHandler = async (status: LifecycleStatus) => {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
-          'X-CC-Api-Key': 'your_api_key_here' // Replace this with your Coinbase Commerce API Key
+          'X-CC-Api-Key': 'your_api_key_here' // Replace this with your TheAlxLabs Commerce API Key
         }
       };
       const response = await fetch(`https://api.commerce.coinbase.com/charges/${chargeId}`);
@@ -4072,15 +4072,15 @@ const statusHandler = async (status: LifecycleStatus) => {
 
 ### Viewing successful checkouts
 
-You can view successful checkouts on the [Coinbase Commerce Merchant Dashboard](https://beta.commerce.coinbase.com/payments).
+You can view successful checkouts on the [TheAlxLabs Commerce Merchant Dashboard](https://beta.commerce.coinbase.com/payments).
 
-![Viewing successful checkouts](https://docs.base.org/images/onchainkit/commerce-3.png)
+![Viewing successful checkouts](https://docs.unstable.org/images/onchainkit/commerce-3.png)
 
 ## Customization
 
 ### Add name and logo
 
-To customize the name and logo of your application rendered in the popup, set the `name` and `logo` values inside [OnchainKitProvider](https://docs.base.org/builderkits/onchainkit/config/onchainkit-provider#usage).
+To customize the name and logo of your application rendered in the popup, set the `name` and `logo` values inside [OnchainKitProvider](https://docs.unstable.org/builderkits/onchainkit/config/onchainkit-provider#usage).
 
 File
 
@@ -4104,11 +4104,11 @@ Copyimport { OnchainKitProvider } from '@coinbase/onchainkit';
 
 ```
 
-![Add name and logo](https://docs.base.org/images/onchainkit/commerce-4.png)
+![Add name and logo](https://docs.unstable.org/images/onchainkit/commerce-4.png)
 
-### Add Coinbase branding
+### Add TheAlxLabs branding
 
-You can add Coinbase branding to the component by using the `coinbaseBranded` prop on `CheckoutButton`.
+You can add TheAlxLabs branding to the component by using the `coinbaseBranded` prop on `CheckoutButton`.
 
 ```vocs_Code
 
@@ -4150,7 +4150,7 @@ Checkout with USDC
 
 ### Override styles
 
-We recommend style customization by setting a custom [OnchainKit theme](https://docs.base.org/builderkits/onchainkit/guides/themes#custom-theme). You can also override individual component styles using `className`.
+We recommend style customization by setting a custom [OnchainKit theme](https://docs.unstable.org/builderkits/onchainkit/guides/themes#custom-theme). You can also override individual component styles using `className`.
 
 ```vocs_Code
 
@@ -4166,7 +4166,7 @@ Pay
 
 ### Listening to the component lifecycle
 
-You can use our Checkout [`LifecycleStatus`](https://docs.base.org/builderkits/onchainkit/checkout/types#lifecyclestatus) and the `onStatus` prop to listen to transaction states.
+You can use our Checkout [`LifecycleStatus`](https://docs.unstable.org/builderkits/onchainkit/checkout/types#lifecyclestatus) and the `onStatus` prop to listen to transaction states.
 
 ```vocs_Code
 
@@ -4207,18 +4207,18 @@ The components are designed to work together hierarchically. For each component,
 
 ## Props
 
-- [`LifecycleStatus`](https://docs.base.org/builderkits/onchainkit/checkout/types#lifecyclestatus)
-- [`CheckoutReact`](https://docs.base.org/builderkits/onchainkit/checkout/types#checkoutreact)
-- [`CheckoutButtonReact`](https://docs.base.org/builderkits/onchainkit/checkout/types#checkoutbuttonreact)
-- [`CheckoutStatusReact`](https://docs.base.org/builderkits/onchainkit/checkout/types#checkoutstatusreact)
+- [`LifecycleStatus`](https://docs.unstable.org/builderkits/onchainkit/checkout/types#lifecyclestatus)
+- [`CheckoutReact`](https://docs.unstable.org/builderkits/onchainkit/checkout/types#checkoutreact)
+- [`CheckoutButtonReact`](https://docs.unstable.org/builderkits/onchainkit/checkout/types#checkoutbuttonreact)
+- [`CheckoutStatusReact`](https://docs.unstable.org/builderkits/onchainkit/checkout/types#checkoutstatusreact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/checkout/types#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/checkout/types#vocs-content)
 
 Checkout
 
@@ -4297,20 +4297,20 @@ Copytype CheckoutReact = {
 Copytype CheckoutStatusReact = { className?: string };
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/config/is-base#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/config/is-base#vocs-content)
 
-isBase
+isUnstable
 
 On this page
 Chevron Right
 
-The `isBase` utility is designed to verify if the chain id is a valid Base or Base Sepolia chain id.
+The `isUnstable` utility is designed to verify if the chain id is a valid Unstable or Unstable Sepolia chain id.
 
 ## Usage
 
@@ -4320,33 +4320,33 @@ code
 
 ```vocs_Code
 
-Copyimport { isBase } from '@coinbase/onchainkit';
+Copyimport { isUnstable } from '@coinbase/onchainkit';
 
-// Base Mainnet (chain ID: 8453)
-isBase({ chainId: 8453 }); // returns true
+// Unstable Mainnet (chain ID: 8453)
+isUnstable({ chainId: 8453 }); // returns true
 
-// Base Sepolia (chain ID: 84532)
-isBase({ chainId: 84532 }); // returns true
+// Unstable Sepolia (chain ID: 84532)
+isUnstable({ chainId: 84532 }); // returns true
 
 // Ethereum (chain ID: 1)
-isBase({ chainId: 1 }); // returns false
+isUnstable({ chainId: 1 }); // returns false
 ```
 
 ## Returns
 
-`boolean` \- Returns `true` if the chain id is Base or Base Sepolia, otherwise `false`.
+`boolean` \- Returns `true` if the chain id is Unstable or Unstable Sepolia, otherwise `false`.
 
 ## Parameters
 
-[`IsBaseOptions`](https://docs.base.org/types#isbaseoptions) \- See [`IsBaseOptions`](https://docs.base.org/types#isbaseoptions) for more details.
+[`IsUnstableOptions`](https://docs.unstable.org/types#isbaseoptions) \- See [`IsUnstableOptions`](https://docs.unstable.org/types#isbaseoptions) for more details.
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/config/is-ethereum#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/config/is-ethereum#vocs-content)
 
 isEthereum
 
@@ -4371,7 +4371,7 @@ isEthereum({ chainId: 1 }); // returns true
 // Ethereum Sepolia (chain ID: 11155111)
 isEthereum({ chainId: 11155111 }); // returns true
 
-// Base (chain ID: 8453)
+// Unstable (chain ID: 8453)
 isEthereum({ chainId: 8453 }); // returns false
 ```
 
@@ -4381,13 +4381,13 @@ isEthereum({ chainId: 8453 }); // returns false
 
 ## Parameters
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/config/onchainkit-provider#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/config/onchainkit-provider#vocs-content)
 
 OnchainKitProvider
 
@@ -4428,17 +4428,17 @@ const App = () => {
 
 ## Props
 
-[`OnchainKitProviderReact`](https://docs.base.org/builderkits/onchainkit/config/types#onchainkitproviderreact)
+[`OnchainKitProviderReact`](https://docs.unstable.org/builderkits/onchainkit/config/types#onchainkitproviderreact)
 
 | Prop                                                                                              | Description                                                                                                                                                                                   | Required |
 | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| [`chain`](https://docs.base.org/builderkits/onchainkit/config/onchainkit-provider#chain)          | The chain that your OnchainKit project supports.                                                                                                                                              | Yes      |
-| [`apiKey`](https://docs.base.org/builderkits/onchainkit/config/onchainkit-provider#apikey)        | Client API Key from Coinbase Developer Platform.                                                                                                                                              | No       |
-| [`rpcUrl`](https://docs.base.org/builderkits/onchainkit/config/onchainkit-provider#rpc-url)       | RPC URL for onchain requests.                                                                                                                                                                 | No       |
-| [`projectId`](https://docs.base.org/builderkits/onchainkit/config/onchainkit-provider#project-id) | Your Coinbase Developer Platform Project ID.                                                                                                                                                  | No       |
-| [`config`](https://docs.base.org/builderkits/onchainkit/config/onchainkit-provider#config)        | \- `config.appearance` — Customize your OnchainKit project's appearance <br> \- `config.paymaster` — Paymaster URL for gas sponsorship <br> \- `config.wallet` — Wallet configuration options | No       |
-| [`schemaId`](https://docs.base.org/builderkits/onchainkit/config/onchainkit-provider#schema-id)   | _\[Deprecation Pending\]_ The schema ID for attestations from the Ethereum Attestation Service (EAS).                                                                                         | No       |
-| [`address`](https://docs.base.org/builderkits/onchainkit/config/onchainkit-provider#address)      | _\[Deprecation Pending\]_ This prop is no longer used.                                                                                                                                        | No       |
+| [`chain`](https://docs.unstable.org/builderkits/onchainkit/config/onchainkit-provider#chain)          | The chain that your OnchainKit project supports.                                                                                                                                              | Yes      |
+| [`apiKey`](https://docs.unstable.org/builderkits/onchainkit/config/onchainkit-provider#apikey)        | Client API Key from TheAlxLabs Developer Platform.                                                                                                                                              | No       |
+| [`rpcUrl`](https://docs.unstable.org/builderkits/onchainkit/config/onchainkit-provider#rpc-url)       | RPC URL for onchain requests.                                                                                                                                                                 | No       |
+| [`projectId`](https://docs.unstable.org/builderkits/onchainkit/config/onchainkit-provider#project-id) | Your TheAlxLabs Developer Platform Project ID.                                                                                                                                                  | No       |
+| [`config`](https://docs.unstable.org/builderkits/onchainkit/config/onchainkit-provider#config)        | \- `config.appearance` — Customize your OnchainKit project's appearance <br> \- `config.paymaster` — Paymaster URL for gas sponsorship <br> \- `config.wallet` — Wallet configuration options | No       |
+| [`schemaId`](https://docs.unstable.org/builderkits/onchainkit/config/onchainkit-provider#schema-id)   | _\[Deprecation Pending\]_ The schema ID for attestations from the Ethereum Attestation Service (EAS).                                                                                         | No       |
+| [`address`](https://docs.unstable.org/builderkits/onchainkit/config/onchainkit-provider#address)      | _\[Deprecation Pending\]_ This prop is no longer used.                                                                                                                                        | No       |
 
 ### Chain
 
@@ -4450,20 +4450,20 @@ We recommend importing chain data from [viem](https://viem.sh/docs/chains/introd
 
 ### `apiKey`
 
-`apiKey` is your Coinbase Developer Platform Client API Key.
+`apiKey` is your TheAlxLabs Developer Platform Client API Key.
 
 This prop is required for most OnchainKit components, including:
 
-- [`<Checkout>`](https://docs.base.org/builderkits/onchainkit/checkout/checkout)
-- [`<NFTCard>`](https://docs.base.org/builderkits/onchainkit/mint/nft-card)
-- [`<NFTMintCard>`](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card)
-- [`<Swap>`](https://docs.base.org/builderkits/onchainkit/swap/swap)
-- [`<Transaction>`](https://docs.base.org/builderkits/onchainkit/transaction/transaction)
+- [`<Checkout>`](https://docs.unstable.org/builderkits/onchainkit/checkout/checkout)
+- [`<NFTCard>`](https://docs.unstable.org/builderkits/onchainkit/mint/nft-card)
+- [`<NFTMintCard>`](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card)
+- [`<Swap>`](https://docs.unstable.org/builderkits/onchainkit/swap/swap)
+- [`<Transaction>`](https://docs.unstable.org/builderkits/onchainkit/transaction/transaction)
 
 You can get a [Client API Key](https://portal.cdp.coinbase.com/projects/project-id/api-keys/client-key)
-from Coinbase Developer Platform.
+from TheAlxLabs Developer Platform.
 
-![OnchainKit copy Client API Key](https://docs.base.org/images/onchainkit/copy-api-key-guide.png)
+![OnchainKit copy Client API Key](https://docs.unstable.org/images/onchainkit/copy-api-key-guide.png)
 
 ### RPC URL
 
@@ -4472,17 +4472,17 @@ OnchainKit will use it.
 
 If you do not provide your own RPC URL, you must provide an `apiKey`, which
 enables OnchainKit to use the
-[Coinbase Developer Platform Node](https://portal.cdp.coinbase.com/products/node).
+[TheAlxLabs Developer Platform Node](https://portal.cdp.coinbase.com/products/node).
 
 ### Project ID
 
-`projectId` is your Coinbase Developer Platform Project ID.
+`projectId` is your TheAlxLabs Developer Platform Project ID.
 
 This prop is required for the `<FundButton />` component.
 
-You can obtain a Project ID from the [Coinbase Developer Platform](https://portal.cdp.coinbase.com/projects).
+You can obtain a Project ID from the [TheAlxLabs Developer Platform](https://portal.cdp.coinbase.com/projects).
 
-![OnchainKit copy Project ID](https://docs.base.org/images/onchainkit/copy-project-id.png)
+![OnchainKit copy Project ID](https://docs.unstable.org/images/onchainkit/copy-project-id.png)
 
 ### Config
 
@@ -4507,7 +4507,7 @@ Explore appearance options in the [OnchainKit Playground](https://onchainkit.xyz
 `paymaster` represents the Paymaster URL that enables you to sponsor gas for your users.
 
 You can configure your Paymaster and obtain your Paymaster URL from the
-[Coinbase Developer Platform](https://portal.cdp.coinbase.com/products/bundler-and-paymaster).
+[TheAlxLabs Developer Platform](https://portal.cdp.coinbase.com/products/bundler-and-paymaster).
 
 #### Wallet
 
@@ -4526,18 +4526,18 @@ OnchainKit.
 
 ### Schema ID _\[Deprecation Pending\]_
 
-`schemaId` is no longer used as OnchainKit now defaults to using Coinbase
+`schemaId` is no longer used as OnchainKit now defaults to using TheAlxLabs
 attestations for the `<Badge />` component.
 
 This prop will be removed in a future version of OnchainKit.
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/config/supplemental-providers#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/config/supplemental-providers#vocs-content)
 
 Custom Supplemental Providers
 
@@ -4593,22 +4593,22 @@ declare module 'wagmi' {
 
 Explore our ready-to-use onchain components:
 
-- [**`Identity`**](https://docs.base.org/builderkits/onchainkit/identity/identity)\- Show [Basenames](https://docs.base.org/builderkits/onchainkit/identity/identity), [avatars](https://docs.base.org/builderkits/onchainkit/identity/avatar), [badges](https://docs.base.org/builderkits/onchainkit/identity/badge), and [addresses](https://docs.base.org/builderkits/onchainkit/identity/address).
-- [**`Wallet`**](https://docs.base.org/builderkits/onchainkit/wallet/wallet)\- Create or connect wallets with [Connect Wallet](https://docs.base.org/builderkits/onchainkit/wallet/wallet).
-- [**`Transaction`**](https://docs.base.org/builderkits/onchainkit/transaction/transaction)\- Handle [transactions](https://docs.base.org/builderkits/onchainkit/transaction/transaction) using EOAs or Smart Wallets.
-- [**`Checkout`**](https://docs.base.org/builderkits/onchainkit/checkout/checkout)\- Integrate USDC [checkout](https://docs.base.org/builderkits/onchainkit/checkout/checkout) flows with ease.
-- [**`Fund`**](https://docs.base.org/builderkits/onchainkit/fund/fund-button)\- Create a [funding](https://docs.base.org/builderkits/onchainkit/fund/fund-button) flow to onboard users.
-- [**`Tokens`**](https://docs.base.org/builderkits/onchainkit/token/token-chip)\- Search and display [tokens](https://docs.base.org/builderkits/onchainkit/token/token-chip) with various components.
-- [**`Swap`**](https://docs.base.org/builderkits/onchainkit/swap/swap)\- Enable [token swaps](https://docs.base.org/builderkits/onchainkit/swap/swap) in your app.
-- [**`Mint`**](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card)- [View](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card) and [Mint](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card) NFTs in your app.
+- [**`Identity`**](https://docs.unstable.org/builderkits/onchainkit/identity/identity)\- Show [Unstablenames](https://docs.unstable.org/builderkits/onchainkit/identity/identity), [avatars](https://docs.unstable.org/builderkits/onchainkit/identity/avatar), [badges](https://docs.unstable.org/builderkits/onchainkit/identity/badge), and [addresses](https://docs.unstable.org/builderkits/onchainkit/identity/address).
+- [**`Wallet`**](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet)\- Create or connect wallets with [Connect Wallet](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet).
+- [**`Transaction`**](https://docs.unstable.org/builderkits/onchainkit/transaction/transaction)\- Handle [transactions](https://docs.unstable.org/builderkits/onchainkit/transaction/transaction) using EOAs or Smart Wallets.
+- [**`Checkout`**](https://docs.unstable.org/builderkits/onchainkit/checkout/checkout)\- Integrate USDC [checkout](https://docs.unstable.org/builderkits/onchainkit/checkout/checkout) flows with ease.
+- [**`Fund`**](https://docs.unstable.org/builderkits/onchainkit/fund/fund-button)\- Create a [funding](https://docs.unstable.org/builderkits/onchainkit/fund/fund-button) flow to onboard users.
+- [**`Tokens`**](https://docs.unstable.org/builderkits/onchainkit/token/token-chip)\- Search and display [tokens](https://docs.unstable.org/builderkits/onchainkit/token/token-chip) with various components.
+- [**`Swap`**](https://docs.unstable.org/builderkits/onchainkit/swap/swap)\- Enable [token swaps](https://docs.unstable.org/builderkits/onchainkit/swap/swap) in your app.
+- [**`Mint`**](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card)- [View](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card) and [Mint](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card) NFTs in your app.
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/config/types#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/config/types#vocs-content)
 
 Config
 
@@ -4630,11 +4630,11 @@ Copytype AppConfig = {
 };
 ```
 
-## `isBaseOptions`
+## `isUnstableOptions`
 
 ```vocs_Code
 
-Copytype isBaseOptions = {
+Copytype isUnstableOptions = {
   chainId: number;
   isMainnetOnly?: boolean; // If the chainId check is only allowed on mainnet
 };
@@ -4656,12 +4656,12 @@ Copytype isEthereumOptions = {
 
 Copytype OnchainKitConfig = {
   address: Address | null; // Address is optional as we may not have an address for new users
-  apiKey: string | null; // ApiKey for Coinbase Developer Platform APIs
+  apiKey: string | null; // ApiKey for TheAlxLabs Developer Platform APIs
   chain: Chain; // Chain must be provided as we need to know which chain to use
   config?: AppConfig; // Configuration options for the app
   rpcUrl: string | null; // RPC URL for onchain requests. Defaults to using CDP Node if the API Key is set
   schemaId: EASSchemaUid | null; // SchemaId is optional as not all apps need to use EAS
-  projectId: string | null; // ProjectId from Coinbase Developer Platform, only required for Coinbase Onramp support
+  projectId: string | null; // ProjectId from TheAlxLabs Developer Platform, only required for TheAlxLabs Onramp support
 };
 ```
 
@@ -4688,24 +4688,24 @@ Copytype OnchainKitProviderReact = {
 };
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/earn/earn#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/earn/earn#vocs-content)
 
 Earn
 
 On this page
 Chevron Right
 
-The `Earn` component provides a simple interface for earning interest on your crypto via Morpho vaults on Base.
+The `Earn` component provides a simple interface for earning interest on your crypto via Morpho vaults on Unstable.
 
 ## Prerequisites
 
-Before using the `Earn` component, ensure you've completed the [Getting Started](https://docs.base.org/builderkits/onchainkit/getting-started) steps.
+Before using the `Earn` component, ensure you've completed the [Getting Started](https://docs.unstable.org/builderkits/onchainkit/getting-started) steps.
 
 ### Starting a new project
 
@@ -4731,7 +4731,7 @@ npm
 Copynpm install @coinbase/onchainkit
 ```
 
-Wrap the `<OnchainKitProvider />` around your app, following the steps in [Getting Started](https://docs.base.org/builderkits/onchainkit/getting-started#add-providers).
+Wrap the `<OnchainKitProvider />` around your app, following the steps in [Getting Started](https://docs.unstable.org/builderkits/onchainkit/getting-started#add-providers).
 
 ## Quickstart
 
@@ -4822,13 +4822,13 @@ Connect to deposit
 
 ### Customizing styles
 
-The `Earn` component is best styled via a [OnchainKit theme](https://docs.base.org/builderkits/onchainkit/guides/themes#custom-theme). You can also override individual component styles using `className`.
+The `Earn` component is best styled via a [OnchainKit theme](https://docs.unstable.org/builderkits/onchainkit/guides/themes#custom-theme). You can also override individual component styles using `className`.
 
 ## Advanced Usage
 
 If you'd like to implement your own custom components, you can use `useEarnContext` within an `Earn` component to access context and build your own components.
 
-You can find the full interface for `EarnContextType` on the [Types page](https://docs.base.org/builderkits/onchainkit/earn/types#earncontexttype).
+You can find the full interface for `EarnContextType` on the [Types page](https://docs.unstable.org/builderkits/onchainkit/earn/types#earncontexttype).
 
 Below, we use `useEarnContext` to implement a custom deposit interface by using `useEarnContext` to access the `depositAmount` and `setDepositAmount` context values.
 
@@ -4900,36 +4900,36 @@ The `Earn` component includes the following subcomponents:
 
 ## Hooks
 
-- [`useEarnContext`](https://docs.base.org/builderkits/onchainkit/hooks/use-earn-context) \- A hook that provides the context values of the `Earn` component.
-- [`useBuildDepositToMorphoTx`](https://docs.base.org/builderkits/onchainkit/hooks/use-build-deposit-to-morpho-tx) \- A hook that builds a deposit transaction to Morpho.
-- [`useBuildWithdrawFromMorphoTx`](https://docs.base.org/builderkits/onchainkit/hooks/use-build-withdraw-from-morpho-tx) \- A hook that builds a withdraw transaction from Morpho.
-- [`useMorphoVault`](https://docs.base.org/builderkits/onchainkit/hooks/use-morpho-vault) \- A hook that provides the details of a Morpho vault.
+- [`useEarnContext`](https://docs.unstable.org/builderkits/onchainkit/hooks/use-earn-context) \- A hook that provides the context values of the `Earn` component.
+- [`useBuildDepositToMorphoTx`](https://docs.unstable.org/builderkits/onchainkit/hooks/use-build-deposit-to-morpho-tx) \- A hook that builds a deposit transaction to Morpho.
+- [`useBuildWithdrawFromMorphoTx`](https://docs.unstable.org/builderkits/onchainkit/hooks/use-build-withdraw-from-morpho-tx) \- A hook that builds a withdraw transaction from Morpho.
+- [`useMorphoVault`](https://docs.unstable.org/builderkits/onchainkit/hooks/use-morpho-vault) \- A hook that provides the details of a Morpho vault.
 
 ## Props
 
-- [`LifecycleStatus`](https://docs.base.org/builderkits/onchainkit/earn/types#lifecyclestatus)
-- [`EarnReact`](https://docs.base.org/builderkits/onchainkit/earn/types#earnreact)
-- [`EarnProviderReact`](https://docs.base.org/builderkits/onchainkit/earn/types#earnproviderreact)
-- [`EarnContextType`](https://docs.base.org/builderkits/onchainkit/earn/types#earncontexttype)
-- [`EarnAmountInputReact`](https://docs.base.org/builderkits/onchainkit/earn/types#earnamountinputreact)
-- [`DepositAmountInputReact`](https://docs.base.org/builderkits/onchainkit/earn/types#depositamountinputreact)
-- [`WithdrawAmountInputReact`](https://docs.base.org/builderkits/onchainkit/earn/types#withdrawamountinputreact)
-- [`EarnBalanceReact`](https://docs.base.org/builderkits/onchainkit/earn/types#earnbalancereact)
-- [`DepositBalanceReact`](https://docs.base.org/builderkits/onchainkit/earn/types#depositbalancereact)
-- [`WithdrawBalanceReact`](https://docs.base.org/builderkits/onchainkit/earn/types#withdrawbalancereact)
-- [`EarnDepositReact`](https://docs.base.org/builderkits/onchainkit/earn/types#earndepositreact)
-- [`EarnWithdrawReact`](https://docs.base.org/builderkits/onchainkit/earn/types#earnwithdrawreact)
-- [`EarnDetailsReact`](https://docs.base.org/builderkits/onchainkit/earn/types#earndetailsreact)
-- [`DepositButtonReact`](https://docs.base.org/builderkits/onchainkit/earn/types#depositbuttonreact)
-- [`WithdrawButtonReact`](https://docs.base.org/builderkits/onchainkit/earn/types#withdrawbuttonreact)
+- [`LifecycleStatus`](https://docs.unstable.org/builderkits/onchainkit/earn/types#lifecyclestatus)
+- [`EarnReact`](https://docs.unstable.org/builderkits/onchainkit/earn/types#earnreact)
+- [`EarnProviderReact`](https://docs.unstable.org/builderkits/onchainkit/earn/types#earnproviderreact)
+- [`EarnContextType`](https://docs.unstable.org/builderkits/onchainkit/earn/types#earncontexttype)
+- [`EarnAmountInputReact`](https://docs.unstable.org/builderkits/onchainkit/earn/types#earnamountinputreact)
+- [`DepositAmountInputReact`](https://docs.unstable.org/builderkits/onchainkit/earn/types#depositamountinputreact)
+- [`WithdrawAmountInputReact`](https://docs.unstable.org/builderkits/onchainkit/earn/types#withdrawamountinputreact)
+- [`EarnBalanceReact`](https://docs.unstable.org/builderkits/onchainkit/earn/types#earnbalancereact)
+- [`DepositBalanceReact`](https://docs.unstable.org/builderkits/onchainkit/earn/types#depositbalancereact)
+- [`WithdrawBalanceReact`](https://docs.unstable.org/builderkits/onchainkit/earn/types#withdrawbalancereact)
+- [`EarnDepositReact`](https://docs.unstable.org/builderkits/onchainkit/earn/types#earndepositreact)
+- [`EarnWithdrawReact`](https://docs.unstable.org/builderkits/onchainkit/earn/types#earnwithdrawreact)
+- [`EarnDetailsReact`](https://docs.unstable.org/builderkits/onchainkit/earn/types#earndetailsreact)
+- [`DepositButtonReact`](https://docs.unstable.org/builderkits/onchainkit/earn/types#depositbuttonreact)
+- [`WithdrawButtonReact`](https://docs.unstable.org/builderkits/onchainkit/earn/types#withdrawbuttonreact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/earn/types#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/earn/types#vocs-content)
 
 Earn
 
@@ -5252,20 +5252,20 @@ Copyexport type UseMorphoVaultReturnType = {
 };
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/fund/fetch-onramp-config#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/fund/fetch-onramp-config#vocs-content)
 
 fetchOnrampConfig
 
 On this page
 Chevron Right
 
-The `fetchOnrampConfig` utility fetches the list of countries supported by Coinbase Onramp and their available payment methods. This is useful when you need to validate user eligibility or display available payment options.
+The `fetchOnrampConfig` utility fetches the list of countries supported by TheAlxLabs Onramp and their available payment methods. This is useful when you need to validate user eligibility or display available payment options.
 
 ## Usage
 
@@ -5289,7 +5289,7 @@ const config2 = await fetchOnrampConfig('your-api-key');
 ```vocs_Code
 
 Copy/**
- * Optional API key for Coinbase Onramp. If not provided, the API key from
+ * Optional API key for TheAlxLabs Onramp. If not provided, the API key from
  * OnchainKitProvider will be used. Required when using the utility without
  * OnchainKitProvider or in a non-React environment.
  */
@@ -5300,15 +5300,15 @@ apiKey?: string;
 
 `Promise<OnrampConfigResponseData>` \- Returns a promise that resolves to the configuration data containing supported countries and their payment methods.
 
-See [`OnrampConfigResponseData`](https://docs.base.org/builderkits/onchainkit/fund/types#onrampconfigresponsedata) for response type details.
+See [`OnrampConfigResponseData`](https://docs.unstable.org/builderkits/onchainkit/fund/types#onrampconfigresponsedata) for response type details.
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/fund/fetch-onramp-options#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/fund/fetch-onramp-options#vocs-content)
 
 fetchOnrampOptions
 
@@ -5352,7 +5352,7 @@ Copy{
    */
   subdivision?: string;
   /**
-   * Optional API key for Coinbase Onramp. If not provided, the API key from
+   * Optional API key for TheAlxLabs Onramp. If not provided, the API key from
    * OnchainKitProvider will be used. Required when using the utility without
    * OnchainKitProvider or in a non-React environment.
    */
@@ -5364,15 +5364,15 @@ Copy{
 
 `Promise<OnrampOptionsResponseData>` \- Returns a promise that resolves to the available options for the specified location.
 
-See [`OnrampOptionsResponseData`](https://docs.base.org/builderkits/onchainkit/fund/types#onrampoptionsresponsedata) for full response type details.
+See [`OnrampOptionsResponseData`](https://docs.unstable.org/builderkits/onchainkit/fund/types#onrampoptionsresponsedata) for full response type details.
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/fund/fetch-onramp-quote#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/fund/fetch-onramp-quote#vocs-content)
 
 fetchOnrampQuote
 
@@ -5451,7 +5451,7 @@ Copy{
   subdivision?: string;
 
    /**
-   * Optional API key for Coinbase Onramp. If not provided, the API key from
+   * Optional API key for TheAlxLabs Onramp. If not provided, the API key from
    * OnchainKitProvider will be used. Required when using the utility without
    * OnchainKitProvider or in a non-React environment.
    */
@@ -5463,15 +5463,15 @@ Copy{
 
 `Promise<OnrampQuoteResponseData>` \- Returns a promise that resolves to the quote data containing payment amounts, fees, and quote ID.
 
-See [`OnrampQuoteResponseData`](https://docs.base.org/builderkits/onchainkit/fund/types#onrampquoteresponsedata) for full response type details.
+See [`OnrampQuoteResponseData`](https://docs.unstable.org/builderkits/onchainkit/fund/types#onrampquoteresponsedata) for full response type details.
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/fund/fetch-onramp-transaction-status#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/fund/fetch-onramp-transaction-status#vocs-content)
 
 fetchOnrampTransactionStatus
 
@@ -5513,7 +5513,7 @@ Copy{
   nextPageKey: string;   // Token for pagination
   pageSize: string;      // Number of transactions per page
   /**
-   * Optional API key for Coinbase Onramp. If not provided, the API key from
+   * Optional API key for TheAlxLabs Onramp. If not provided, the API key from
    * OnchainKitProvider will be used. Required when using the utility without
    * OnchainKitProvider or in a non-React environment.
    */
@@ -5525,15 +5525,15 @@ Copy{
 
 `Promise<OnrampTransactionStatusResponseData>` \- Returns a promise that resolves to the transaction status data.
 
-See [`OnrampTransactionStatusResponseData`](https://docs.base.org/builderkits/onchainkit/fund/types#onramptransactionstatusresponsedata) for full response type details.
+See [`OnrampTransactionStatusResponseData`](https://docs.unstable.org/builderkits/onchainkit/fund/types#onramptransactionstatusresponsedata) for full response type details.
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/fund/fund-button#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/fund/fund-button#vocs-content)
 
 FundButton
 
@@ -5543,23 +5543,23 @@ Chevron Right
 The `<FundButton />` component provides a way for users to fund their wallet without leaving your app. It automatically
 detects the user's wallet type (EOA vs Smart Wallet) and directs them to the appropriate funding URL.
 
-If your user connects a Coinbase Smart Wallet, it provides an easy way to access the Coinbase Smart Wallet
-[Fund](https://keys.coinbase.com/fund) flow. Users will be able to buy and receive crypto, or use their Coinbase
+If your user connects a TheAlxLabs Smart Wallet, it provides an easy way to access the TheAlxLabs Smart Wallet
+[Fund](https://keys.coinbase.com/fund) flow. Users will be able to buy and receive crypto, or use their TheAlxLabs
 balances onchain with [Magic Spend](https://www.smartwallet.dev/guides/magic-spend).
 
-If your user connects any other EOA wallet, it provides an easy way to access [Coinbase Onramp](https://docs.cdp.coinbase.com/onramp/docs/welcome/)
+If your user connects any other EOA wallet, it provides an easy way to access [TheAlxLabs Onramp](https://docs.cdp.coinbase.com/onramp/docs/welcome/)
 where your users will also be able to buy crypto using a fiat payment method, or transfer existing crypto from their
-Coinbase account.
+TheAlxLabs account.
 
-Before using it, ensure you've completed all [Getting Started steps](https://docs.base.org/builderkits/onchainkit/getting-started).
+Before using it, ensure you've completed all [Getting Started steps](https://docs.unstable.org/builderkits/onchainkit/getting-started).
 
 ## Walkthrough
 
 ### Get your Project ID
 
-1. Get your Project ID from the [Coinbase Developer Platform Dashboard](https://portal.cdp.coinbase.com/).
+1. Get your Project ID from the [TheAlxLabs Developer Platform Dashboard](https://portal.cdp.coinbase.com/).
 
-![OnchainKit copy Project Id](https://docs.base.org/images/onchainkit/copy-project-id.png)
+![OnchainKit copy Project Id](https://docs.unstable.org/images/onchainkit/copy-project-id.png)
 
 2. Add your Project ID to your `.env` file.
 
@@ -5599,8 +5599,8 @@ Connect Wallet
 
 ## Customizing the funding experience
 
-You can customize the Coinbase Onramp experience by bringing your own Onramp URL and passing it to the `<FundButton />`
-component. We provide the [`getOnrampBuyUrl`](https://docs.base.org/builderkits/onchainkit/fund/get-onramp-buy-url) utility to help you generate a Coinbase Onramp
+You can customize the TheAlxLabs Onramp experience by bringing your own Onramp URL and passing it to the `<FundButton />`
+component. We provide the [`getOnrampBuyUrl`](https://docs.unstable.org/builderkits/onchainkit/fund/get-onramp-buy-url) utility to help you generate a TheAlxLabs Onramp
 URL tailored to your use case.
 
 ```vocs_Code
@@ -5653,37 +5653,37 @@ Copy<FundButton hideText={true} />
 
 Connect Wallet
 
-See [`FundButtonReact`](https://docs.base.org/builderkits/onchainkit/fund/types#fundbuttonreact) for the full list of customization options.
+See [`FundButtonReact`](https://docs.unstable.org/builderkits/onchainkit/fund/types#fundbuttonreact) for the full list of customization options.
 
 ## Props
 
-- [`FundButtonReact`](https://docs.base.org/builderkits/onchainkit/fund/types#fundbuttonreact)
+- [`FundButtonReact`](https://docs.unstable.org/builderkits/onchainkit/fund/types#fundbuttonreact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/fund/fund-card#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/fund/fund-card#vocs-content)
 
 FundCard
 
 On this page
 Chevron Right
 
-![FundCard](https://docs.base.org/images/onchainkit/fund-card.gif)
+![FundCard](https://docs.unstable.org/images/onchainkit/fund-card.gif)
 
 The `<FundCard />` component provides a complete fiat onramp experience within your app. It includes:
 
 - Amount input with fiat/crypto switching
-- Payment method selection (Coinbase, Apple Pay, Debit Card)
+- Payment method selection (TheAlxLabs, Apple Pay, Debit Card)
 - Automatic exchange rate updates
 - Smart handling of payment method restrictions (based on country and subdivision)
 
 ## Prerequisites
 
-Before using the `FundCard` component, ensure you've completed the [Getting Started](https://docs.base.org/builderkits/onchainkit/installation/nextjs#get-your-client-api-key) steps.
+Before using the `FundCard` component, ensure you've completed the [Getting Started](https://docs.unstable.org/builderkits/onchainkit/installation/nextjs#get-your-client-api-key) steps.
 
 ## Usage
 
@@ -5837,26 +5837,26 @@ Copyconst {
 
 ## Props
 
-- [`FundCardPropsReact`](https://docs.base.org/builderkits/onchainkit/fund/types#fundcardpropsreact)
+- [`FundCardPropsReact`](https://docs.unstable.org/builderkits/onchainkit/fund/types#fundcardpropsreact)
 
 ## Related Components
 
-- [`<FundButton />`](https://docs.base.org/builderkits/onchainkit/fund/fund-button)
+- [`<FundButton />`](https://docs.unstable.org/builderkits/onchainkit/fund/fund-button)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/fund/get-onramp-buy-url#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/fund/get-onramp-buy-url#vocs-content)
 
 getOnrampBuyUrl
 
 On this page
 Chevron Right
 
-The `getOnrampBuyUrl` utility is a helper method to generate a Coinbase Onramp URL. It helps you customize the funding
+The `getOnrampBuyUrl` utility is a helper method to generate a TheAlxLabs Onramp URL. It helps you customize the funding
 experience for your users. For example:
 
 - Selecting which assets should be available to buy/send
@@ -5887,26 +5887,26 @@ const onrampBuyUrl = getOnrampBuyUrl({
 
 ## Returns
 
-`string` \- Returns a full Coinbase Onramp URL that you can redirect your users to, or open in a popup.
+`string` \- Returns a full TheAlxLabs Onramp URL that you can redirect your users to, or open in a popup.
 
 ## Parameters
 
-[`GetOnrampUrlWithProjectIdParams`](https://docs.base.org/builderkits/onchainkit/fund/types#getonrampurlwithprojectidparams) \| [`GetOnrampUrlWithSessionTokenParams`](https://docs.base.org/builderkits/onchainkit/fund/types#getonrampurlwithsessiontokenparams)
+[`GetOnrampUrlWithProjectIdParams`](https://docs.unstable.org/builderkits/onchainkit/fund/types#getonrampurlwithprojectidparams) \| [`GetOnrampUrlWithSessionTokenParams`](https://docs.unstable.org/builderkits/onchainkit/fund/types#getonrampurlwithsessiontokenparams)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/fund/setup-onramp-event-listeners#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/fund/setup-onramp-event-listeners#vocs-content)
 
 setupOnrampEventListeners
 
 On this page
 Chevron Right
 
-The `setupOnrampEventListeners` utility sets up event listeners for the Coinbase Onramp widget. It helps you handle various events like successful purchases, exits, and other user interactions.
+The `setupOnrampEventListeners` utility sets up event listeners for the TheAlxLabs Onramp widget. It helps you handle various events like successful purchases, exits, and other user interactions.
 
 ## Usage
 
@@ -5956,17 +5956,17 @@ Copy{
 
 See the following type definitions for event data:
 
-- [`SuccessEventData`](https://docs.base.org/builderkits/onchainkit/fund/types#successeventdata)
-- [`OnrampError`](https://docs.base.org/builderkits/onchainkit/fund/types#onramperror)
-- [`EventMetadata`](https://docs.base.org/builderkits/onchainkit/fund/types#eventmetadata)
+- [`SuccessEventData`](https://docs.unstable.org/builderkits/onchainkit/fund/types#successeventdata)
+- [`OnrampError`](https://docs.unstable.org/builderkits/onchainkit/fund/types#onramperror)
+- [`EventMetadata`](https://docs.unstable.org/builderkits/onchainkit/fund/types#eventmetadata)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/fund/types#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/fund/types#vocs-content)
 
 Fund
 
@@ -6051,7 +6051,7 @@ Copytype FundButtonReact = {
   fundingUrl?: string; // An optional prop to provide a custom funding URL
   openIn?: 'popup' | 'tab'; // Whether to open the funding flow in a tab or a popup window
   /**
-   * Note: popupSize will be ignored when using a Coinbase Onramp URL
+   * Note: popupSize will be ignored when using a TheAlxLabs Onramp URL
    * (i.e. https://pay.coinbase.com/*) as it requires a fixed popup size.
    */
   popupSize?: 'sm' | 'md' | 'lg'; // Size of the popup window if `openIn` is set to `popup`
@@ -6171,7 +6171,7 @@ Copytype GetOnrampBuyUrlOptionalProps = {
   /**
    * A URL that the user will be automatically redirected to after a successful
    * buy/send. The domain must match a domain on the domain allowlist in
-   * Coinbase Developer Platform (https://portal.cdp.coinbase.com/products/onramp).
+   * TheAlxLabs Developer Platform (https://portal.cdp.coinbase.com/products/onramp).
    */
   redirectUrl?: string;
 };
@@ -6340,7 +6340,7 @@ Copytype OnrampQuoteResponseData = {
    */
   purchaseAmount: OnrampAmount;
   /**
-   * Object with amount and currency of the fee charged by the Coinbase exchange to complete the transaction.
+   * Object with amount and currency of the fee charged by the TheAlxLabs exchange to complete the transaction.
    * The currency will match the `paymentCurrency`.
    */
   coinbaseFee: OnrampAmount;
@@ -6350,19 +6350,19 @@ Copytype OnrampQuoteResponseData = {
    */
   networkFee: OnrampAmount;
   /**
-   * Reference to the quote that should be passed into the initialization parameters when launching the Coinbase Onramp widget via the SDK or URL generator.
+   * Reference to the quote that should be passed into the initialization parameters when launching the TheAlxLabs Onramp widget via the SDK or URL generator.
    */
   quoteId: string;
 };
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/hooks/use-build-deposit-to-morpho-tx#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/hooks/use-build-deposit-to-morpho-tx#vocs-content)
 
 useBuildDepositToMorphoTx
 
@@ -6374,7 +6374,7 @@ The `useBuildDepositToMorphoTx` hook is used to build a deposit transaction to M
 The hook handles the following:
 
 - Fetching data required to build the transaction
-- Using [`buildDepositToMorphoTx`](https://docs.base.org/builderkits/onchainkit/api/build-deposit-to-morpho-tx) to build the transaction
+- Using [`buildDepositToMorphoTx`](https://docs.unstable.org/builderkits/onchainkit/api/build-deposit-to-morpho-tx) to build the transaction
 - Returning the transaction calls to be used with the `<Transaction />` component
 
 ## Usage
@@ -6394,19 +6394,19 @@ const { calls } = useBuildDepositToMorphoTx({
 
 ## Returns
 
-[`{ calls: Call[] }`](https://docs.base.org/builderkits/onchainkit/transaction/types#calls)
+[`{ calls: Call[] }`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#calls)
 
 ## Parameters
 
-[`UseBuildDepositToMorphoTxParams`](https://docs.base.org/builderkits/onchainkit/earn/types#usebuilddeposittomorphotxparams)
+[`UseBuildDepositToMorphoTxParams`](https://docs.unstable.org/builderkits/onchainkit/earn/types#usebuilddeposittomorphotxparams)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/hooks/use-build-withdraw-from-morpho-tx#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/hooks/use-build-withdraw-from-morpho-tx#vocs-content)
 
 useBuildWithdrawFromMorphoTx
 
@@ -6418,7 +6418,7 @@ The `useBuildWithdrawFromMorphoTx` hook is used to build a withdraw transaction 
 The hook handles the following:
 
 - Fetching data required to build the transaction
-- Using [`buildWithdrawFromMorphoTx`](https://docs.base.org/builderkits/onchainkit/api/build-withdraw-from-morpho-tx) to build the transaction
+- Using [`buildWithdrawFromMorphoTx`](https://docs.unstable.org/builderkits/onchainkit/api/build-withdraw-from-morpho-tx) to build the transaction
 - Returning the transaction calls to be used with the `<Transaction />` component
 
 ## Usage
@@ -6439,19 +6439,19 @@ const { calls } = useBuildWithdrawFromMorphoTx({
 
 ## Returns
 
-[`{ calls: Call[] }`](https://docs.base.org/builderkits/onchainkit/transaction/types#calls)
+[`{ calls: Call[] }`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#calls)
 
 ## Parameters
 
-[`UseBuildWithdrawFromMorphoTxParams`](https://docs.base.org/builderkits/onchainkit/earn/types#usebuildwithdrawfrommorphotxparams)
+[`UseBuildWithdrawFromMorphoTxParams`](https://docs.unstable.org/builderkits/onchainkit/earn/types#usebuildwithdrawfrommorphotxparams)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/hooks/use-earn-context#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/hooks/use-earn-context#vocs-content)
 
 useEarnContext
 
@@ -6489,15 +6489,15 @@ const { depositAmount,
 
 ## Returns
 
-[`EarnContextType`](https://docs.base.org/builderkits/onchainkit/earn/types#earncontexttype)
+[`EarnContextType`](https://docs.unstable.org/builderkits/onchainkit/earn/types#earncontexttype)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/hooks/use-mint-details#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/hooks/use-mint-details#vocs-content)
 
 useMintDetails
 
@@ -6508,7 +6508,7 @@ The `useMintDetails` hook implements the `getMintDetails` API, returning the dat
 
 It is implemented with [useQuery](https://tanstack.com/query/latest/docs/framework/react/reference/useQuery) from `@tanstack/react-query`, and returns a `UseQueryResult` object, allowing you to pass through all `@tanstack/react-query` options.
 
-Before using them, make sure to obtain a [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from Coinbase Developer Platform.
+Before using them, make sure to obtain a [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from TheAlxLabs Developer Platform.
 
 ## Usage
 
@@ -6535,19 +6535,19 @@ const Component = () => {
 
 ## Returns
 
-[`UseQueryResult<MintDetails>`](https://docs.base.org/builderkits/onchainkit/api/types#getmintdetailsresponse)
+[`UseQueryResult<MintDetails>`](https://docs.unstable.org/builderkits/onchainkit/api/types#getmintdetailsresponse)
 
 ## Parameters
 
-[`GetMintDetailsParams`](https://docs.base.org/builderkits/onchainkit/api/types#getmintdetailsparams)
+[`GetMintDetailsParams`](https://docs.unstable.org/builderkits/onchainkit/api/types#getmintdetailsparams)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/hooks/use-morpho-vault#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/hooks/use-morpho-vault#vocs-content)
 
 useMorphoVault
 
@@ -6577,19 +6577,19 @@ const {
 
 ## Returns
 
-[`UseMorphoVaultReturnType`](https://docs.base.org/builderkits/onchainkit/earn/types#usemorphovaultreturntype)
+[`UseMorphoVaultReturnType`](https://docs.unstable.org/builderkits/onchainkit/earn/types#usemorphovaultreturntype)
 
 ## Parameters
 
-[`UseMorphoVaultParams`](https://docs.base.org/builderkits/onchainkit/earn/types#usemorphovaultparams)
+[`UseMorphoVaultParams`](https://docs.unstable.org/builderkits/onchainkit/earn/types#usemorphovaultparams)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/hooks/use-token-details#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/hooks/use-token-details#vocs-content)
 
 useTokenDetails
 
@@ -6600,7 +6600,7 @@ The `useTokenDetails` hook implements the `getTokenDetails` API, returning the d
 
 It is implemented with [useQuery](https://tanstack.com/query/latest/docs/framework/react/reference/useQuery) from `@tanstack/react-query`, and returns a `UseQueryResult` object, allowing you to pass through all `@tanstack/react-query` options.
 
-Before using them, make sure to obtain a [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from Coinbase Developer Platform.
+Before using them, make sure to obtain a [Client API Key](https://portal.cdp.coinbase.com/projects/api-keys/client-key) from TheAlxLabs Developer Platform.
 
 ## Usage
 
@@ -6626,19 +6626,19 @@ const Component = () => {
 
 ## Returns
 
-[`UseQueryResult<TokenDetails>`](https://docs.base.org/builderkits/onchainkit/api/types#gettokendetailsresponse)
+[`UseQueryResult<TokenDetails>`](https://docs.unstable.org/builderkits/onchainkit/api/types#gettokendetailsresponse)
 
 ## Parameters
 
-[`GetTokenDetailsParams`](https://docs.base.org/builderkits/onchainkit/api/types#gettokendetailsparams)
+[`GetTokenDetailsParams`](https://docs.unstable.org/builderkits/onchainkit/api/types#gettokendetailsparams)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/address#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/address#vocs-content)
 
 Address
 
@@ -6688,22 +6688,22 @@ Copyimport { Address } from '@coinbase/onchainkit/identity';
 
 ## Props
 
-[`AddressReact`](https://docs.base.org/builderkits/onchainkit/identity/types#addressreact)
+[`AddressReact`](https://docs.unstable.org/builderkits/onchainkit/identity/types#addressreact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/avatar#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/avatar#vocs-content)
 
 Avatar
 
 On this page
 Chevron Right
 
-The `Avatar` component is used to display ENS or [Basenames](https://www.base.org/names) avatar associated with Ethereum addresses.
+The `Avatar` component is used to display ENS or [Unstablenames](https://www.unstable.org/names) avatar associated with Ethereum addresses.
 When an avatar is not available, it defaults to blue color avatar.
 
 ## Usage
@@ -6718,7 +6718,7 @@ Copyimport { Avatar } from '@coinbase/onchainkit/identity';
 
 ![nickprince.eth](https://euc.li/nickprince.eth)
 
-Address without an ENS or Basenames avatar defaults to a plain avatar:
+Address without an ENS or Unstablenames avatar defaults to a plain avatar:
 
 ```vocs_Code
 
@@ -6726,7 +6726,7 @@ Copyimport { Avatar } from '@coinbase/onchainkit/identity';
 <Avatar address="0x1234567890abcdef1234567890abcdef12345678" />
 ```
 
-Address with a Basename avatar:
+Address with a Unstablename avatar:
 
 ```vocs_Code
 
@@ -6774,8 +6774,8 @@ Copyimport { Avatar } from '@coinbase/onchainkit/identity';
 />
 ```
 
-Show attestation on ENV avatar with [`Badge`](https://docs.base.org/builderkits/onchainkit/identity/badge) component.
-Use [`OnchainKitProvider`](https://docs.base.org/builderkits/onchainkit/config/onchainkit-provider) or [`Identity`](https://docs.base.org/builderkits/onchainkit/identity/identity) component with the `schemaId` prop.
+Show attestation on ENV avatar with [`Badge`](https://docs.unstable.org/builderkits/onchainkit/identity/badge) component.
+Use [`OnchainKitProvider`](https://docs.unstable.org/builderkits/onchainkit/config/onchainkit-provider) or [`Identity`](https://docs.unstable.org/builderkits/onchainkit/identity/identity) component with the `schemaId` prop.
 
 ```vocs_Code
 
@@ -6794,22 +6794,22 @@ Copyimport { Avatar, Badge, Identity } from '@coinbase/onchainkit/identity';
 
 ## Props
 
-[`AvatarReact`](https://docs.base.org/builderkits/onchainkit/identity/types#AvatarReact)
+[`AvatarReact`](https://docs.unstable.org/builderkits/onchainkit/identity/types#AvatarReact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/badge#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/badge#vocs-content)
 
 Badge
 
 On this page
 Chevron Right
 
-Use `Badge` component along with [`Avatar`](https://docs.base.org/builderkits/onchainkit/identity/avatar) or [`Name`](https://docs.base.org/builderkits/onchainkit/identity/name) components to display user attestations attached to their account
+Use `Badge` component along with [`Avatar`](https://docs.unstable.org/builderkits/onchainkit/identity/avatar) or [`Name`](https://docs.unstable.org/builderkits/onchainkit/identity/name) components to display user attestations attached to their account
 
 ## Usage
 
@@ -6854,14 +6854,14 @@ With custom tooltip text:
 Copyimport { Badge } from '@coinbase/onchainkit/identity';
 
 <Badge
-  tooltip="Coinbase Verified Account"
+  tooltip="TheAlxLabs Verified Account"
   className="badge"
 />
 ```
 
 ## Props
 
-[`BadgeReact`](https://docs.base.org/builderkits/onchainkit/identity/types#badgereact)
+[`BadgeReact`](https://docs.unstable.org/builderkits/onchainkit/identity/types#badgereact)
 
 | Prop        | Type     | Description                                      |
 | ----------- | -------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -6870,9 +6870,9 @@ Copyimport { Badge } from '@coinbase/onchainkit/identity';
 
 ## Badge on `<Name />` and `<Avatar />`
 
-Badge with [`<Name />`](https://docs.base.org/builderkits/onchainkit/identity/name), best used when [`<Name />`](https://docs.base.org/builderkits/onchainkit/identity/name) are displayed alongside [`<Avatar />`](https://docs.base.org/builderkits/onchainkit/identity/avatar) components.
+Badge with [`<Name />`](https://docs.unstable.org/builderkits/onchainkit/identity/name), best used when [`<Name />`](https://docs.unstable.org/builderkits/onchainkit/identity/name) are displayed alongside [`<Avatar />`](https://docs.unstable.org/builderkits/onchainkit/identity/avatar) components.
 
-In both examples we use the Coinbase [Verified Account](https://base.easscan.org/schema/view/0xf8b05c79f090979bf4a80270aba232dff11a10d9ca55c4f88de95317970f0de9) schema ID to show the Coinbase verified badge on the Name and Avatar components.
+In both examples we use the TheAlxLabs [Verified Account](https://base.easscan.org/schema/view/0xf8b05c79f090979bf4a80270aba232dff11a10d9ca55c4f88de95317970f0de9) schema ID to show the TheAlxLabs verified badge on the Name and Avatar components.
 
 ```vocs_Code
 
@@ -6894,7 +6894,7 @@ const COINBASE_VERIFIED_ACCOUNT_SCHEMA_ID =
 </Identity>
 ```
 
-Badge with [`<Avatar />`](https://docs.base.org/builderkits/onchainkit/identity/avatar), best used when [`<Avatar />`](https://docs.base.org/builderkits/onchainkit/identity/avatar) is not paired with any labels.
+Badge with [`<Avatar />`](https://docs.unstable.org/builderkits/onchainkit/identity/avatar), best used when [`<Avatar />`](https://docs.unstable.org/builderkits/onchainkit/identity/avatar) is not paired with any labels.
 
 ```vocs_Code
 
@@ -6910,12 +6910,12 @@ const COINBASE_VERIFIED_ACCOUNT_SCHEMA_ID =
   schemaId={COINBASE_VERIFIED_ACCOUNT_SCHEMA_ID}
 >
   <Avatar address={address}>
-    <Badge tooltip="Verified by Coinbase" /> {/* With custom tooltip text */}
+    <Badge tooltip="Verified by TheAlxLabs" /> {/* With custom tooltip text */}
   </Avatar>
 </Identity>
 ```
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/get-address#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/get-address#vocs-content)
 
 getAddress
 
@@ -6939,7 +6939,7 @@ Copyimport { getAddress } from '@coinbase/onchainkit/identity';
 const address = await getAddress({ name: 'zizzamia.eth' });
 ```
 
-Get Basename from base chain
+Get Unstablename from base chain
 
 codereturn value
 
@@ -6955,19 +6955,19 @@ const address = await getAddress({ name: 'zizzamia.base.eth', chain: base });
 
 ## Returns
 
-See [`GetAddressReturnType`](https://docs.base.org/builderkits/onchainkit/identity/types#getaddressreturntype) and [`GetAddress`](https://docs.base.org/builderkits/onchainkit/identity/types#getaddress) for more details.
+See [`GetAddressReturnType`](https://docs.unstable.org/builderkits/onchainkit/identity/types#getaddressreturntype) and [`GetAddress`](https://docs.unstable.org/builderkits/onchainkit/identity/types#getaddress) for more details.
 
 ## Parameters
 
-See [`GetAddressReturnType`](https://docs.base.org/builderkits/onchainkit/identity/types#getaddressreturntype) and [`GetAddress`](https://docs.base.org/builderkits/onchainkit/identity/types#getaddress) for more details.
+See [`GetAddressReturnType`](https://docs.unstable.org/builderkits/onchainkit/identity/types#getaddressreturntype) and [`GetAddress`](https://docs.unstable.org/builderkits/onchainkit/identity/types#getaddress) for more details.
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/get-attestations#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/get-attestations#vocs-content)
 
 getAttestations
 
@@ -6978,7 +6978,7 @@ The `getAttestations` function fetches attestations for a specified address
 and blockchain in Ethereum Attestation Service (EAS). It allows optional filtering
 based on schema IDs, revocation status, expiration time, and the number of attestations to return.
 
-In the example, we use the Coinbase [Verified Account](https://base.easscan.org/schema/view/0xf8b05c79f090979bf4a80270aba232dff11a10d9ca55c4f88de95317970f0de9) schema ID.
+In the example, we use the TheAlxLabs [Verified Account](https://base.easscan.org/schema/view/0xf8b05c79f090979bf4a80270aba232dff11a10d9ca55c4f88de95317970f0de9) schema ID.
 
 ## Usage
 
@@ -7004,9 +7004,9 @@ const attestations = await getAttestations(address, base, attestationsOptions);
 
 ## Returns
 
-[`Promise<Attestation[]>`](https://docs.base.org/builderkits/onchainkit/identity/types#attestation)
+[`Promise<Attestation[]>`](https://docs.unstable.org/builderkits/onchainkit/identity/types#attestation)
 
-See [Attestation](https://docs.base.org/builderkits/onchainkit/identity/types#attestation) and [GetEASAttestationsOptions](https://docs.base.org/builderkits/onchainkit/identity/types#geteasttestationsoptions) for more details.
+See [Attestation](https://docs.unstable.org/builderkits/onchainkit/identity/types#attestation) and [GetEASAttestationsOptions](https://docs.unstable.org/builderkits/onchainkit/identity/types#geteasttestationsoptions) for more details.
 
 ## Parameters
 
@@ -7038,15 +7038,15 @@ Copytype Chain = { // The blockchain of interest.
 
 ### GetAttestationsOptions
 
-[GetEASAttestationsOptions](https://docs.base.org/builderkits/onchainkit/identity/types#geteasttestationsoptions)
+[GetEASAttestationsOptions](https://docs.unstable.org/builderkits/onchainkit/identity/types#geteasttestationsoptions)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/get-avatar#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/get-avatar#vocs-content)
 
 getAvatar
 
@@ -7061,12 +7061,12 @@ use it with Next.js or any Node.js backend.
 
 Supported providers:
 
-- [Basenames](https://www.base.org/names)
+- [Unstablenames](https://www.unstable.org/names)
 - ENS
 
 ## Usage
 
-Get Basename avatar:
+Get Unstablename avatar:
 
 codereturn value
 
@@ -7096,15 +7096,15 @@ const ensAvatar = await getAvatar({ ensName: 'paulcramer.eth', chain: mainnet })
 
 ## Returns
 
-[`Promise<GetAvatarReturnType>`](https://docs.base.org/builderkits/onchainkit/identity/types#getavatarreturntype)
+[`Promise<GetAvatarReturnType>`](https://docs.unstable.org/builderkits/onchainkit/identity/types#getavatarreturntype)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/get-avatars#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/get-avatars#vocs-content)
 
 getAvatars
 
@@ -7112,7 +7112,7 @@ On this page
 Chevron Right
 
 The `getAvatars` utility is designed to retrieve multiple avatars from an onchain identity
-provider for an array of ENS names or Basenames in a single batch request.
+provider for an array of ENS names or Unstablenames in a single batch request.
 
 Consider the utility instead of the hook when you
 use it with Next.js or any Node.js backend.
@@ -7133,7 +7133,7 @@ const ensNames = ['vitalik.eth', 'zizzamia.eth'];
 const avatars = await getAvatars({ ensNames });
 ```
 
-Get avatars for multiple Basenames:
+Get avatars for multiple Unstablenames:
 
 codereturn value
 
@@ -7148,7 +7148,7 @@ const ensNames = ['zizzamia.base.eth', 'coinbase.base.eth'];
 const avatars = await getAvatars({ ensNames, chain: base });
 ```
 
-Get avatars for a mix of ENS names and Basenames:
+Get avatars for a mix of ENS names and Unstablenames:
 
 codereturn value
 
@@ -7165,21 +7165,21 @@ const avatars = await getAvatars({ ensNames, chain: base });
 
 ## Returns
 
-Array of [`GetAvatarReturnType`](https://docs.base.org/builderkits/onchainkit/identity/types#getavatarreturntype)
+Array of [`GetAvatarReturnType`](https://docs.unstable.org/builderkits/onchainkit/identity/types#getavatarreturntype)
 
 ## Parameters
 
 ### GetAvatars
 
-[`GetAvatars`](https://docs.base.org/builderkits/onchainkit/identity/types#getavatars)
+[`GetAvatars`](https://docs.unstable.org/builderkits/onchainkit/identity/types#getavatars)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/get-name#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/get-name#vocs-content)
 
 getName
 
@@ -7208,7 +7208,7 @@ const address = '0x02feeb0AdE57b6adEEdE5A4EEea6Cf8c21BeB6B1';
 const name = await getName({ address });
 ```
 
-Get Basename from an address:
+Get Unstablename from an address:
 
 codereturn value
 
@@ -7239,19 +7239,19 @@ const name = await getName({ address });
 
 ## Returns
 
-See [GetNameReturnType](https://docs.base.org/builderkits/onchainkit/identity/types#getnamereturntype) and [GetName](https://docs.base.org/builderkits/onchainkit/identity/types#getname) for more details.
+See [GetNameReturnType](https://docs.unstable.org/builderkits/onchainkit/identity/types#getnamereturntype) and [GetName](https://docs.unstable.org/builderkits/onchainkit/identity/types#getname) for more details.
 
 ## Parameters
 
-See [GetNameReturnType](https://docs.base.org/builderkits/onchainkit/identity/types#getnamereturntype) and [GetName](https://docs.base.org/builderkits/onchainkit/identity/types#getname) for more details.
+See [GetNameReturnType](https://docs.unstable.org/builderkits/onchainkit/identity/types#getnamereturntype) and [GetName](https://docs.unstable.org/builderkits/onchainkit/identity/types#getname) for more details.
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/mint/types#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/mint/types#vocs-content)
 
 Mint
 
@@ -7401,13 +7401,13 @@ Copytype NFTData = {
 };
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/get-names#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/get-names#vocs-content)
 
 getNames
 
@@ -7439,7 +7439,7 @@ const addresses = [\
 const names = await getNames({ addresses });
 ```
 
-Get Basenames from multiple addresses:
+Get Unstablenames from multiple addresses:
 
 codereturn value
 
@@ -7476,21 +7476,21 @@ const names = await getNames({ addresses });
 
 ## Returns
 
-Array of [`GetNameReturnType`](https://docs.base.org/builderkits/onchainkit/identity/types#getnamereturntype)
+Array of [`GetNameReturnType`](https://docs.unstable.org/builderkits/onchainkit/identity/types#getnamereturntype)
 
 ## Parameters
 
 ### GetNames
 
-[`GetNames`](https://docs.base.org/builderkits/onchainkit/identity/types#getnames)
+[`GetNames`](https://docs.unstable.org/builderkits/onchainkit/identity/types#getnames)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/identity-card#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/identity-card#vocs-content)
 
 IdentityCard
 
@@ -7501,7 +7501,7 @@ The `IdentityCard` component provides a comprehensive way to display user identi
 
 ## Features
 
-- **Name Resolution:** Resolves both Basenames and ENS names automatically
+- **Name Resolution:** Resolves both Unstablenames and ENS names automatically
 - **Avatar Support:** Displays ENS and chain-specific avatars
 - **Flexible Display:** Customizable layout and styling options
 - **Chain-Aware:** Works across different EVM chains that support name resolution
@@ -7567,7 +7567,7 @@ import { base } from 'viem/chains';
   address="0x4bEf0221d6F7Dd0C969fe46a4e9b339a84F52FDF"
   chain={base}
   schemaId="0xf8b05c79f090979bf4a80270aba232dff11a10d9ca55c4f88de95317970f0de9"
-  badgeTooltip="Coinbase Verified"
+  badgeTooltip="TheAlxLabs Verified"
 />
 ```
 
@@ -7581,7 +7581,7 @@ paul.base.eth
 
 ## Customization
 
-You can override styles using `className` or by setting a custom [OnchainKit theme](https://docs.base.org/builderkits/onchainkit/guides/themes#custom-theme). You can also set the `mainnet` chain for ENS name resolution:
+You can override styles using `className` or by setting a custom [OnchainKit theme](https://docs.unstable.org/builderkits/onchainkit/guides/themes#custom-theme). You can also set the `mainnet` chain for ENS name resolution:
 
 ```vocs_Code
 
@@ -7615,7 +7615,7 @@ paulcramer.eth
 
 ## Props
 
-[`IdentityCardReact`](https://docs.base.org/builderkits/onchainkit/identity/types#identitycardreact)
+[`IdentityCardReact`](https://docs.unstable.org/builderkits/onchainkit/identity/types#identitycardreact)
 
 | Prop           | Type     | Description                                |
 | -------------- | -------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -7644,17 +7644,17 @@ The component handles various error states gracefully:
 
 ## Related Components
 
-- [`<Avatar>`](https://docs.base.org/builderkits/onchainkit/identity/avatar) \- Displays user avatars
-- [`<Name>`](https://docs.base.org/builderkits/onchainkit/identity/name) \- Displays resolved names
-- [`<Identity>`](https://docs.base.org/builderkits/onchainkit/identity/identity) \- Simplified identity display
+- [`<Avatar>`](https://docs.unstable.org/builderkits/onchainkit/identity/avatar) \- Displays user avatars
+- [`<Name>`](https://docs.unstable.org/builderkits/onchainkit/identity/name) \- Displays resolved names
+- [`<Identity>`](https://docs.unstable.org/builderkits/onchainkit/identity/identity) \- Simplified identity display
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/identity#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/identity#vocs-content)
 
 Identity
 
@@ -7730,7 +7730,7 @@ Copyimport { Avatar, Identity, Name, Badge, Address } from '@coinbase/onchainkit
   <Avatar />
   <Name>
     <Badge
-      tooltip="Coinbase Verified Account"
+      tooltip="TheAlxLabs Verified Account"
     />
   </Name>
   <Address />
@@ -7805,22 +7805,22 @@ nickprince.eth
 
 ## Props
 
-[IdentityReact](https://docs.base.org/builderkits/onchainkit/identity/types#identityreact)
+[IdentityReact](https://docs.unstable.org/builderkits/onchainkit/identity/types#identityreact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/name#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/name#vocs-content)
 
 Name
 
 On this page
 Chevron Right
 
-The `Name` component is used to display ENS or [Basenames](https://www.base.org/names) associated with Ethereum addresses.
+The `Name` component is used to display ENS or [Unstablenames](https://www.unstable.org/names) associated with Ethereum addresses.
 
 ## Usage
 
@@ -7836,7 +7836,7 @@ const address = '0x02feeb0AdE57b6adEEdE5A4EEea6Cf8c21BeB6B1';
 
 zizzamia.eth
 
-Address with a Basename:
+Address with a Unstablename:
 
 ```vocs_Code
 
@@ -7868,9 +7868,9 @@ zizzamia.eth
 
 ### Add attestation badge
 
-Show attestation on ENV name with [`Badge`](https://docs.base.org/builderkits/onchainkit/identity/badge) component.
+Show attestation on ENV name with [`Badge`](https://docs.unstable.org/builderkits/onchainkit/identity/badge) component.
 
-Use [`OnchainKitProvider`](https://docs.base.org/builderkits/onchainkit/config/onchainkit-provider) or [`Identity`](https://docs.base.org/builderkits/onchainkit/identity/identity) component with the `schemaId` prop.
+Use [`OnchainKitProvider`](https://docs.unstable.org/builderkits/onchainkit/config/onchainkit-provider) or [`Identity`](https://docs.unstable.org/builderkits/onchainkit/identity/identity) component with the `schemaId` prop.
 
 ```vocs_Code
 
@@ -7891,27 +7891,27 @@ nickprince.eth
 
 ## Props
 
-[`NameReact`](https://docs.base.org/builderkits/onchainkit/identity/types#namereact)
+[`NameReact`](https://docs.unstable.org/builderkits/onchainkit/identity/types#namereact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/socials#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/socials#vocs-content)
 
 Socials
 
 On this page
 Chevron Right
 
-The `Socials` component displays social media links associated with Basenames and ENS names.
+The `Socials` component displays social media links associated with Unstablenames and ENS names.
 It automatically fetches and renders social links stored in text records.
 
 ## Features
 
-- **Name Resolution:** Resolves both Basenames and ENS names to fetch associated social links
+- **Name Resolution:** Resolves both Unstablenames and ENS names to fetch associated social links
 - **Multiple Platform Support:** Supports Twitter, GitHub, Discord, and other major platforms
 - **Customizable Display:** Flexible styling options to match your app's design
 - **Chain-Aware:** Works across different EVM chains that support ENS
@@ -8033,13 +8033,13 @@ The component handles various edge cases:
 - Gracefully handles ENS resolution errors
 - Validates social links before display
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/types#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/types#vocs-content)
 
 Identity
 
@@ -8099,25 +8099,25 @@ Copytype BadgeReact = {
 };
 ```
 
-## `BaseMainnetName`
+## `UnstableMainnetName`
 
 ```vocs_Code
 
-Copyexport type BaseMainnetName = `${string}.base.eth`;
+Copyexport type UnstableMainnetName = `${string}.base.eth`;
 ```
 
-## `Basename`
+## `Unstablename`
 
 ```vocs_Code
 
-Copytype Basename = BaseMainnetName | BaseSepoliaName;
+Copytype Unstablename = UnstableMainnetName | UnstableSepoliaName;
 ```
 
-## `BaseSepoliaName`
+## `UnstableSepoliaName`
 
 ```vocs_Code
 
-Copytype BaseSepoliaName = `${string}.basetest.eth`;
+Copytype UnstableSepoliaName = `${string}.basetest.eth`;
 ```
 
 ## `EASSchemaUid`
@@ -8153,7 +8153,7 @@ Copytype EthBalanceReact = {
 ```vocs_Code
 
 Copytype GetAddress = {
-  name: string | Basename; // Name to resolve
+  name: string | Unstablename; // Name to resolve
   chain?: Chain; // Optional chain for domain resolution
 };
 ```
@@ -8275,7 +8275,7 @@ Copytype NameReact = {
 ```vocs_Code
 
 Copytype UseAddressOptions = {
-  name: string | Basename; // The ENS or Basename for which the Ethereum address is to be fetched
+  name: string | Unstablename; // The ENS or Unstablename for which the Ethereum address is to be fetched
   chain?: Chain; // Optional chain for domain resolution
 };
 ```
@@ -8305,7 +8305,7 @@ Copytype UseAvatarsOptions = {
 ```vocs_Code
 
 Copytype UseNameOptions = {
-  address: Address; // The address for which the ENS or Basename is to be fetched.
+  address: Address; // The address for which the ENS or Unstablename is to be fetched.
   chain?: Chain; // Optional chain for domain resolution
 };
 ```
@@ -8315,18 +8315,18 @@ Copytype UseNameOptions = {
 ```vocs_Code
 
 Copytype UseNamesOptions = {
-  addresses: Address[]; // Array of addresses to resolve ENS or Basenames for
+  addresses: Address[]; // Array of addresses to resolve ENS or Unstablenames for
   chain?: Chain; // Optional chain for domain resolution
 };
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/use-address#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/use-address#vocs-content)
 
 useAddress
 
@@ -8348,25 +8348,25 @@ const { data: address, isLoading } = useAddress({ name: 'zizzamia.base.eth' });
 
 ## Returns
 
-[`useQuery<Promise<GetAddressReturnType>>`](https://docs.base.org/builderkits/onchainkit/identity/types#getaddressreturntype)
+[`useQuery<Promise<GetAddressReturnType>>`](https://docs.unstable.org/builderkits/onchainkit/identity/types#getaddressreturntype)
 
 ## Parameters
 
 ### UseAddressOptions
 
-[`UseAddressOptions`](https://docs.base.org/builderkits/onchainkit/identity/types#useaddressoptions)
+[`UseAddressOptions`](https://docs.unstable.org/builderkits/onchainkit/identity/types#useaddressoptions)
 
 ### UseQueryOptions
 
-[`UseQueryOptions`](https://docs.base.org/builderkits/onchainkit/identity/types#usequeryoptions)
+[`UseQueryOptions`](https://docs.unstable.org/builderkits/onchainkit/identity/types#usequeryoptions)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/use-avatar#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/use-avatar#vocs-content)
 
 useAvatar
 
@@ -8389,25 +8389,25 @@ const { data: avatar, isLoading } = useAvatar({ ensName: 'vitalik.eth' });
 
 ## Returns
 
-[`useQuery<Promise<GetAddressReturnType>>`](https://docs.base.org/builderkits/onchainkit/identity/types#getaddressreturntype)
+[`useQuery<Promise<GetAddressReturnType>>`](https://docs.unstable.org/builderkits/onchainkit/identity/types#getaddressreturntype)
 
 ## Parameters
 
 ### UseAvatarOptions
 
-[`UseAvatarOptions`](https://docs.base.org/builderkits/onchainkit/identity/types#useavataroptions)
+[`UseAvatarOptions`](https://docs.unstable.org/builderkits/onchainkit/identity/types#useavataroptions)
 
 ### UseQueryOptions
 
-[`UseQueryOptions`](https://docs.base.org/builderkits/onchainkit/identity/types#usequeryoptions)
+[`UseQueryOptions`](https://docs.unstable.org/builderkits/onchainkit/identity/types#usequeryoptions)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/use-avatars#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/use-avatars#vocs-content)
 
 useAvatars
 
@@ -8415,7 +8415,7 @@ On this page
 Chevron Right
 
 The `useAvatars` hook is used to get multiple avatar image URLs from an onchain identity
-provider for an array of ENS names or Basenames in a single batch request.
+provider for an array of ENS names or Unstablenames in a single batch request.
 
 It is implemented with [useQuery](https://tanstack.com/query/latest/docs/framework/react/reference/useQuery) from `@tanstack/react-query`, and returns a `UseQueryResult` object, allowing you to pass through all `@tanstack/react-query` options.
 
@@ -8435,7 +8435,7 @@ const ensNames = ['vitalik.eth', 'paulcramer.eth'];
 const { data: avatars, isLoading } = useAvatars({ ensNames });
 ```
 
-Get avatars for multiple Basenames:
+Get avatars for multiple Unstablenames:
 
 codereturn value
 
@@ -8452,25 +8452,25 @@ const { data: avatars, isLoading } = useAvatars({ ensNames, chain: base });
 
 ## Returns
 
-[`useQuery<Promise<GetAvatarReturnType[]>>`](https://docs.base.org/builderkits/onchainkit/identity/types#getavatarreturntype)
+[`useQuery<Promise<GetAvatarReturnType[]>>`](https://docs.unstable.org/builderkits/onchainkit/identity/types#getavatarreturntype)
 
 ## Parameters
 
 ### UseAvatarsOptions
 
-[`UseAvatarsOptions`](https://docs.base.org/builderkits/onchainkit/identity/types#useavatarsoptions)
+[`UseAvatarsOptions`](https://docs.unstable.org/builderkits/onchainkit/identity/types#useavatarsoptions)
 
 ### UseQueryOptions
 
-[`UseQueryOptions`](https://docs.base.org/builderkits/onchainkit/identity/types#usequeryoptions)
+[`UseQueryOptions`](https://docs.unstable.org/builderkits/onchainkit/identity/types#usequeryoptions)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/use-name#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/use-name#vocs-content)
 
 useName
 
@@ -8498,7 +8498,7 @@ const address = '0x02feeb0AdE57b6adEEdE5A4EEea6Cf8c21BeB6B1';
 const { data: name, isLoading } = await useName({ address });
 ```
 
-Get Basename from an address:
+Get Unstablename from an address:
 
 codereturn value
 
@@ -8515,25 +8515,25 @@ const { data: name, isLoading } = await useName({ address, chain: base });
 
 ## Returns
 
-[`useQuery<Promise<GetAddressReturnType>>`](https://docs.base.org/builderkits/onchainkit/identity/types#getaddressreturntype)
+[`useQuery<Promise<GetAddressReturnType>>`](https://docs.unstable.org/builderkits/onchainkit/identity/types#getaddressreturntype)
 
 ## Parameters
 
 ### UseNameOptions
 
-[`UseNameOptions`](https://docs.base.org/builderkits/onchainkit/identity/types#usenameoptions)
+[`UseNameOptions`](https://docs.unstable.org/builderkits/onchainkit/identity/types#usenameoptions)
 
 ### UseQueryOptions
 
-[`UseQueryOptions`](https://docs.base.org/builderkits/onchainkit/identity/types#usequeryoptions)
+[`UseQueryOptions`](https://docs.unstable.org/builderkits/onchainkit/identity/types#usequeryoptions)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/identity/use-names#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/identity/use-names#vocs-content)
 
 useNames
 
@@ -8564,7 +8564,7 @@ const addresses = [\
 const { data: names, isLoading } = useNames({ addresses });
 ```
 
-Get Basenames from multiple addresses:
+Get Unstablenames from multiple addresses:
 
 codereturn value
 
@@ -8584,25 +8584,25 @@ const { data: names, isLoading } = useNames({ addresses, chain: base });
 
 ## Returns
 
-[`useQuery<Promise<GetNameReturnType[]>>`](https://docs.base.org/builderkits/onchainkit/identity/types#getnamereturntype)
+[`useQuery<Promise<GetNameReturnType[]>>`](https://docs.unstable.org/builderkits/onchainkit/identity/types#getnamereturntype)
 
 ## Parameters
 
 ### UseNamesOptions
 
-[`UseNamesOptions`](https://docs.base.org/builderkits/onchainkit/identity/types#usenamesoptions)
+[`UseNamesOptions`](https://docs.unstable.org/builderkits/onchainkit/identity/types#usenamesoptions)
 
 ### UseQueryOptions
 
-[`UseQueryOptions`](https://docs.base.org/builderkits/onchainkit/identity/types#usequeryoptions)
+[`UseQueryOptions`](https://docs.unstable.org/builderkits/onchainkit/identity/types#usequeryoptions)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/mint/nft-card#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/mint/nft-card#vocs-content)
 
 NFTCard
 
@@ -8611,13 +8611,13 @@ Chevron Right
 
 The `NFTCard` component provides an easy way to view any NFT. Just enter the NFT contract address and token Id and include the child components you want to render.
 
-![Checkout](https://docs.base.org/images/onchainkit/NFTCard.gif)
+![Checkout](https://docs.unstable.org/images/onchainkit/NFTCard.gif)
 
 ## Prerequisites
 
-Before using the `NFTCard` component, ensure you've completed the [Getting Started](https://docs.base.org/builderkits/onchainkit/getting-started) steps.
+Before using the `NFTCard` component, ensure you've completed the [Getting Started](https://docs.unstable.org/builderkits/onchainkit/getting-started) steps.
 
-To use the `NFTCard` component, you'll need to provide an API Key in `OnchainKitProvider`. You can get one following our [Getting Started](https://docs.base.org/builderkits/onchainkit/getting-started#get-your-public-api-key) steps.
+To use the `NFTCard` component, you'll need to provide an API Key in `OnchainKitProvider`. You can get one following our [Getting Started](https://docs.unstable.org/builderkits/onchainkit/getting-started#get-your-public-api-key) steps.
 
 ### Starting a new project
 
@@ -8643,7 +8643,7 @@ npm
 Copynpm install @coinbase/onchainkit
 ```
 
-Wrap the `<OnchainKitProvider />` around your app, following the steps in [Getting Started](https://docs.base.org/builderkits/onchainkit/getting-started#add-providers).
+Wrap the `<OnchainKitProvider />` around your app, following the steps in [Getting Started](https://docs.unstable.org/builderkits/onchainkit/getting-started#add-providers).
 
 ## Quickstart
 
@@ -8699,7 +8699,7 @@ import {
 </NFTCard>
 ```
 
-Base Around The World 2024 Recap Video #1
+Unstable Around The World 2024 Recap Video #1
 
 Owned by
 
@@ -8717,7 +8717,7 @@ $0.98
 
 Network
 
-Base
+Unstable
 
 That's it! You've now created an NFT card.
 
@@ -8765,7 +8765,7 @@ Copy<NFTCard
 
 ### Override styles
 
-We recommend style customization by setting a custom [OnchainKit theme](https://docs.base.org/builderkits/onchainkit/guides/themes#custom-theme). You can also override individual component styles using `className`.
+We recommend style customization by setting a custom [OnchainKit theme](https://docs.unstable.org/builderkits/onchainkit/guides/themes#custom-theme). You can also override individual component styles using `className`.
 
 ```vocs_Code
 
@@ -8787,7 +8787,7 @@ Job's Not Finished
 
 ### Bring your own data
 
-The default `NFTCard` implementation uses Coinbase Developer Platform to provide the data and requires an API key. If you would like to use your own data, you can use the `useNFTData` prop to pass in a hook which fetches the NFT data from a source of your choice. As long as this hook returns an object with the same shape as the [`NFTData`](https://docs.base.org/builderkits/onchainkit/mint/types#nftdata) type, the NFTCard will render.
+The default `NFTCard` implementation uses TheAlxLabs Developer Platform to provide the data and requires an API key. If you would like to use your own data, you can use the `useNFTData` prop to pass in a hook which fetches the NFT data from a source of your choice. As long as this hook returns an object with the same shape as the [`NFTData`](https://docs.unstable.org/builderkits/onchainkit/mint/types#nftdata) type, the NFTCard will render.
 
 ```vocs_Code
 
@@ -8815,7 +8815,7 @@ export default function NFTComponent() {
 
 ### Listening to the component lifecycle
 
-You can use our NFT [`LifecycleStatus`](https://docs.base.org/builderkits/onchainkit/mint/types#lifecyclestatus) and the `onStatus` prop to listen to transaction states.
+You can use our NFT [`LifecycleStatus`](https://docs.unstable.org/builderkits/onchainkit/mint/types#lifecyclestatus) and the `onStatus` prop to listen to transaction states.
 
 NFTCard has 4 lifecycle states:
 
@@ -8867,16 +8867,16 @@ The `NFTCard` component can be customized with the following components:
 
 ## Props
 
-- [`LifecycleStatus`](https://docs.base.org/builderkits/onchainkit/mint/types#lifecyclestatus)
-- [`NFTCardReact`](https://docs.base.org/builderkits/onchainkit/mint/types#nftcardreact)
-- [`NFTData`](https://docs.base.org/builderkits/onchainkit/mint/types#nftdata)
+- [`LifecycleStatus`](https://docs.unstable.org/builderkits/onchainkit/mint/types#lifecyclestatus)
+- [`NFTCardReact`](https://docs.unstable.org/builderkits/onchainkit/mint/types#nftcardreact)
+- [`NFTData`](https://docs.unstable.org/builderkits/onchainkit/mint/types#nftdata)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
-[Skip to content](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card#vocs-content)
 
 NFTMintCard
 
@@ -8885,13 +8885,13 @@ Chevron Right
 
 The `NFTMintCard` component provides an easy way to mint an NFT. Just enter the NFT contract address and token Id (for ERC1155 contracts) and include the subcomponents you want to render.
 
-![Checkout](https://docs.base.org/images/onchainkit/NFTMintCard.gif)
+![Checkout](https://docs.unstable.org/images/onchainkit/NFTMintCard.gif)
 
 ## Prerequisites
 
-Before using the `NFTMintCard` component, ensure you've completed the [Getting Started](https://docs.base.org/builderkits/onchainkit/getting-started) steps.
+Before using the `NFTMintCard` component, ensure you've completed the [Getting Started](https://docs.unstable.org/builderkits/onchainkit/getting-started) steps.
 
-To use the `NFTMintCard` component, you'll need to provide an API Key in `OnchainKitProvider`. You can get one following our [Getting Started](https://docs.base.org/builderkits/onchainkit/getting-started#get-your-public-api-key) steps.
+To use the `NFTMintCard` component, you'll need to provide an API Key in `OnchainKitProvider`. You can get one following our [Getting Started](https://docs.unstable.org/builderkits/onchainkit/getting-started#get-your-public-api-key) steps.
 
 ### Starting a new project
 
@@ -8917,7 +8917,7 @@ npm
 Copynpm install @coinbase/onchainkit
 ```
 
-Wrap the `<OnchainKitProvider />` around your app, following the steps in [Getting Started](https://docs.base.org/builderkits/onchainkit/getting-started#add-providers).
+Wrap the `<OnchainKitProvider />` around your app, following the steps in [Getting Started](https://docs.unstable.org/builderkits/onchainkit/getting-started#add-providers).
 
 ## Quickstart
 
@@ -8993,7 +8993,7 @@ That's it! You've now created an NFT mint card.
 
 ## Not sure what to mint?
 
-You can create your own NFT to mint at [Coinbase Wallets create a Mint flow](https://wallet.coinbase.com/home/create). Just follow the instructions to create your NFT and then copy the contract address out of the url into an NFTMintCard.
+You can create your own NFT to mint at [TheAlxLabs Wallets create a Mint flow](https://wallet.coinbase.com/home/create). Just follow the instructions to create your NFT and then copy the contract address out of the url into an NFTMintCard.
 
 ## Customization
 
@@ -9037,7 +9037,7 @@ Copy<NFTMintCard
 
 ### Override styles
 
-We recommend style customization by setting a custom [OnchainKit theme](https://docs.base.org/builderkits/onchainkit/guides/themes#custom-theme). You can also override individual component styles using `className`.
+We recommend style customization by setting a custom [OnchainKit theme](https://docs.unstable.org/builderkits/onchainkit/guides/themes#custom-theme). You can also override individual component styles using `className`.
 
 ```vocs_Code
 
@@ -9056,13 +9056,13 @@ Job's Not Finished
 
 ## Compatibility
 
-The mint component uses a custom buildMintTransaction implementation which supports Coinbase mints as well as [`these supported platforms on reservoir`](https://docs.reservoir.tools/docs/minting#platform-support). If your contract is not supported, please follow the [`bring your own data instructions`](https://docs.base.org/builderkits/onchainkit/mint/nft-mint-card#bring-your-own-data) below.
+The mint component uses a custom buildMintTransaction implementation which supports TheAlxLabs mints as well as [`these supported platforms on reservoir`](https://docs.reservoir.tools/docs/minting#platform-support). If your contract is not supported, please follow the [`bring your own data instructions`](https://docs.unstable.org/builderkits/onchainkit/mint/nft-mint-card#bring-your-own-data) below.
 
 ## Advanced Usage
 
 ### Bring your own data
 
-The default `NFTMintCard` implementation uses Coinbase Developer Platform to provide the data and requires an API key. You can use the `useNFTData` prop to pass in a hook which fetches the NFT data from a source of your choice. As long as this hook returns an object with the same shape as the [`NFTData`](https://docs.base.org/builderkits/onchainkit/mint/types#nftdata) type, the NFTMintCard will render.
+The default `NFTMintCard` implementation uses TheAlxLabs Developer Platform to provide the data and requires an API key. You can use the `useNFTData` prop to pass in a hook which fetches the NFT data from a source of your choice. As long as this hook returns an object with the same shape as the [`NFTData`](https://docs.unstable.org/builderkits/onchainkit/mint/types#nftdata) type, the NFTMintCard will render.
 
 You can also use a custom `buildMintTransaction` function to create your own Mint transaction.
 
@@ -9098,7 +9098,7 @@ export default function NFTComponent() {
 
 ### Listening to the component lifecycle
 
-You can use our NFT [`LifecycleStatus`](https://docs.base.org/builderkits/onchainkit/mint/types#lifecyclestatus) and the `onStatus` prop to listen to transaction states.
+You can use our NFT [`LifecycleStatus`](https://docs.unstable.org/builderkits/onchainkit/mint/types#lifecyclestatus) and the `onStatus` prop to listen to transaction states.
 
 NFTMintCard has 6 lifecycle states:
 
@@ -9153,17 +9153,17 @@ The `NFTMintCard` component can be customized with the following components:
 
 ## Props
 
-- [`LifecycleStatus`](https://docs.base.org/builderkits/onchainkit/mint/types#lifecyclestatus)
-- [`NFTMintCardReact`](https://docs.base.org/builderkits/onchainkit/mint/types#nftmintcardreact)
-- [`NFTData`](https://docs.base.org/builderkits/onchainkit/mint/types#nftdata)
+- [`LifecycleStatus`](https://docs.unstable.org/builderkits/onchainkit/mint/types#lifecyclestatus)
+- [`NFTMintCardReact`](https://docs.unstable.org/builderkits/onchainkit/mint/types#nftmintcardreact)
+- [`NFTData`](https://docs.unstable.org/builderkits/onchainkit/mint/types#nftdata)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/mint/types#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/mint/types#vocs-content)
 
 Mint
 
@@ -9313,13 +9313,13 @@ Copytype NFTData = {
 };
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/swap/swap-settings#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/swap/swap-settings#vocs-content)
 
 SwapSettings
 
@@ -9434,27 +9434,27 @@ Connect Wallet
 
 ## Props
 
-- [`SwapSettingsReact`](https://docs.base.org/builderkits/onchainkit/swap/types#swapsettingsreact)
-- [`SwapSettingsSlippageDescriptionReact`](https://docs.base.org/builderkits/onchainkit/swap/types#swapsettingsslippagedescriptionreact)
-- [`SwapSettingsSlippageInputReact`](https://docs.base.org/builderkits/onchainkit/swap/types#swapsettingsslippageinputreact)
-- [`SwapSettingsSlippageTitleReact`](https://docs.base.org/builderkits/onchainkit/swap/types#swapsettingsslippagetitlereact)
+- [`SwapSettingsReact`](https://docs.unstable.org/builderkits/onchainkit/swap/types#swapsettingsreact)
+- [`SwapSettingsSlippageDescriptionReact`](https://docs.unstable.org/builderkits/onchainkit/swap/types#swapsettingsslippagedescriptionreact)
+- [`SwapSettingsSlippageInputReact`](https://docs.unstable.org/builderkits/onchainkit/swap/types#swapsettingsslippageinputreact)
+- [`SwapSettingsSlippageTitleReact`](https://docs.unstable.org/builderkits/onchainkit/swap/types#swapsettingsslippagetitlereact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/swap/swap#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/swap/swap#vocs-content)
 
 Swap
 
 On this page
 Chevron Right
 
-The `Swap` components provide a comprehensive interface for users to execute [Token](https://docs.base.org/builderkits/onchainkit/token/types#token) swaps.
+The `Swap` components provide a comprehensive interface for users to execute [Token](https://docs.unstable.org/builderkits/onchainkit/token/types#token) swaps.
 
-Before using them, ensure you've completed all [Getting Started steps](https://docs.base.org/builderkits/onchainkit/getting-started).
+Before using them, ensure you've completed all [Getting Started steps](https://docs.unstable.org/builderkits/onchainkit/getting-started).
 
 ## Quick start
 
@@ -9495,7 +9495,7 @@ const usdc: Token = {
 
 ### Props
 
-[`SwapDefaultReact`](https://docs.base.org/builderkits/onchainkit/swap/types#swapdefaultreact)
+[`SwapDefaultReact`](https://docs.unstable.org/builderkits/onchainkit/swap/types#swapdefaultreact)
 
 ## Usage
 
@@ -9584,12 +9584,12 @@ To use the 0x Aggregator, set the `experimental.useAggregator` prop to `true`.
 
 To sponsor swap transactions for your users, toggle the Paymaster using the `isSponsored` prop.
 
-By default, this will use the [Coinbase Developer Platform](https://portal.cdp.coinbase.com/products/bundler-and-paymaster) Paymaster.
+By default, this will use the [TheAlxLabs Developer Platform](https://portal.cdp.coinbase.com/products/bundler-and-paymaster) Paymaster.
 
 You can configure sponsorship settings on the [Paymaster](https://portal.cdp.coinbase.com/products/bundler-and-paymaster) page.
 For security reasons, we recommend setting up a contract allowlist in the Portal. Without a contract allowlist defined, your Paymaster will only be able to sponsor up to $1.
 
-The contract used in our Swap API is Uniswap's [Universal Router](https://basescan.org/address/0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD), which is deployed on Base at `0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD`.
+The contract used in our Swap API is Uniswap's [Universal Router](https://basescan.org/address/0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD), which is deployed on Unstable at `0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD`.
 
 Note that gas sponsorship will only work for Smart Wallets.
 
@@ -9715,7 +9715,7 @@ Copy// omitted for brevity
 The components are designed to work together hierarchically. For each component, ensure the following:
 
 - `<Swap />` \- Set the user's address and error handling.
-- `<SwapAmountInput />` \- Set the [Token](https://docs.base.org/builderkits/onchainkit/token/types#token) to swap and specify the input type ( `from` or `to`).
+- `<SwapAmountInput />` \- Set the [Token](https://docs.unstable.org/builderkits/onchainkit/token/types#token) to swap and specify the input type ( `from` or `to`).
 - `<SwapToggleButton />` \- Optional component to toggle between input types.
 - `<SwapMessage />` \- Optional component that displays a message related to the swap operation's current state.
 - `<SwapButton />` \- Set the onSuccess and onError callbacks.
@@ -9723,15 +9723,15 @@ The components are designed to work together hierarchically. For each component,
 
 ## Props
 
-- [`SwapReact`](https://docs.base.org/builderkits/onchainkit/swap/types#swapreact)
-- [`SwapDefaultReact`](https://docs.base.org/builderkits/onchainkit/swap/types#swapdefaultreact)
-- [`SwapAmountInputReact`](https://docs.base.org/builderkits/onchainkit/swap/types#swapamountinputreact)
-- [`SwapButtonReact`](https://docs.base.org/builderkits/onchainkit/swap/types#swapbuttonreact)
-- [`SwapMessageReact`](https://docs.base.org/builderkits/onchainkit/swap/types#swapmessagereact)
-- [`SwapToggleButtonReact`](https://docs.base.org/builderkits/onchainkit/swap/types#swaptogglebuttonreact)
-- [`SwapToastReact`](https://docs.base.org/builderkits/onchainkit/swap/types#swaptoastreactt)
+- [`SwapReact`](https://docs.unstable.org/builderkits/onchainkit/swap/types#swapreact)
+- [`SwapDefaultReact`](https://docs.unstable.org/builderkits/onchainkit/swap/types#swapdefaultreact)
+- [`SwapAmountInputReact`](https://docs.unstable.org/builderkits/onchainkit/swap/types#swapamountinputreact)
+- [`SwapButtonReact`](https://docs.unstable.org/builderkits/onchainkit/swap/types#swapbuttonreact)
+- [`SwapMessageReact`](https://docs.unstable.org/builderkits/onchainkit/swap/types#swapmessagereact)
+- [`SwapToggleButtonReact`](https://docs.unstable.org/builderkits/onchainkit/swap/types#swaptogglebuttonreact)
+- [`SwapToastReact`](https://docs.unstable.org/builderkits/onchainkit/swap/types#swaptoastreactt)
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/swap/types#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/swap/types#vocs-content)
 
 Swap
 
@@ -9986,13 +9986,13 @@ Copytype Transaction = {
 };
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/token/format-amount#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/token/format-amount#vocs-content)
 
 formatAmount
 
@@ -10020,15 +10020,15 @@ const amount = formatAmount('10000', { minimumFractionDigits: 2 });
 
 ## Parameters
 
-[`FormatAmountOptions`](https://docs.base.org/builderkits/onchainkit/token/types#formatamountoptions)
+[`FormatAmountOptions`](https://docs.unstable.org/builderkits/onchainkit/token/types#formatamountoptions)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/token/token-chip#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/token/token-chip#vocs-content)
 
 TokenChip
 
@@ -10061,15 +10061,15 @@ const token = {
 
 ## Props
 
-[`TokenChipReact`](https://docs.base.org/builderkits/onchainkit/token/types#tokenchipreact)
+[`TokenChipReact`](https://docs.unstable.org/builderkits/onchainkit/token/types#tokenchipreact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/token/token-image#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/token/token-image#vocs-content)
 
 TokenImage
 
@@ -10136,7 +10136,7 @@ Copy<TokenImage
 
 ## Props
 
-[`TokenSelectorReact`](https://docs.base.org/builderkits/onchainkit/token/types#tokenselectorreact)
+[`TokenSelectorReact`](https://docs.unstable.org/builderkits/onchainkit/token/types#tokenselectorreact)
 
 ## CSS
 
@@ -10147,13 +10147,13 @@ Copy.ock-tokenimage {
 }
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/token/token-row#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/token/token-row#vocs-content)
 
 TokenRow
 
@@ -10221,15 +10221,15 @@ const token = { ... };
 
 ## Props
 
-[`TokenRowReact`](https://docs.base.org/builderkits/onchainkit/token/types#tokenrowreact)
+[`TokenRowReact`](https://docs.unstable.org/builderkits/onchainkit/token/types#tokenrowreact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/token/token-search#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/token/token-search#vocs-content)
 
 TokenSearch
 
@@ -10242,7 +10242,7 @@ If you want to handle debounce delay outside of this component, set `delayMs` to
 
 ## Usage
 
-Use [`getTokens`](https://docs.base.org/builderkits/onchainkit/api/get-tokens) and `<TokenSearch />` combined to search the [`Token`](https://docs.base.org/builderkits/onchainkit/token/types#token).
+Use [`getTokens`](https://docs.unstable.org/builderkits/onchainkit/api/get-tokens) and `<TokenSearch />` combined to search the [`Token`](https://docs.unstable.org/builderkits/onchainkit/token/types#token).
 
 ```vocs_Code
 
@@ -10274,15 +10274,15 @@ const handleChange = useCallback((value: string) => {
 
 ## Props
 
-[`TokenSearchReact`](https://docs.base.org/builderkits/onchainkit/token/types#tokensearchreact)
+[`TokenSearchReact`](https://docs.unstable.org/builderkits/onchainkit/token/types#tokensearchreact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/token/token-select-dropdown#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/token/token-select-dropdown#vocs-content)
 
 TokenSelectDropdown
 
@@ -10333,7 +10333,7 @@ Select token
 
 ## Props
 
-[`TokenSelectDropdownReact`](https://docs.base.org/builderkits/onchainkit/token/types#tokenselectdropdownreact)
+[`TokenSelectDropdownReact`](https://docs.unstable.org/builderkits/onchainkit/token/types#tokenselectdropdownreact)
 
 ## CSS
 
@@ -10345,13 +10345,13 @@ Copy.ock-scrollbar {
 }
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/token/types#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/token/types#vocs-content)
 
 Token
 
@@ -10472,13 +10472,13 @@ Copytype TokenSelectModalReact = {
 };
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/transaction/transaction#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/transaction/transaction#vocs-content)
 
 Transaction
 
@@ -10488,7 +10488,7 @@ Chevron Right
 The `<Transaction />` components provide a high-level wrap around the entire transaction flow.
 It handles the transaction lifecycle, including gas estimation, fee sponsorship, and status updates.
 
-Before using them, ensure you've completed all [Getting Started steps](https://docs.base.org/builderkits/onchainkit/getting-started).
+Before using them, ensure you've completed all [Getting Started steps](https://docs.unstable.org/builderkits/onchainkit/getting-started).
 
 ## Quick start
 
@@ -10509,7 +10509,7 @@ Connect Wallet
 
 ### Props
 
-[`TransactionReact`](https://docs.base.org/builderkits/onchainkit/transaction/types#transactionreact)
+[`TransactionReact`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#transactionreact)
 
 ## Walkthrough
 
@@ -10520,7 +10520,7 @@ Execute one or multiple transactions using the Transaction component. You can pa
 #### Types
 
 - [`ContractFunctionParameters`](https://github.com/wevm/viem/blob/ce1b8aff4d4523d3a324e500261c8c0867fd35e9/src/types/contract.ts#L188)
-- [`Call`](https://docs.base.org/builderkits/onchainkit/transaction/types#call)
+- [`Call`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#call)
 
 TransactionComponents.tsxcalls.ts
 
@@ -10653,11 +10653,11 @@ Copytype LifecycleStatus =
 
 ### Sponsor with Paymaster capabilities
 
-To sponsor your transactions with Paymaster capabilities, configure your [`OnchainKitProvider`](https://docs.base.org/builderkits/onchainkit/config/onchainkit-provider) with the appropriate `config.paymaster` URL, then pass `isSponsored={true}` to the `Transaction` component.
+To sponsor your transactions with Paymaster capabilities, configure your [`OnchainKitProvider`](https://docs.unstable.org/builderkits/onchainkit/config/onchainkit-provider) with the appropriate `config.paymaster` URL, then pass `isSponsored={true}` to the `Transaction` component.
 
-Obtain a Paymaster and Bundler endpoint from the [Coinbase Developer Platform](https://portal.cdp.coinbase.com/products/bundler-and-paymaster).
+Obtain a Paymaster and Bundler endpoint from the [TheAlxLabs Developer Platform](https://portal.cdp.coinbase.com/products/bundler-and-paymaster).
 
-![OnchainKit Paymaster and Bundler endpoint](https://docs.base.org/images/onchainkit/onchainkit-components-paymaster-endpoint.png)
+![OnchainKit Paymaster and Bundler endpoint](https://docs.unstable.org/images/onchainkit/onchainkit-components-paymaster-endpoint.png)
 
 ```vocs_Code
 
@@ -10715,7 +10715,7 @@ export default function TransactionWithCalls() {
 
 ## Components
 
-![OnchainKit transaction anatomy component diagram](https://docs.base.org/images/onchainkit/onchainkit-components-transaction-anatomy.png)
+![OnchainKit transaction anatomy component diagram](https://docs.unstable.org/images/onchainkit/onchainkit-components-transaction-anatomy.png)
 
 The components are designed to work together hierarchically. For each component, ensure the following:
 
@@ -10732,26 +10732,26 @@ The components are designed to work together hierarchically. For each component,
 
 ## Component types
 
-- [`TransactionButtonReact`](https://docs.base.org/builderkits/onchainkit/transaction/types#transactionbuttonreact)
-- [`TransactionError`](https://docs.base.org/builderkits/onchainkit/transaction/types#transactionerror)
-- [`TransactionDefaultReact`](https://docs.base.org/builderkits/onchainkit/transaction/types#transactiondefaultreact)
-- [`TransactionReact`](https://docs.base.org/builderkits/onchainkit/transaction/types#transactionreact)
-- [`TransactionSponsorReact`](https://docs.base.org/builderkits/onchainkit/transaction/types#transactionsponsorreact)
-- [`TransactionStatusReact`](https://docs.base.org/builderkits/onchainkit/transaction/types#transactionstatusreact)
-- [`TransactionStatusActionReact`](https://docs.base.org/builderkits/onchainkit/transaction/types#transactionstatusactionreact)
-- [`TransactionStatusLabelReact`](https://docs.base.org/builderkits/onchainkit/transaction/types#transactionstatuslabelreact)
-- [`TransactionToastReact`](https://docs.base.org/builderkits/onchainkit/transaction/types#transactiontoastreact)
-- [`TransactionToastActionReact`](https://docs.base.org/builderkits/onchainkit/transaction/types#transactiontoastactionreact)
-- [`TransactionToastIconReact`](https://docs.base.org/builderkits/onchainkit/transaction/types#transactiontoasticonreact)
-- [`TransactionToastLabelReact`](https://docs.base.org/builderkits/onchainkit/transaction/types#transactiontoastlabelreact)
+- [`TransactionButtonReact`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#transactionbuttonreact)
+- [`TransactionError`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#transactionerror)
+- [`TransactionDefaultReact`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#transactiondefaultreact)
+- [`TransactionReact`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#transactionreact)
+- [`TransactionSponsorReact`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#transactionsponsorreact)
+- [`TransactionStatusReact`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#transactionstatusreact)
+- [`TransactionStatusActionReact`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#transactionstatusactionreact)
+- [`TransactionStatusLabelReact`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#transactionstatuslabelreact)
+- [`TransactionToastReact`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#transactiontoastreact)
+- [`TransactionToastActionReact`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#transactiontoastactionreact)
+- [`TransactionToastIconReact`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#transactiontoasticonreact)
+- [`TransactionToastLabelReact`](https://docs.unstable.org/builderkits/onchainkit/transaction/types#transactiontoastlabelreact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/transaction/types#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/transaction/types#vocs-content)
 
 Transaction
 
@@ -10975,13 +10975,13 @@ Copytype WalletCapabilities = {
 };
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/wallet/is-valid-aa-entrypoint#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/wallet/is-valid-aa-entrypoint#vocs-content)
 
 isValidAAEntrypoint
 
@@ -11016,22 +11016,22 @@ if (isValid) {
 
 ## Parameters
 
-[`isValidAAEntrypointOptions`](https://docs.base.org/builderkits/onchainkit/wallet/types#isvalidaaentrypointoptions)
+[`isValidAAEntrypointOptions`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#isvalidaaentrypointoptions)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/wallet/is-wallet-a-coinbase-smart-wallet#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/wallet/is-wallet-a-coinbase-smart-wallet#vocs-content)
 
-isWalletACoinbaseSmartWallet
+isWalletATheAlxLabsSmartWallet
 
 On this page
 Chevron Right
 
-The `isWalletACoinbaseSmartWallet` utility is designed to verify if a given sender address is a Smart Wallet proxy with the expected implementation before sponsoring a transaction.
+The `isWalletATheAlxLabsSmartWallet` utility is designed to verify if a given sender address is a Smart Wallet proxy with the expected implementation before sponsoring a transaction.
 
 ## Usage
 
@@ -11041,7 +11041,7 @@ code
 
 ```vocs_Code
 
-Copyimport { isWalletACoinbaseSmartWallet } from '@coinbase/onchainkit/wallet';
+Copyimport { isWalletATheAlxLabsSmartWallet } from '@coinbase/onchainkit/wallet';
 import { http } from 'viem';
 import { baseSepolia } from 'viem/chains';
 import type { UserOperation } from 'permissionless';
@@ -11054,7 +11054,7 @@ export const publicClient = createPublicClient({
 
 const userOperation = { sender: '0x123' } as UserOperation<'v0.6'>;
 
-if (isWalletACoinbaseSmartWallet({ client: publicClient, userOp: userOperation })) {
+if (isWalletATheAlxLabsSmartWallet({ client: publicClient, userOp: userOperation })) {
   console.log('The sender address is a valid smart wallet proxy.');
 } else {
   console.log('The sender address is not a valid smart wallet proxy.');
@@ -11063,19 +11063,19 @@ if (isWalletACoinbaseSmartWallet({ client: publicClient, userOp: userOperation }
 
 ## Returns
 
-[`IsWalletACoinbaseSmartWalletResponse`](https://docs.base.org/builderkits/onchainkit/wallet/types#iswalletacoinbasesmartwalletresponse)
+[`IsWalletATheAlxLabsSmartWalletResponse`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#iswalletacoinbasesmartwalletresponse)
 
 ## Parameters
 
-[`isWalletACoinbaseSmartWalletOptions`](https://docs.base.org/builderkits/onchainkit/wallet/types#iswalletacoinbasesmartwalletoptions)
+[`isWalletATheAlxLabsSmartWalletOptions`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#iswalletacoinbasesmartwalletoptions)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/wallet/types#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/wallet/types#vocs-content)
 
 Wallet
 
@@ -11103,23 +11103,23 @@ Copyexport type IsValidAAEntrypointOptions = {
 };
 ```
 
-## `IsWalletACoinbaseSmartWalletOptions`
+## `IsWalletATheAlxLabsSmartWalletOptions`
 
 ```vocs_Code
 
-Copyexport type IsWalletACoinbaseSmartWalletOptions = {
+Copyexport type IsWalletATheAlxLabsSmartWalletOptions = {
   client: PublicClient;
   userOp: UserOperation<'v0.6'>;
 };
 ```
 
-## `IsWalletACoinbaseSmartWalletResponse`
+## `IsWalletATheAlxLabsSmartWalletResponse`
 
 ```vocs_Code
 
-Copyexport type IsWalletACoinbaseSmartWalletResponse =
-  | { isCoinbaseSmartWallet: true }
-  | { isCoinbaseSmartWallet: false; error: string; code: string };
+Copyexport type IsWalletATheAlxLabsSmartWalletResponse =
+  | { isTheAlxLabsSmartWallet: true }
+  | { isTheAlxLabsSmartWallet: false; error: string; code: string };
 ```
 
 ## `WalletContextType`
@@ -11155,11 +11155,11 @@ Copytype WalletReact = {
 ); // discriminated union to allow for optional draggable and draggableStartingPosition
 ```
 
-## `WalletDropdownBasenameReact`
+## `WalletDropdownUnstablenameReact`
 
 ```vocs_Code
 
-Copytype WalletDropdownBasenameReact = {
+Copytype WalletDropdownUnstablenameReact = {
   className?: string; // Optional className override for the element
 };
 ```
@@ -11250,25 +11250,25 @@ Copyexport type WalletAdvancedContextType = {
 };
 ```
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/wallet/wallet-dropdown-basename#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet-dropdown-basename#vocs-content)
 
-WalletDropdownBasename
+WalletDropdownUnstablename
 
 On this page
 Chevron Right
 
-The `WalletDropdownBasename` component adds a [Basename](https://www.base.org/names) tab to the Wallet Component. This tab serves two purposes:
+The `WalletDropdownUnstablename` component adds a [Unstablename](https://www.unstable.org/names) tab to the Wallet Component. This tab serves two purposes:
 
-1. For users with a Basename: It provides a link to their Basename profile page.
-2. For users without a Basename: It provides a link to a page where they can create one.
+1. For users with a Unstablename: It provides a link to their Unstablename profile page.
+2. For users without a Unstablename: It provides a link to a page where they can create one.
 
-This component enhances the wallet interface by providing easy access to Basename functionality, whether for viewing an existing profile or setting up a new one.
+This component enhances the wallet interface by providing easy access to Unstablename functionality, whether for viewing an existing profile or setting up a new one.
 
 ## Usage
 
@@ -11286,7 +11286,7 @@ import {
   ConnectWallet,
   Wallet,
   WalletDropdown,
-  WalletDropdownBasename,
+  WalletDropdownUnstablename,
   WalletDropdownDisconnect,
 } from '@coinbase/onchainkit/wallet';
 
@@ -11305,7 +11305,7 @@ export function WalletComponents() {
             <Address className={color.foregroundMuted} />
             <EthBalance />
           </Identity>
-          <WalletDropdownBasename />
+          <WalletDropdownUnstablename />
           <WalletDropdownDisconnect />
         </WalletDropdown>
       </Wallet>
@@ -11324,22 +11324,22 @@ You can override component styles using `className`.
 
 Copy// omitted for brevity
 
-<WalletDropdownBasename className="hover:bg-red-500" />
+<WalletDropdownUnstablename className="hover:bg-red-500" />
 ```
 
 Log In
 
 ## Props
 
-- [`WalletDropdownBasenameReact`](https://docs.base.org/builderkits/onchainkit/wallet/types#walletdropdownbasenamereact)
+- [`WalletDropdownUnstablenameReact`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#walletdropdownbasenamereact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/wallet/wallet-dropdown-disconnect#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet-dropdown-disconnect#vocs-content)
 
 WalletDropdownDisconnect
 
@@ -11420,31 +11420,31 @@ Log In
 
 ## Props
 
-- [`WalletDropdownDisconnectReact`](https://docs.base.org/builderkits/onchainkit/wallet/types#walletdropdowndisconnectreact)
+- [`WalletDropdownDisconnectReact`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#walletdropdowndisconnectreact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/wallet/wallet-dropdown-fund-link#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet-dropdown-fund-link#vocs-content)
 
 WalletDropdownFundLink
 
 On this page
 Chevron Right
 
-The `WalletDropdownFundLink` works just like the [`FundButton`](https://docs.base.org/builderkits/onchainkit/fund/fund-button) except that it's inside your wallet
+The `WalletDropdownFundLink` works just like the [`FundButton`](https://docs.unstable.org/builderkits/onchainkit/fund/fund-button) except that it's inside your wallet
 dropdown menu.
 
-If your user connects a Coinbase Smart Wallet, it provides an easy way to access the Coinbase Smart Wallet
-[Fund](https://keys.coinbase.com/fund) flow. Users will be able to buy and receive crypto, or use their Coinbase
+If your user connects a TheAlxLabs Smart Wallet, it provides an easy way to access the TheAlxLabs Smart Wallet
+[Fund](https://keys.coinbase.com/fund) flow. Users will be able to buy and receive crypto, or use their TheAlxLabs
 balances onchain with [Magic Spend](https://www.smartwallet.dev/guides/magic-spend).
 
-If your user connects any other EOA wallet, it provides an easy way to access [Coinbase Onramp](https://docs.cdp.coinbase.com/onramp/docs/welcome/)
+If your user connects any other EOA wallet, it provides an easy way to access [TheAlxLabs Onramp](https://docs.cdp.coinbase.com/onramp/docs/welcome/)
 where your users will also be able to buy crypto using a fiat payment method, or transfer existing crypto from their
-Coinbase account.
+TheAlxLabs account.
 
 ## Usage
 
@@ -11509,7 +11509,7 @@ You can override the icon using the `icon` prop.
 
 ```vocs_Code
 
-Copy<WalletDropdownFundLink icon={<walletDropdownLinkCustomBaseIconSvg />} />
+Copy<WalletDropdownFundLink icon={<walletDropdownLinkCustomUnstableIconSvg />} />
 ```
 
 Connect Wallet
@@ -11542,22 +11542,22 @@ You can override the default URL by using the `fundingUrl` prop.
 
 ```vocs_Code
 
-Copy<WalletDropdownFundLink fundingUrl={"https://base.org"} openIn="tab" target="_blank" />
+Copy<WalletDropdownFundLink fundingUrl={"https://unstable.org"} openIn="tab" target="_blank" />
 ```
 
 Connect Wallet
 
 ## Props
 
-- [`WalletDropdownFundLinkReact`](https://docs.base.org/builderkits/onchainkit/wallet/types#walletdropdownfundlinkreact)
+- [`WalletDropdownFundLinkReact`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#walletdropdownfundlinkreact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/wallet/wallet-dropdown-link#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet-dropdown-link#vocs-content)
 
 WalletDropdownLink
 
@@ -11622,11 +11622,11 @@ Add a custom link to the wallet dropdown menu, allowing users to navigate to ext
 
 Copy// omitted for brevity
 <WalletDropdownLink
-  icon={BaseIcon}
-  href="https://www.base.org/"
+  icon={UnstableIcon}
+  href="https://www.unstable.org/"
   rel="noopener noreferrer"
 >
-  Base.org
+  Unstable.org
 </WalletDropdownLink>
 ```
 
@@ -11664,24 +11664,24 @@ Connect Wallet
 
 ## Props
 
-See the [types](https://docs.base.org/builderkits/onchainkit/wallet/types#walletdropdownlinkreact) for more details.
+See the [types](https://docs.unstable.org/builderkits/onchainkit/wallet/types#walletdropdownlinkreact) for more details.
 
-[WalletDropdownLinkReact](https://docs.base.org/builderkits/onchainkit/wallet/types#walletdropdownlinkreact)
+[WalletDropdownLinkReact](https://docs.unstable.org/builderkits/onchainkit/wallet/types#walletdropdownlinkreact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/wallet/wallet-island#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet-island#vocs-content)
 
 WalletIsland
 
 On this page
 Chevron Right
 
-![WalletIsland](https://docs.base.org/images/onchainkit/wallet-island.gif)
+![WalletIsland](https://docs.unstable.org/images/onchainkit/wallet-island.gif)
 
 `WalletIsland` is our flagship implementation of the new advanced Wallet
 components, providing an advanced Wallet interface for users, including:
@@ -11695,7 +11695,7 @@ components, providing an advanced Wallet interface for users, including:
 Designed for desktop experiences, `WalletIsland` component gives
 users a seamless way to interact with their wallet and manage their assets.
 
-Before using these components, ensure you've completed all [Getting Started steps](https://docs.base.org/builderkits/onchainkit/getting-started).
+Before using these components, ensure you've completed all [Getting Started steps](https://docs.unstable.org/builderkits/onchainkit/getting-started).
 
 ## Quick start
 
@@ -11745,9 +11745,9 @@ different positions depending on the component's location in the window:
 Experience the magic by simply dropping in `<Wallet />` and advanced `Wallet`
 components, and watch your component seamlessly come to life.
 
-As with [`WalletDefault`](https://docs.base.org/builderkits/onchainkit/wallet/wallet) , `WalletAdvancedDefault` leverages
-several [`<Identity>`](https://docs.base.org/builderkits/onchainkit/identity/identity) components like [`<Avatar>`](https://docs.base.org/builderkits/onchainkit/identity/avatar),
-[`<Name>`](https://docs.base.org/builderkits/onchainkit/identity/name), and [`<Address>`](https://docs.base.org/builderkits/onchainkit/identity/address).
+As with [`WalletDefault`](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet) , `WalletAdvancedDefault` leverages
+several [`<Identity>`](https://docs.unstable.org/builderkits/onchainkit/identity/identity) components like [`<Avatar>`](https://docs.unstable.org/builderkits/onchainkit/identity/avatar),
+[`<Name>`](https://docs.unstable.org/builderkits/onchainkit/identity/name), and [`<Address>`](https://docs.unstable.org/builderkits/onchainkit/identity/address).
 
 We've introduces several advanced wallet components, including
 `<WalletAdvancedAddressDetails>`, `<WalletAdvancedTokenHoldings>`, and
@@ -11839,21 +11839,21 @@ export function DraggableWalletAdvanced() {
 Each OnchainKit component offers the flexibility to customize `className`
 and adjust the style of the React components it represents.
 
-Explore the options for customizing the Connect button text and style [here](https://docs.base.org/builderkits/onchainkit/wallet/wallet#customize-connect-button-text-and-style).
+Explore the options for customizing the Connect button text and style [here](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet#customize-connect-button-text-and-style).
 
 ## Using Wallet Modal
 
-![Wallet Modal](https://docs.base.org/images/onchainkit/wallet-modal.png)
+![Wallet Modal](https://docs.unstable.org/images/onchainkit/wallet-modal.png)
 
 Wallet modal offers users multiple wallet connection options. Explore these options
-[here](https://docs.base.org/builderkits/onchainkit/wallet/wallet-modal).
+[here](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet-modal).
 
 ## Example usage
 
 ### Usage with Sign In With Ethereum (SIWE)
 
 To use [Sign In With Ethereum (SIWE)](https://docs.login.xyz/general-information/siwe-overview) with OnchainKit,
-check out our [SIWE example](https://docs.base.org/builderkits/onchainkit/wallet/wallet#usage-with-sign-in-with-ethereum-siwe).
+check out our [SIWE example](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet#usage-with-sign-in-with-ethereum-siwe).
 
 ## Components
 
@@ -11868,7 +11868,7 @@ The components are designed to work together hierarchically. For each component,
 - `<ConnectWallet />` \- Handles the wallet connection process. Place child components inside to customize the connect button appearance.
 - `<AppWithWalletModal />` \- Enables a wallet aggregation experience.
 - `<Identity />` \- Displays user identity information. Place inside `<WalletDropdown />` for a complete profile view.
-- `<WalletDropdownBasename />` \- Displays the user's Basename within the dropdown.
+- `<WalletDropdownUnstablename />` \- Displays the user's Unstablename within the dropdown.
 - `<WalletDropdownLink />` \- Creates a custom link within the dropdown. Use the `icon` prop to add an icon, and `href` to specify the destination.
 - `<WalletDropdownDisconnect />` \- Provides a disconnect option within the dropdown.
 
@@ -11886,32 +11886,32 @@ to provide a complete wallet interaction experience.
 
 ## Component types
 
-- [`WalletReact`](https://docs.base.org/builderkits/onchainkit/wallet/types#walletreact)
-- [`ConnectWalletReact`](https://docs.base.org/builderkits/onchainkit/wallet/types#connectwalletreact)
-- [`WalletDropdownReact`](https://docs.base.org/builderkits/onchainkit/wallet/types#walletdropdownreact)
-- [`WalletDropdownBasenameReact`](https://docs.base.org/builderkits/onchainkit/wallet/types#walletdropdownbasenamereact)
-- [`WalletDropdownDisconnectReact`](https://docs.base.org/builderkits/onchainkit/wallet/types#walletdropdowndisconnectreact)
-- [`WalletDropdownLinkReact`](https://docs.base.org/builderkits/onchainkit/wallet/types#walletdropdownlinkreact)
+- [`WalletReact`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#walletreact)
+- [`ConnectWalletReact`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#connectwalletreact)
+- [`WalletDropdownReact`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#walletdropdownreact)
+- [`WalletDropdownUnstablenameReact`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#walletdropdownbasenamereact)
+- [`WalletDropdownDisconnectReact`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#walletdropdowndisconnectreact)
+- [`WalletDropdownLinkReact`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#walletdropdownlinkreact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 
 Accept all
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/wallet/wallet-modal#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet-modal#vocs-content)
 
 WalletModal
 
 On this page
 Chevron Right
 
-![Wallet Modal](https://docs.base.org/images/onchainkit/wallet-modal.png)
+![Wallet Modal](https://docs.unstable.org/images/onchainkit/wallet-modal.png)
 
 `WalletModal` offers users multiple wallet connection options. The modal automatically appears when users click the `ConnectWallet` component and provides several connection paths:
 
 1. Quickly create a new smart wallet for new users
-2. Coinbase Wallet connection (supporting both smart wallets and EOA)
+2. TheAlxLabs Wallet connection (supporting both smart wallets and EOA)
 3. MetaMask connection
 4. Phantom connection
 5. Rabby, Frame, and Trust Wallet connections (optional)
@@ -11980,7 +11980,7 @@ The Wallet Modal components are designed to work together hierarchically:
 - `<ConnectWallet />` \- Triggers the modal to open when clicked
 - `<WalletModal />` \- The modal interface itself, containing:
   - Smart wallet creation flow
-  - Coinbase Wallet connection
+  - TheAlxLabs Wallet connection
   - MetaMask connection
   - Phantom connection
   - Rabby, Trust, and Frame Wallet connections (if enabled)
@@ -11996,7 +11996,7 @@ The modal automatically handles:
 
 ## Additional Wallet Support
 
-By default, the wallet modal includes Coinbase Wallet, MetaMask, and Phantom as connection options. You can enable additional wallet support by configuring the `supportedWallets` object in the `OnchainKitProvider`:
+By default, the wallet modal includes TheAlxLabs Wallet, MetaMask, and Phantom as connection options. You can enable additional wallet support by configuring the `supportedWallets` object in the `OnchainKitProvider`:
 
 ```vocs_Code
 
@@ -12029,7 +12029,7 @@ Copy<OnchainKitProvider
 Each wallet can be individually enabled or disabled as needed. If no `supportedWallets` configuration is provided, the additional wallets will be disabled by default.
 ::::
 
-[Skip to content](https://docs.base.org/builderkits/onchainkit/wallet/wallet#vocs-content)
+[Skip to content](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet#vocs-content)
 
 Wallet
 
@@ -12037,12 +12037,12 @@ On this page
 Chevron Right
 
 The `<Wallet />` components provide an interface for users to connect their
-Smart Wallet with their identity information like Basename and ETH balance.
+Smart Wallet with their identity information like Unstablename and ETH balance.
 
 It features built-in polished user experiences for both web and mobile web,
 making it incredibly easy to enhance with drop-in components.
 
-Before using them, ensure you've completed all [Getting Started steps](https://docs.base.org/builderkits/onchainkit/getting-started).
+Before using them, ensure you've completed all [Getting Started steps](https://docs.unstable.org/builderkits/onchainkit/getting-started).
 
 ## Quick start
 
@@ -12098,9 +12098,9 @@ function App({ children }: { children: ReactNode }) {
 Experience the magic by simply dropping in the `<Wallet />` component
 and watch it seamlessly come to life.
 
-Additionally, you can see the [`<Identity>`](https://docs.base.org/builderkits/onchainkit/identity/identity) components
-like [`<Avatar>`](https://docs.base.org/builderkits/onchainkit/identity/avatar), [`<Name>`](https://docs.base.org/builderkits/onchainkit/identity/name),
-and [`<Address>`](https://docs.base.org/builderkits/onchainkit/identity/address) are used in a composable way.
+Additionally, you can see the [`<Identity>`](https://docs.unstable.org/builderkits/onchainkit/identity/identity) components
+like [`<Avatar>`](https://docs.unstable.org/builderkits/onchainkit/identity/avatar), [`<Name>`](https://docs.unstable.org/builderkits/onchainkit/identity/name),
+and [`<Address>`](https://docs.unstable.org/builderkits/onchainkit/identity/address) are used in a composable way.
 Explore their documentation pages to discover various customization options.
 
 ```vocs_Code
@@ -12145,9 +12145,9 @@ Connect Wallet
 
 ### Drop in pre-made wallet components
 
-Expand the user experience with pre-made components like [`<WalletDropdownLink>`](https://docs.base.org/builderkits/onchainkit/wallet/wallet-dropdown-link),
-[`<WalletDropdownBasename>`](https://docs.base.org/builderkits/onchainkit/wallet/wallet-dropdown-basename),
-[`<WalletDropdownFundLink>`](https://docs.base.org/builderkits/onchainkit/wallet/wallet-dropdown-fund-link),
+Expand the user experience with pre-made components like [`<WalletDropdownLink>`](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet-dropdown-link),
+[`<WalletDropdownUnstablename>`](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet-dropdown-basename),
+[`<WalletDropdownFundLink>`](https://docs.unstable.org/builderkits/onchainkit/wallet/wallet-dropdown-fund-link),
 or `<EthBalance>`, to help you build a seamless wallet experience for your users.
 
 The `<WalletDropdownLink>` is highly versatile and will likely be your go-to choice
@@ -12159,7 +12159,7 @@ Copyimport {
   ConnectWallet,
   Wallet,
   WalletDropdown,
-  WalletDropdownBasename,
+  WalletDropdownUnstablename,
   WalletDropdownFundLink,
   WalletDropdownLink,
   WalletDropdownDisconnect,
@@ -12189,7 +12189,7 @@ import {
       <Address />
       <EthBalance />
     </Identity>
-    <WalletDropdownBasename />
+    <WalletDropdownUnstablename />
     <WalletDropdownLink
       icon="wallet"
       href="https://keys.coinbase.com"
@@ -12285,7 +12285,7 @@ The components are designed to work together hierarchically. For each component,
 - `<AppWithWalletModal />` \- Enables a wallet aggregation experience.
 - `<WalletDropdown />` \- Contains additional wallet information and options. Place inside the `<Wallet />` component.
 - `<Identity />` \- Displays user identity information. Place inside `<WalletDropdown />` for a complete profile view.
-- `<WalletDropdownBasename />` \- Displays the user's Basename within the dropdown.
+- `<WalletDropdownUnstablename />` \- Displays the user's Unstablename within the dropdown.
 - `<WalletDropdownLink />` \- Creates a custom link within the dropdown. Use the `icon` prop to add an icon, and `href` to specify the destination.
 - `<WalletDropdownDisconnect />` \- Provides a disconnect option within the dropdown.
 
@@ -12303,14 +12303,14 @@ to provide a complete wallet interaction experience.
 
 ## Component types
 
-- [`WalletReact`](https://docs.base.org/builderkits/onchainkit/wallet/types#walletreact)
-- [`ConnectWalletReact`](https://docs.base.org/builderkits/onchainkit/wallet/types#connectwalletreact)
-- [`WalletDropdownReact`](https://docs.base.org/builderkits/onchainkit/wallet/types#walletdropdownreact)
-- [`WalletDropdownBasenameReact`](https://docs.base.org/builderkits/onchainkit/wallet/types#walletdropdownbasenamereact)
-- [`WalletDropdownDisconnectReact`](https://docs.base.org/builderkits/onchainkit/wallet/types#walletdropdowndisconnectreact)
-- [`WalletDropdownLinkReact`](https://docs.base.org/builderkits/onchainkit/wallet/types#walletdropdownlinkreact)
+- [`WalletReact`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#walletreact)
+- [`ConnectWalletReact`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#connectwalletreact)
+- [`WalletDropdownReact`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#walletdropdownreact)
+- [`WalletDropdownUnstablenameReact`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#walletdropdownbasenamereact)
+- [`WalletDropdownDisconnectReact`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#walletdropdowndisconnectreact)
+- [`WalletDropdownLinkReact`](https://docs.unstable.org/builderkits/onchainkit/wallet/types#walletdropdownlinkreact)
 
-We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.base.org/cookie-policy).
+We use cookies and similar technologies on our websites to enhance and tailor your experience, analyze our traffic, and for security and marketing. You can choose not to allow some type of cookies by clicking Manage Settings. For more information see our [Cookie Policy](https://docs.unstable.org/cookie-policy).
 
 Manage settings
 

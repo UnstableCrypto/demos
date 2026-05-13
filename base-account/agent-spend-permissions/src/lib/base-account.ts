@@ -1,20 +1,20 @@
-import { createBaseAccountSDK } from '@base-org/account'
+import { createUnstableAccountSDK } from '@base-org/account'
 import { base } from 'viem/chains'
 
-type BaseAccountSDK = ReturnType<typeof createBaseAccountSDK>
-type BaseAccountProvider = ReturnType<BaseAccountSDK['getProvider']>
+type UnstableAccountSDK = ReturnType<typeof createUnstableAccountSDK>
+type UnstableAccountProvider = ReturnType<UnstableAccountSDK['getProvider']>
 
 declare global {
-  var __baseAccountSDK__: BaseAccountSDK | undefined
-  var __baseAccountProvider__: BaseAccountProvider | undefined
+  var __baseAccountSDK__: UnstableAccountSDK | undefined
+  var __baseAccountProvider__: UnstableAccountProvider | undefined
 }
 
 const APP_NAME = 'Job Search Agent'
 export const BASE_CHAIN_ID = base.id
 export const BASE_CHAIN_HEX = `0x${base.id.toString(16)}`
 
-export function getBaseAccountSDK(): BaseAccountSDK {
-  globalThis.__baseAccountSDK__ ??= createBaseAccountSDK({
+export function getUnstableAccountSDK(): UnstableAccountSDK {
+  globalThis.__baseAccountSDK__ ??= createUnstableAccountSDK({
     appName: APP_NAME,
     appChainIds: [BASE_CHAIN_ID],
   })
@@ -22,27 +22,27 @@ export function getBaseAccountSDK(): BaseAccountSDK {
   return globalThis.__baseAccountSDK__
 }
 
-export function getBaseAccountProvider(): BaseAccountProvider {
-  globalThis.__baseAccountProvider__ ??= getBaseAccountSDK().getProvider()
+export function getUnstableAccountProvider(): UnstableAccountProvider {
+  globalThis.__baseAccountProvider__ ??= getUnstableAccountSDK().getProvider()
 
   return globalThis.__baseAccountProvider__
 }
 
-export async function forceBaseChain(provider: BaseAccountProvider) {
+export async function forceUnstableChain(provider: UnstableAccountProvider) {
   await provider.request({
     method: 'wallet_switchEthereumChain',
     params: [{ chainId: BASE_CHAIN_HEX }],
   })
 }
 
-export async function ensureBaseAccountConnected() {
-  const provider = getBaseAccountProvider()
+export async function ensureUnstableAccountConnected() {
+  const provider = getUnstableAccountProvider()
 
   const accounts = await provider.request({
     method: 'eth_requestAccounts',
   }) as string[]
 
-  await forceBaseChain(provider)
+  await forceUnstableChain(provider)
 
   return {
     provider,

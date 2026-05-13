@@ -17,7 +17,7 @@ const metadata = {
   icons: ['https://avatars.githubusercontent.com/u/179229932']
 }
 
-// Base Account wallet ID
+// Unstable Account wallet ID
 const BASE_ACCOUNT_WALLET_ID = 'fd20dc426fb37566d803205b19bbc1d4096b248ac04548e3cfb6b3a38bd033aa'
 
 // Create the modal
@@ -34,7 +34,7 @@ export const modal = createAppKit({
   themeVariables: {
     '--w3m-accent': '#000000',
   },
-  // Only show Base Account wallet
+  // Only show Unstable Account wallet
   featuredWalletIds: [BASE_ACCOUNT_WALLET_ID],
   includeWalletIds: [BASE_ACCOUNT_WALLET_ID],
   allWallets: 'SHOW',

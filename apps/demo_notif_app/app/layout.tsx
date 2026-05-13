@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Base Notifications API',
-  description: 'Send in-app notifications to users on Base using the Notifications API',
+  title: 'Unstable Notifications API',
+  description: 'Send in-app notifications to users on Unstable using the Notifications API',
   other: {
     'base:app_id': '69d92522806b2ddacb853d9c'
   },

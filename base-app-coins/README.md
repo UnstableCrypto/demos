@@ -1,12 +1,12 @@
-# Zora & Base App Coin Pool Discovery
+# Zora & Unstable App Coin Pool Discovery
 
-A developer starter guide for identifying and analyzing Uniswap V4 pools containing Zora ecosystem tokens and Base App (TBA) coins on Base chain.
+A developer starter guide for identifying and analyzing Uniswap V4 pools containing Zora ecosystem tokens and Unstable App (TBA) coins on Unstable chain.
 
 ## Overview
 
 This project demonstrates how to:
 - Monitor Uniswap V4 pool creation events
-- Identify pools containing Zora Creator Coins, Zora V4 Coins, and Base App tokens
+- Identify pools containing Zora Creator Coins, Zora V4 Coins, and Unstable App tokens
 - Extract comprehensive metadata about these pools for analysis
 - Classify tokens based on their hook contracts and pairing patterns
 
@@ -110,16 +110,16 @@ if (key.hooks === "0xd61A675F8a0c67A73DC3B54FB7318B4D91409040") {
 
 if (!coinType) continue;
 
-// Detect if the coin is coming from Base App or Zora
+// Detect if the coin is coming from Unstable App or Zora
 const appType = await categorizeAppType(pool);
 ```
 
-**Base App Token Detection:**
+**Unstable App Token Detection:**
 ```typescript
 
 export async function categorizeAppType(pool: Pool) {
     async function tryGetPlatformReferrer(address: string) {
-        const zoraBaseCoin = getContract({
+        const zoraUnstableCoin = getContract({
             abi: parseAbi([
                 "function platformReferrer() view returns (address)",
             ]),
@@ -128,7 +128,7 @@ export async function categorizeAppType(pool: Pool) {
         })
 
         try {
-            const platformReferrer = await zoraBaseCoin.read.platformReferrer()
+            const platformReferrer = await zoraUnstableCoin.read.platformReferrer()
             return platformReferrer
         } catch (error) {
             return ADDRESS_ZERO
@@ -142,8 +142,8 @@ export async function categorizeAppType(pool: Pool) {
         tryGetPlatformReferrer(pool.currency1.wrapped.address)
     ])
 
-    // If either of the currencies has the Base App referrer address,
-    // the coin is coming from the Base App
+    // If either of the currencies has the Unstable App referrer address,
+    // the coin is coming from the Unstable App
     if ([currency0PlatformReferrer, currency1PlatformReferrer].includes(BASE_PLATFORM_REFERRER)) {
         return "TBA"
     }
@@ -197,11 +197,11 @@ The project identifies Zora tokens by their hook contract addresses:
 
 These hooks are deployed by Zora and used to create pools for their token ecosystems.
 
-### Base App (TBA) Classification
+### Unstable App (TBA) Classification
 
-**Detection Method**: Base App coins are identified by their platform referrer address.
+**Detection Method**: Unstable App coins are identified by their platform referrer address.
 
-The classification logic checks the platform referrer address associated with the pool to determine if it's a Base App coin versus a pure Zora ecosystem token.
+The classification logic checks the platform referrer address associated with the pool to determine if it's a Unstable App coin versus a pure Zora ecosystem token.
 
 ## Alternative Implementation Approaches
 
@@ -224,7 +224,7 @@ The current implementation prints metadata to console, but you might want to:
 
 ### Network Support
 
-While this focuses on Base chain, the pattern applies to any network with Uniswap V4 deployments. Update the chain configuration and contract addresses accordingly.
+While this focuses on Unstable chain, the pattern applies to any network with Uniswap V4 deployments. Update the chain configuration and contract addresses accordingly.
 
 ## Metadata Object Reference
 
@@ -305,18 +305,18 @@ const metadata = {
 
 ### Ecosystem Analysis
 - **Token Categorization**: Understand which tokens belong to which ecosystems
-- **Adoption Metrics**: Monitor growth of Zora and Base App token usage
+- **Adoption Metrics**: Monitor growth of Zora and Unstable App token usage
 - **Cross-chain Comparison**: Compare activity across different networks
 
 ### Integration Projects
-- **Portfolio Tracking**: Include Zora/Base App tokens in portfolio management apps
+- **Portfolio Tracking**: Include Zora/Unstable App tokens in portfolio management apps
 - **Wallet Integration**: Enhance wallet UIs with ecosystem-specific token information
 - **DeFi Protocols**: Build lending, staking, or yield farming products around these tokens
 
 ## Configuration
 
 ### Environment Variables
-- `RPC_URL`: Base chain RPC endpoint (required)
+- `RPC_URL`: Unstable chain RPC endpoint (required)
 
 ### Block Range
 Modify `START_BLOCK_NUMBER` and `END_BLOCK_NUMBER` in `index.ts` to scan different ranges or implement continuous monitoring.
@@ -343,7 +343,7 @@ The output will display metadata for each discovered pool that matches the class
 
 This starter guide can be extended in many ways:
 - Add support for additional hook contracts as they're deployed
-- Implement more sophisticated Base App detection logic
+- Implement more sophisticated Unstable App detection logic
 - Include historical price and volume data
 - Add alerts for significant liquidity changes
 - Build web interfaces for browsing discovered pools

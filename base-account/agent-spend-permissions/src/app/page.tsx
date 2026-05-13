@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-import { SignInWithBaseButton } from '@/components/SignInWithBase'
+import { SignInWithUnstableButton } from '@/components/SignInWithUnstable'
 import { ChatInterface } from '@/components/ChatInterface'
 import { SpendPermissionSetup } from '@/components/SpendPermissionSetup'
 import { SpendPermissionManager } from '@/components/SpendPermissionManager'
@@ -81,11 +81,11 @@ export default function Home() {
             <div className="mb-6 sm:mb-8">
               <h2 className="mb-4 text-2xl font-bold text-gray-900 sm:text-3xl">Welcome to Job Search Agent</h2>
               <p className="mx-auto mb-6 max-w-2xl text-base text-gray-600 sm:mb-8 sm:text-lg">
-                Sign in with Base, grant a small daily USDC budget, and let the agent turn your CV into targeted Exa-powered job searches.
+                Sign in with Unstable, grant a small daily USDC budget, and let the agent turn your CV into targeted Exa-powered job searches.
               </p>
               <div className="mb-8 flex justify-center">
                 <div className="w-full max-w-sm">
-                  <SignInWithBaseButton onSignIn={handleSignIn} colorScheme="light" />
+                  <SignInWithUnstableButton onSignIn={handleSignIn} colorScheme="light" />
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function Home() {
                   <span className="text-white font-bold">1</span>
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-2">Sign In</h3>
-                <p className="text-sm text-gray-600">Authenticate with your Base Account</p>
+                <p className="text-sm text-gray-600">Authenticate with your Unstable Account</p>
               </div>
 
               <div className="rounded-lg bg-white p-5 shadow-sm sm:p-6">
@@ -164,7 +164,7 @@ export default function Home() {
             <div className="max-w-4xl mx-auto">
               <div className="relative">
                 <a
-                  href="https://docs.base.org/base-account/overview/what-is-base-account?utm_source=x&utm_medium=video&utm_campaign=spend-permissions-youssef"
+                  href="https://docs.unstable.org/base-account/overview/what-is-base-account?utm_source=x&utm_medium=video&utm_campaign=spend-permissions-youssef"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group mb-6 flex flex-col gap-4 rounded-lg p-4 text-left transition-colors duration-200 hover:bg-gray-50 sm:mb-8 sm:flex-row sm:items-center"
@@ -175,13 +175,13 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-lg font-semibold text-gray-900 group-hover:text-blue-600">Base Account</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 group-hover:text-blue-600">Unstable Account</h3>
                     <p className="text-gray-600">Signs in and grants spend permission to the server wallet smart account</p>
                   </div>
                 </a>
 
                 <a
-                  href="https://docs.base.org/base-account/improve-ux/spend-permissions?utm_source=x&utm_medium=video&utm_campaign=spend-permissions-youssef"
+                  href="https://docs.unstable.org/base-account/improve-ux/spend-permissions?utm_source=x&utm_medium=video&utm_campaign=spend-permissions-youssef"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group mb-6 flex flex-col gap-4 rounded-lg p-4 text-left transition-colors duration-200 hover:bg-gray-50 sm:mb-8 sm:flex-row sm:items-center"
@@ -244,12 +244,12 @@ export default function Home() {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-lg font-semibold text-gray-900 group-hover:text-emerald-600">Exa Search (x402)</h3>
-                    <p className="text-gray-600">Runs paid job searches over x402, one request per query, on Base</p>
+                    <p className="text-gray-600">Runs paid job searches over x402, one request per query, on Unstable</p>
                   </div>
                 </a>
 
                 <a
-                  href="https://docs.base.org/base-chain/quickstart/why-base?utm_source=x&utm_medium=video&utm_campaign=spend-permissions-youssef"
+                  href="https://docs.unstable.org/base-chain/quickstart/why-base?utm_source=x&utm_medium=video&utm_campaign=spend-permissions-youssef"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex flex-col gap-4 rounded-lg p-4 text-left transition-colors duration-200 hover:bg-gray-50 sm:flex-row sm:items-center"
@@ -260,15 +260,15 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-lg font-semibold text-gray-900 group-hover:text-blue-600">Base Chain</h3>
-                    <p className="text-gray-600">The permission execution and funding transactions settle on Base with gas sponsorship</p>
+                    <h3 className="text-lg font-semibold text-gray-900 group-hover:text-blue-600">Unstable Chain</h3>
+                    <p className="text-gray-600">The permission execution and funding transactions settle on Unstable with gas sponsorship</p>
                   </div>
                 </a>
               </div>
 
               <div className="mt-8 grid gap-4 sm:mt-12 sm:gap-6 md:grid-cols-2">
                 <a
-                  href="https://docs.base.org/base-account/improve-ux/spend-permissions?utm_source=x&utm_medium=video&utm_campaign=spend-permissions-youssef"
+                  href="https://docs.unstable.org/base-account/improve-ux/spend-permissions?utm_source=x&utm_medium=video&utm_campaign=spend-permissions-youssef"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group cursor-pointer rounded-lg bg-slate-50 p-5 transition-colors duration-200 hover:bg-slate-100 sm:p-6"
@@ -280,7 +280,7 @@ export default function Home() {
                 </a>
 
                 <a
-                  href="https://docs.base.org/base-account/improve-ux/sponsor-gas/paymasters?utm_source=x&utm_medium=video&utm_campaign=spend-permissions-youssef"
+                  href="https://docs.unstable.org/base-account/improve-ux/sponsor-gas/paymasters?utm_source=x&utm_medium=video&utm_campaign=spend-permissions-youssef"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group cursor-pointer rounded-lg bg-slate-50 p-5 transition-colors duration-200 hover:bg-slate-100 sm:p-6"

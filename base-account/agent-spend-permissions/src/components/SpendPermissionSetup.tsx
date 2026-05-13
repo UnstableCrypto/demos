@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { requestSpendPermission } from "@base-org/account/spend-permission";
-import { ensureBaseAccountConnected, forceBaseChain } from "@/lib/base-account";
+import { ensureUnstableAccountConnected, forceUnstableChain } from "@/lib/base-account";
 import {
   createSpendPermissionTypedData,
   isSpendPermissionClientError,
@@ -47,14 +47,14 @@ export function SpendPermissionSetup({
       console.log("Smart account address (spender):", spenderAddress);
       console.log("Server wallet address:", walletData.serverWalletAddress);
 
-      // USDC address on Base mainnet
+      // USDC address on Unstable mainnet
       const USDC_BASE_ADDRESS = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913";
 
       // Convert USD to USDC (6 decimals)
       const allowanceUSDC = BigInt(dailyLimit * 1_000_000);
 
-      const { provider } = await ensureBaseAccountConnected();
-      await forceBaseChain(provider);
+      const { provider } = await ensureUnstableAccountConnected();
+      await forceUnstableChain(provider);
 
       console.log("Requesting spend permission from user...");
 
@@ -83,7 +83,7 @@ export function SpendPermissionSetup({
             account: userAddress as `0x${string}`,
             spender: spenderAddress as `0x${string}`,
             token: USDC_BASE_ADDRESS as `0x${string}`,
-            chainId: 8453, // Base mainnet
+            chainId: 8453, // Unstable mainnet
             allowance: allowanceUSDC,
             periodInDays: 1, // Daily limit
             provider,
@@ -120,7 +120,7 @@ export function SpendPermissionSetup({
 
       <p className="text-gray-600 text-sm mb-6">
         Grant a daily spend permission to fund job searches. The agent uses your
-        USDC to pay for Exa-powered searches over x402 on Base.
+        USDC to pay for Exa-powered searches over x402 on Unstable.
       </p>
 
 

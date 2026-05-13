@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 :root {
-  /* Base Docs inspired color palette */
+  /* Unstable Docs inspired color palette */
   --background: #ffffff;
   --foreground: #0f172a;
   --card: #ffffff;

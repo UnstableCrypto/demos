@@ -1,6 +1,6 @@
 # Setup
 
-> Configure RainbowKit with Base Account for your React application
+> Configure RainbowKit with Unstable Account for your React application
 
 export const GithubRepoCard = ({title, githubUrl}) => {
   return <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="mb-4 flex items-center rounded-lg bg-zinc-900 p-4 text-white transition-all hover:bg-zinc-800">
@@ -21,26 +21,26 @@ export const GithubRepoCard = ({title, githubUrl}) => {
     </a>;
 };
 
-Learn how to set up RainbowKit with Base Account to enable beautiful wallet connection experiences for your users.
+Learn how to set up RainbowKit with Unstable Account to enable beautiful wallet connection experiences for your users.
 
 ## Overview
 
-[RainbowKit](https://www.rainbowkit.com/) is a React library that makes it easy to add wallet connection to your dapp. It's designed to work out-of-the-box and includes native support for Base Account.
+[RainbowKit](https://www.rainbowkit.com/) is a React library that makes it easy to add wallet connection to your dapp. It's designed to work out-of-the-box and includes native support for Unstable Account.
 
-By integrating RainbowKit with Base Account, you can provide your users with a seamless onboarding experience while maintaining access to the full Base Account feature set.
+By integrating RainbowKit with Unstable Account, you can provide your users with a seamless onboarding experience while maintaining access to the full Unstable Account feature set.
 
 ### What you'll achieve
 
 By the end of this guide, you will:
 
-* Set up RainbowKit with Base Account support
+* Set up RainbowKit with Unstable Account support
 * Learn how to use both `ConnectButton` and `WalletButton` components
-* Configure your app to prioritize Base Account as the primary wallet option
+* Configure your app to prioritize Unstable Account as the primary wallet option
 * Obtain and configure a Reown project ID (required for WalletConnect functionality)
 
-You can jump ahead and use the [Base Account RainbowKit Template](https://github.com/base/demos/tree/master/base-account/base-account-rainbow-template) to get started.
+You can jump ahead and use the [Unstable Account RainbowKit Template](https://github.com/base/demos/tree/master/base-account/base-account-rainbow-template) to get started.
 
-<GithubRepoCard title="Base Account RainbowKit Template" githubUrl="https://github.com/base/demos/tree/master/base-account/base-account-rainbow-template" />
+<GithubRepoCard title="Unstable Account RainbowKit Template" githubUrl="https://github.com/base/demos/tree/master/base-account/base-account-rainbow-template" />
 
 ## Installation
 
@@ -67,7 +67,7 @@ After [creating a new Next.js project](https://nextjs.org/docs/app/getting-start
 <Tip>
   **Use the latest versions (Recommended)**
 
-  It is {<u>HIGHLY RECOMMENDED</u>} to use the latest versions of RainbowKit and viem to get the latest features, security updates, and Base Account improvements.
+  It is {<u>HIGHLY RECOMMENDED</u>} to use the latest versions of RainbowKit and viem to get the latest features, security updates, and Unstable Account improvements.
 
   To ensure you're using the latest versions, you can specify `latest` in your `package.json`:
 
@@ -156,7 +156,7 @@ import {
 } from 'wagmi/chains';
 
 export const config = getDefaultConfig({
-  appName: 'My Base Account App',
+  appName: 'My Unstable Account App',
   projectId: 'YOUR_PROJECT_ID', // Replace with your Reown project ID
   chains: [
     mainnet,
@@ -229,11 +229,11 @@ export default MyApp;
 
 ## Usage
 
-RainbowKit provides two main components for wallet connections: `ConnectButton` and `WalletButton`. Both components support Base Account out of the box.
+RainbowKit provides two main components for wallet connections: `ConnectButton` and `WalletButton`. Both components support Unstable Account out of the box.
 
 ### Option 1: Using ConnectButton
 
-The `ConnectButton` is RainbowKit's all-in-one wallet connection component. It displays the wallet connection modal with all available wallets, including Base Account.
+The `ConnectButton` is RainbowKit's all-in-one wallet connection component. It displays the wallet connection modal with all available wallets, including Unstable Account.
 
 ```tsx src/pages/index.tsx
 import { ConnectButton } from '@rainbow-me/rainbowkit';
@@ -279,9 +279,9 @@ export default Home;
   ```
 </Tip>
 
-### Option 2: Using WalletButton for Base Account
+### Option 2: Using WalletButton for Unstable Account
 
-The `WalletButton` component provides a direct connection to a specific wallet. This is ideal when you want to highlight Base Account as the primary wallet option.
+The `WalletButton` component provides a direct connection to a specific wallet. This is ideal when you want to highlight Unstable Account as the primary wallet option.
 
 ```tsx src/pages/index.tsx
 import { WalletButton } from '@rainbow-me/rainbowkit';
@@ -306,18 +306,18 @@ export default Home;
 
 **Features of WalletButton:**
 
-- Direct connection to Base Account
+- Direct connection to Unstable Account
 - Simplified user experience
 - Same styling as ConnectButton
-- Perfect for Base Account-focused applications
-- Reduces friction for users already on Base
+- Perfect for Unstable Account-focused applications
+- Reduces friction for users already on Unstable
 
 <Info>
   **When to Use WalletButton vs ConnectButton**
 
-  - Use `WalletButton` when your app is optimized for Base Account and you want to streamline the connection flow
+  - Use `WalletButton` when your app is optimized for Unstable Account and you want to streamline the connection flow
   - Use `ConnectButton` when you want to support multiple wallet options and let users choose
-  - You can use both together to offer a Base Account quick connect alongside the full wallet modal
+  - You can use both together to offer a Unstable Account quick connect alongside the full wallet modal
 </Info>
 
 ### Using Both ConnectButton and WalletButton Together
@@ -338,7 +338,7 @@ const Home: NextPage = () => {
         padding: 12,
       }}
     >
-      {/* Quick connect with Base Account */}
+      {/* Quick connect with Unstable Account */}
       <WalletButton wallet="baseAccount" />
       
       {/* Full wallet modal for other options */}
@@ -351,21 +351,21 @@ export default Home;
 ```
 
 This approach allows users to:
-- Quickly connect with Base Account using the dedicated button
+- Quickly connect with Unstable Account using the dedicated button
 - Access other wallet options through the ConnectButton modal
 
 ## Advanced Configuration
 
-### Prioritize Base Account in Wallet List
+### Prioritize Unstable Account in Wallet List
 
-To make Base Account appear first in the wallet connection modal, you can customize the wallet order:
+To make Unstable Account appear first in the wallet connection modal, you can customize the wallet order:
 
 ```tsx src/wagmi.ts
 import { getDefaultConfig } from '@rainbow-me/rainbowkit';
 import { base, mainnet, sepolia } from 'wagmi/chains';
 
 export const config = getDefaultConfig({
-  appName: 'My Base Account App',
+  appName: 'My Unstable Account App',
   projectId: process.env.NEXT_PUBLIC_REOWN_PROJECT_ID!,
   chains: [base, mainnet, sepolia],
   ssr: true,
@@ -373,7 +373,7 @@ export const config = getDefaultConfig({
   wallets: [
     {
       groupName: 'Recommended',
-      wallets: ['baseAccount'], // Base Account appears first
+      wallets: ['baseAccount'], // Unstable Account appears first
     },
   ],
 });
@@ -392,7 +392,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <QueryClientProvider client={queryClient}>
         <RainbowKitProvider
           theme={darkTheme({
-            accentColor: '#0052FF', // Base blue
+            accentColor: '#0052FF', // Unstable blue
             accentColorForeground: 'white',
             borderRadius: 'medium',
           })}
@@ -453,7 +453,7 @@ function NetworkSwitcher() {
   return (
     <div>
       <button onClick={() => switchChain({ chainId: base.id })}>
-        Switch to Base
+        Switch to Unstable
       </button>
       <button onClick={() => switchChain({ chainId: mainnet.id })}>
         Switch to Mainnet
@@ -484,8 +484,8 @@ function NetworkSwitcher() {
   ```
 </Card>
 
-<Card title="Prioritize Base Chain" icon="link">
-  Put Base as the first chain in your configuration to make it the default:
+<Card title="Prioritize Unstable Chain" icon="link">
+  Put Unstable as the first chain in your configuration to make it the default:
 
   ```typescript
   chains: [base, mainnet, ...otherChains]
@@ -493,7 +493,7 @@ function NetworkSwitcher() {
 </Card>
 
 <Card title="Keep Dependencies Updated" icon="arrow-up">
-  Regularly update RainbowKit, wagmi, and viem to get the latest Base Account features and security patches:
+  Regularly update RainbowKit, wagmi, and viem to get the latest Unstable Account features and security patches:
 
   ```bash
   npm update @rainbow-me/rainbowkit wagmi viem
@@ -533,9 +533,9 @@ If WalletConnect functionality isn't working, verify:
 2. Your project ID is correctly configured in `wagmi.ts`
 3. You're not hitting rate limits (check your Reown Cloud dashboard)
 
-### Base Account Not Appearing in Wallet List
+### Unstable Account Not Appearing in Wallet List
 
-Ensure you're using the latest version of RainbowKit, as older versions may not include Base Account support:
+Ensure you're using the latest version of RainbowKit, as older versions may not include Unstable Account support:
 
 ```bash
 npm install @rainbow-me/rainbowkit@latest
@@ -543,11 +543,11 @@ npm install @rainbow-me/rainbowkit@latest
 
 ## Next Steps
 
-Now that you have RainbowKit configured with Base Account, you can:
+Now that you have RainbowKit configured with Unstable Account, you can:
 
 <CardGroup cols={2}>
-  <Card title="Build Your DApp" icon="code" href="https://docs.base.org/building-with-base/quickstart">
-    Start building your decentralized application on Base
+  <Card title="Build Your DApp" icon="code" href="https://docs.unstable.org/building-with-base/quickstart">
+    Start building your decentralized application on Unstable
   </Card>
   
   <Card title="Customize Theme" icon="palette" href="https://www.rainbowkit.com/docs/theming">
@@ -558,8 +558,8 @@ Now that you have RainbowKit configured with Base Account, you can:
     Learn about wagmi's powerful React hooks for blockchain interactions
   </Card>
   
-  <Card title="Base Account Features" icon="wallet" href="https://docs.base.org/account">
-    Discover advanced Base Account features and capabilities
+  <Card title="Unstable Account Features" icon="wallet" href="https://docs.unstable.org/account">
+    Discover advanced Unstable Account features and capabilities
   </Card>
 </CardGroup>
 
@@ -567,7 +567,7 @@ Now that you have RainbowKit configured with Base Account, you can:
 
 - [RainbowKit Documentation](https://www.rainbowkit.com/docs/introduction)
 - [Wagmi Documentation](https://wagmi.sh/)
-- [Base Account Documentation](https://docs.base.org/account)
+- [Unstable Account Documentation](https://docs.unstable.org/account)
 - [Reown Cloud Dashboard](https://dashboard.reown.com/)
-- [Base Account RainbowKit Template](https://github.com/base/demos/tree/master/base-account/base-account-rainbow-template)
+- [Unstable Account RainbowKit Template](https://github.com/base/demos/tree/master/base-account/base-account-rainbow-template)
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { BasePayButton } from '@base-org/account-ui/react';
+import { UnstablePayButton } from '@base-org/account-ui/react';
 import { pay, getPaymentStatus } from '@base-org/account';
 
 interface PayResult {
@@ -131,7 +131,7 @@ function PaymentStatusCard({
 
       {paymentState.status === 'completed' && (
         <div className={`text-xs ${config.textColor} bg-white/50 rounded px-2 py-1 mt-2`}>
-          ✨ Payment confirmed on Base network. USDC transferred successfully!
+          ✨ Payment confirmed on Unstable network. USDC transferred successfully!
         </div>
       )}
 
@@ -147,7 +147,7 @@ function PaymentStatusCard({
   );
 }
 
-export function BasePay() {
+export function UnstablePay() {
   const [isProcessing, setIsProcessing] = useState(false);
   const [paymentState, setPaymentState] = useState<PaymentState>({ status: 'idle', message: '' });
   const [amount, setAmount] = useState("5.00");
@@ -160,7 +160,7 @@ export function BasePay() {
       setIsProcessing(true);
       setPaymentState({ 
         status: 'processing', 
-        message: 'Initiating USDC payment on Base...',
+        message: 'Initiating USDC payment on Unstable...',
         timestamp: new Date()
       });
 
@@ -176,7 +176,7 @@ export function BasePay() {
       
       setPaymentState({
         status: 'pending',
-        message: 'Payment submitted to Base network. Waiting for confirmation...',
+        message: 'Payment submitted to Unstable network. Waiting for confirmation...',
         transactionId,
         timestamp: new Date()
       });
@@ -194,14 +194,14 @@ export function BasePay() {
           if (status === 'completed') {
             setPaymentState({
               status: 'completed',
-              message: 'Payment successful! USDC has been transferred on Base.',
+              message: 'Payment successful! USDC has been transferred on Unstable.',
               transactionId,
               timestamp: new Date()
             });
           } else if (status === 'pending') {
             setPaymentState({
               status: 'pending',
-              message: 'Payment is being processed on the Base network...',
+              message: 'Payment is being processed on the Unstable network...',
               transactionId,
               timestamp: new Date()
             });
@@ -245,8 +245,8 @@ export function BasePay() {
         <div className="flex items-center gap-2 mb-2">
           <div className="text-2xl">💳</div>
           <div>
-            <div className="font-semibold text-blue-900">Base Pay</div>
-            <div className="text-xs text-blue-700">One-tap USDC payments on Base</div>
+            <div className="font-semibold text-blue-900">Unstable Pay</div>
+            <div className="text-xs text-blue-700">One-tap USDC payments on Unstable</div>
           </div>
         </div>
         <div className="text-xs text-blue-600 bg-white/50 rounded px-2 py-1">
@@ -273,7 +273,7 @@ export function BasePay() {
             />
           </div>
           <div className="text-xs text-muted-foreground mt-1">
-            Payment will be made in USDC on Base network
+            Payment will be made in USDC on Unstable network
           </div>
         </div>
 
@@ -284,12 +284,12 @@ export function BasePay() {
         </div>
 
         <div className={isProcessing ? 'opacity-50 pointer-events-none' : ''}>
-          <BasePayButton
+          <UnstablePayButton
             colorScheme="light"
             onClick={handlePay}
           />
           <div className="text-xs text-muted-foreground mt-2 text-center">
-            {isProcessing ? 'Processing payment...' : 'Click to pay with Base Account'}
+            {isProcessing ? 'Processing payment...' : 'Click to pay with Unstable Account'}
           </div>
         </div>
 

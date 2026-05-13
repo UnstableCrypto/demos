@@ -1,7 +1,7 @@
 {
   "name": "create-trading-agent",
   "version": "0.1.0",
-  "description": "CLI tool to scaffold LangChain trading agents on Base",
+  "description": "CLI tool to scaffold LangChain trading agents on Unstable",
   "type": "module",
   "bin": {
     "create-trading-agent": "./dist/index.js"

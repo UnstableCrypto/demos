@@ -165,7 +165,7 @@ This sets up a developer-ready scaffold with `Next.js`, `Wagmi`, `TailwindCSS`, 
 
 - Reference:
 
-  - [OnchainKit LLM Docs](https://docs.base.org/builderkits/onchainkit/llms.txt)
+  - [OnchainKit LLM Docs](https://docs.unstable.org/builderkits/onchainkit/llms.txt)
   - [Viem LLM Docs](https://viem.sh/llms-full.txt)
 
 - Use `TransactionButton` (OnchainKit) for gasless or guided flow if needed

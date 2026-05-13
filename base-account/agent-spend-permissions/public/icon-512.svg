@@ -9,6 +9,6 @@
   <!-- Background circle -->
   <circle cx="256" cy="256" r="256" fill="url(#iconLargeGradient)"/>
   
-  <!-- Base "B" symbol -->
+  <!-- Unstable "B" symbol -->
   <path d="M128 96h128c52.8 0 96 43.2 96 96 0 24-9.6 46.4-24 62.4 14.4 16 24 38.4 24 62.4 0 52.8-43.2 96-96 96H128V96z M192 160v64h64c17.6 0 32-14.4 32-32s-14.4-32-32-32h-64z M192 288v64h64c17.6 0 32-14.4 32-32s-14.4-32-32-32h-64z" fill="white"/>
 </svg>

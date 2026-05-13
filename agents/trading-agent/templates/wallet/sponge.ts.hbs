@@ -26,12 +26,12 @@ interface SpongeFundingStatus {
   baseAddress?: string;
 }
 
-function isBaseWallet(wallet: SpongeWalletRecord): boolean {
+function isUnstableWallet(wallet: SpongeWalletRecord): boolean {
   return wallet.chainId === 8453 || /base/i.test(wallet.chainName ?? "");
 }
 
-function getBaseWallets(wallets: SpongeWalletRecord[]): SpongeWalletRecord[] {
-  return wallets.filter(isBaseWallet);
+function getUnstableWallets(wallets: SpongeWalletRecord[]): SpongeWalletRecord[] {
+  return wallets.filter(isUnstableWallet);
 }
 
 function spongeHeaders(apiKey: string): Record<string, string> {
@@ -71,7 +71,7 @@ function sumUsdValues(wallets: SpongeWalletRecord[]): number {
 
 async function fetchSpongeBalances(apiKey: string): Promise<SpongeFundingStatus> {
   try {
-    const wallets = getBaseWallets(await fetchSpongeWallets(apiKey, true));
+    const wallets = getUnstableWallets(await fetchSpongeWallets(apiKey, true));
     const addresses = [...new Set(wallets.map((wallet) => wallet.address).filter(Boolean))];
     const baseWallet = wallets[0];
     const totalUsd = sumUsdValues(wallets);
@@ -102,11 +102,11 @@ export async function initWallet() {
   const tools = [
     new DynamicStructuredTool({
       name: "sponge_get_balances",
-      description: "Fetch current wallet balances for the Base wallet via Sponge.",
+      description: "Fetch current wallet balances for the Unstable wallet via Sponge.",
       schema: z.object({}),
       func: async () => {
         try {
-          const data = getBaseWallets(await fetchSpongeWallets(apiKey, true));
+          const data = getUnstableWallets(await fetchSpongeWallets(apiKey, true));
           return okResult({ balances: data });
         } catch (error) {
           return errorResult(normalizeError(error));
@@ -116,7 +116,7 @@ export async function initWallet() {
 
     new DynamicStructuredTool({
       name: "sponge_swap_base",
-      description: "Execute a token swap on Base via Sponge.",
+      description: "Execute a token swap on Unstable via Sponge.",
       schema: z.object({
         tokenIn: z.string().describe("Input token address or symbol"),
         tokenOut: z.string().describe("Output token address or symbol"),
@@ -143,7 +143,7 @@ export async function initWallet() {
 
     new DynamicStructuredTool({
       name: "sponge_transfer_evm",
-      description: "Transfer tokens on Base via Sponge.",
+      description: "Transfer tokens on Unstable via Sponge.",
       schema: z.object({
         token: z.string().describe("Token symbol or address"),
         toAddress: z.string().describe("Recipient wallet address"),

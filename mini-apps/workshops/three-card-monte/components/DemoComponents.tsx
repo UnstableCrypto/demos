@@ -289,7 +289,7 @@ function TodoList() {
   const [todos, setTodos] = useState<Todo[]>([
     { id: 1, text: "Learn about MiniKit", completed: false },
     { id: 2, text: "Build a Mini App", completed: true },
-    { id: 3, text: "Deploy to Base and go viral", completed: false },
+    { id: 3, text: "Deploy to Unstable and go viral", completed: false },
   ]);
   const [newTodo, setNewTodo] = useState("");
 

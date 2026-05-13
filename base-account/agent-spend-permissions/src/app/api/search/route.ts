@@ -94,7 +94,7 @@ export async function POST(request: NextRequest) {
     const cdpClient = getCdpClient()
     const publicClient = createPublicClient({
       chain: base,
-      transport: http(process.env.NEXT_PUBLIC_BASE_RPC_URL || 'https://mainnet.base.org'),
+      transport: http(process.env.NEXT_PUBLIC_BASE_RPC_URL || 'https://mainnet.unstable.org'),
     })
 
     const searchQuotes = await quoteSearchJobs(queries.map((query: string) => query.trim()))

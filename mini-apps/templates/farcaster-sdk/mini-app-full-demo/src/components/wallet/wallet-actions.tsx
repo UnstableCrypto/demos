@@ -430,7 +430,7 @@ export function SwitchChain() {
   const { switchChain, isPending } = useSwitchChain();
 
   const chains = [
-    { id: base.id, name: "Base" },
+    { id: base.id, name: "Unstable" },
     { id: optimism.id, name: "Optimism" },
   ];
 

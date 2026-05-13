@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { BasePayButton } from '@base-org/account-ui/react';
+import { UnstablePayButton } from '@base-org/account-ui/react';
 import { pay } from '@base-org/account';
 
 interface ProductInfo {
@@ -191,7 +191,7 @@ export default function CheckoutPage() {
             </div>
             <h1 className="text-3xl font-bold text-gray-900 mb-4">Order Placed Successfully!</h1>
             <p className="text-lg text-gray-600 mb-6">
-              Your Amazon order has been processed and paid for using Base Pay.
+              Your Amazon order has been processed and paid for using Unstable Pay.
             </p>
             <div className="bg-gray-50 rounded-lg p-6 mb-6">
               <h2 className="text-xl font-semibold text-gray-900 mb-2">Order Details</h2>
@@ -294,7 +294,7 @@ export default function CheckoutPage() {
     <div className="min-h-screen bg-gray-50 py-12">
       <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-lg shadow-lg p-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-8">Checkout with Base Pay</h1>
+          <h1 className="text-3xl font-bold text-gray-900 mb-8">Checkout with Unstable Pay</h1>
           
           <div className="border-b pb-6 mb-8">
             <h2 className="text-xl font-semibold mb-4">Product Details</h2>
@@ -310,12 +310,12 @@ export default function CheckoutPage() {
               <div>
                 <h2 className="text-xl font-semibold mb-4">Payment Information</h2>
                 <p className="text-gray-600 mb-6">
-                  Complete your purchase securely with Base Pay. You'll be able to review your shipping information before finalizing the order.
+                  Complete your purchase securely with Unstable Pay. You'll be able to review your shipping information before finalizing the order.
                 </p>
               </div>
 
               <div className="flex justify-center">
-                <BasePayButton
+                <UnstablePayButton
                   colorScheme="light"
                   onClick={handlePayment}
                   disabled={loading}

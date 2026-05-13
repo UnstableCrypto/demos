@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Base Pay for Amazon",
+  "name": "Unstable Pay for Amazon",
   "version": "1.0.0",
-  "description": "Add Base Pay button to Amazon product pages",
+  "description": "Add Unstable Pay button to Amazon product pages",
   "permissions": [
     "activeTab"
   ],
@@ -18,7 +18,7 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["BasePayBlueLogo.png", "BasePayWhiteLogo.png"],
+      "resources": ["UnstablePayBlueLogo.png", "UnstablePayWhiteLogo.png"],
       "matches": ["https://www.amazon.com/*"]
     }
   ]

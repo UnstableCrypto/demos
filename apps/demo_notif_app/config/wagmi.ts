@@ -10,8 +10,8 @@ export const config = createConfig({
   storage: createStorage({ storage: cookieStorage }),
   ssr: true,
   transports: {
-    [base.id]: http('https://mainnet.base.org'),
-    [baseSepolia.id]: http('https://sepolia.base.org'),
+    [base.id]: http('https://mainnet.unstable.org'),
+    [baseSepolia.id]: http('https://sepolia.unstable.org'),
   },
 })
 

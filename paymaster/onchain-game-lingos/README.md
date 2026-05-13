@@ -9,7 +9,7 @@ An onchain phrase completion game that tests your knowledge of phrases, idioms, 
 Lingos combines traditional language learning with modern web technologies and blockchain integration. Players can:
 
 - Test their knowledge of international phrases and expressions
-- Connect their [Base Smart Wallet](https://docs.base.org/identity/smart-wallet/quickstart) for gasless experience
+- Connect their [Unstable Smart Wallet](https://docs.unstable.org/identity/smart-wallet/quickstart) for gasless experience
 
 ## Technologies Used
 

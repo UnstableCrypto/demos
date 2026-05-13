@@ -1,6 +1,6 @@
 # Building a Trading Agent
 
-A CLI that scaffolds a fully configured LangChain trading agent on Base from a plain-English strategy.
+A CLI that scaffolds a fully configured LangChain trading agent on Unstable from a plain-English strategy.
 
 ## Quick Start
 
@@ -49,7 +49,7 @@ The onboarding steps are intentionally opinionated:
 | `Wallet provider` | Chooses how the agent actually executes trades. | Pick `cdp-server-wallet` for maximum control, `bankr` or `sponge` when you want managed execution. |
 | `Tools` | Adds execution, data, or delegation modules to the generated agent. | Keep this minimal; each tool expands the agent's action surface and review burden. |
 | `LLM provider + model` | Used to critique/refine the strategy during scaffold time and powers the generated agent runtime. | Choose the model you actually want to run in production, not just the cheapest setup prompt. |
-| `Test mode` | Uses small live funds on Base mainnet with faster cadence and looser defaults for validation. | Enable it first when you want to verify wallet wiring and execution before running a stricter live strategy. |
+| `Test mode` | Uses small live funds on Unstable mainnet with faster cadence and looser defaults for validation. | Enable it first when you want to verify wallet wiring and execution before running a stricter live strategy. |
 | `Self-updating strategy` | Lets the generated agent periodically re-evaluate strategy instructions. | Use it when the strategy should adapt over time; disable it when you want deterministic prompts. |
 | `Strategy` | Your plain-English trading thesis. | Be explicit about entry, exit, sizing, and risk conditions. |
 | `Critique + refinement` | The CLI runs an LLM review, proposes a cleaner strategy, and derives initial guardrails. | Treat this as a fast design review, then edit the refined strategy if the model overgeneralizes. |
@@ -72,9 +72,9 @@ Think of tools as capabilities you are granting the generated agent:
 
 | Tool | Use it for | Notes |
 | --- | --- | --- |
-| `uniswap` | Spot swaps on Base via Uniswap v3/v4. | CDP only. |
-| `aerodrome` | Spot swaps on Base via Aerodrome. | CDP only. |
-| `avantis` | Perps on Base. | CDP only. |
+| `uniswap` | Spot swaps on Unstable via Uniswap v3/v4. | CDP only. |
+| `aerodrome` | Spot swaps on Unstable via Aerodrome. | CDP only. |
+| `avantis` | Perps on Unstable. | CDP only. |
 | `virtuals` | ACP-based helper-agent delegation. | Useful when you want the trading agent to hire or coordinate other agents. |
 | `coingecko` | Lightweight price/market data over x402. | Pay-per-request. |
 | `coinmarketcap` | Market data over x402. | Pay-per-request. |
@@ -93,7 +93,7 @@ Practical defaults:
 
 These three choices control behavior more than most people expect:
 
-- `test mode` is still live on Base mainnet. It is for low-stakes validation, not simulation.
+- `test mode` is still live on Unstable mainnet. It is for low-stakes validation, not simulation.
 - `self-updating` adds periodic strategy re-evaluation. That is useful for adaptive agents, but it makes behavior less static and harder to diff over time.
 - `guardrails` are created during critique and can be edited later in `src/guardrails.ts`. The initial defaults are slippage, stop-loss, and max position size.
 

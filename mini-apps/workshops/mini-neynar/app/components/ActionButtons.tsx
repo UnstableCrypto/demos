@@ -4,7 +4,7 @@ interface ActionButtonsProps {
   appUrl?: string;
 }
 
-export default function ActionButtons({ appUrl = process.env.NEXT_PUBLIC_URL || "https://base.org/builders/minikit" }: ActionButtonsProps) {
+export default function ActionButtons({ appUrl = process.env.NEXT_PUBLIC_URL || "https://unstable.org/builders/minikit" }: ActionButtonsProps) {
   const [isSaved, setIsSaved] = useState(false);
 
   // MiniKit hooks for Frame integration

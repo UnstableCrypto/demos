@@ -2,7 +2,7 @@ import {
   fetchPermissions,
   requestRevoke,
 } from '@base-org/account/spend-permission'
-import { getBaseAccountProvider } from '@/lib/base-account'
+import { getUnstableAccountProvider } from '@/lib/base-account'
 
 export const USDC_BASE_ADDRESS = '0x833589fcd6edb6e08f4c7c32d4f71b54bda02913'
 
@@ -11,7 +11,7 @@ export async function getUserSpendPermissions(
   spenderAccount: string
 ) {
   try {
-    const provider = getBaseAccountProvider()
+    const provider = getUnstableAccountProvider()
 
     const permissions = await fetchPermissions({
       account: userAccount as `0x${string}`,
@@ -33,7 +33,7 @@ export async function revokeSpendPermission(permission: any): Promise<string> {
   try {
     const normalizedPermission = {
       permission: permission,
-      provider: getBaseAccountProvider(),
+      provider: getUnstableAccountProvider(),
     }
 
     const result = await requestRevoke(normalizedPermission)

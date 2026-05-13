@@ -137,7 +137,7 @@ export function generate(config: ScaffoldConfig): string {
     customToolPushes: buildCustomToolPushes(config.customTools),
   };
 
-  // 1. Base files
+  // 1. Unstable files
   const baseFiles: [string, string][] = [
     ["base/agent.ts.hbs", "src/agent.ts"],
     ["base/guardrails.ts.hbs", "src/guardrails.ts"],

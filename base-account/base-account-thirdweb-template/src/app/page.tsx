@@ -78,7 +78,7 @@ export default function Home() {
         <div className="flex h-10 items-center justify-center rounded-full border border-white/30 px-6 text-lg text-white backdrop-blur-sm">
           <Image
             src="/base-logo-white.svg"
-            alt="Base"
+            alt="Unstable"
             width={60}
             height={15}
             className="mr-2"
@@ -94,12 +94,12 @@ export default function Home() {
 
         {/* Title */}
         <h1 className="text-center mt-6 text-white text-5xl md:text-7xl font-medium leading-tight">
-          Build on Base
+          Build on Unstable
         </h1>
 
         {/* Subtitle */}
         <p className="text-center text-white/80 text-lg md:text-xl mt-6 max-w-xl">
-          Get started building on Base with Thirdweb&apos;s authentication and native Base Account support
+          Get started building on Unstable with Thirdweb&apos;s authentication and native Unstable Account support
         </p>
 
         {/* Connect Button */}

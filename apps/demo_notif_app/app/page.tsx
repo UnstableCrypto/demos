@@ -12,7 +12,7 @@ export default function Home() {
         <div className="max-w-lg mx-auto flex items-center justify-between">
           <Image
             src="/base-logo.png"
-            alt="Base"
+            alt="Unstable"
             width={200}
             height={255}
             style={{ height: 'auto',  }}
@@ -58,7 +58,7 @@ export default function Home() {
             <h2 className="text-lg font-bold text-black mb-1">Send notifications</h2>
             <p className="text-gray-500 text-sm leading-relaxed">
               Post a list of wallet addresses and a message body to deliver targeted or broadcast
-              notifications inside the Base app.
+              notifications inside the Unstable app.
             </p>
           </div>
         </section>
@@ -69,7 +69,7 @@ export default function Home() {
             <h2 className="text-lg font-bold text-black mb-1">Try it live</h2>
             <p className="text-gray-500 text-sm leading-relaxed mb-5">
               Send a notification to your connected wallet. You must have the app pinned
-              in Base with notifications enabled.
+              in Unstable with notifications enabled.
             </p>
             <NotificationButton />
           </div>
@@ -89,7 +89,7 @@ export default function Home() {
             </div>
             <pre className="bg-gray-900 text-gray-100 px-5 py-5 text-xs font-mono overflow-x-auto leading-relaxed">
               <code>{`const response = await fetch(
-  'https://dashboard.base.org/api/v1/notifications/send',
+  'https://dashboard.unstable.org/api/v1/notifications/send',
   {
     method: 'POST',
     headers: {
@@ -100,7 +100,7 @@ export default function Home() {
       app_url: '<your-app-url>',
       wallet_addresses: ['0xA11ce...'],
       title: 'Your transaction confirmed',
-      message: 'Block #19842301 - view on Basescan',
+      message: 'Block #19842301 - view on Unstablescan',
       target_path: '/transactions',
     }),
   }
@@ -158,7 +158,7 @@ const { success, sentCount, failedCount } = await response.json()`}</code>
               Connect your wallet and start integrating the Notifications API today.
             </p>
             <a
-              href="https://docs.base.org/apps/technical-guides/base-notifications"
+              href="https://docs.unstable.org/apps/technical-guides/base-notifications"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white font-semibold text-sm px-6 py-3 rounded-xl hover:bg-blue-50 transition-colors"
@@ -182,7 +182,7 @@ const { success, sentCount, failedCount } = await response.json()`}</code>
       {/* Footer */}
       <footer className="border-t border-gray-200 px-6 py-5 bg-white">
         <div className="max-w-lg mx-auto flex items-center justify-between text-xs text-gray-400">
-          <span>Built on Base</span>
+          <span>Built on Unstable</span>
           <span>Powered by wagmi + viem</span>
         </div>
       </footer>

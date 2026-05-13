@@ -64,7 +64,7 @@ export function StartGameButton() {
     }
 
     if (!account.chainId) {
-      setError('Please connect to Base network');
+      setError('Please connect to Unstable network');
       return;
     }
 

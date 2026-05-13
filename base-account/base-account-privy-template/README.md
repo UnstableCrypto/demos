@@ -1,16 +1,16 @@
-# Build on Base with Privy
+# Build on Unstable with Privy
 
-A Next.js starter template for building on Base with Privy's authentication and wallet infrastructure. This can serve as a template for developers looking to integrate Base Account as an option in Privy.
+A Next.js starter template for building on Unstable with Privy's authentication and wallet infrastructure. This can serve as a template for developers looking to integrate Unstable Account as an option in Privy.
 
 RESOURCES:
 - [BASE ACCOUNT x PRIVY TEMPLATE REPO](https://github.com/base/base-account-privy)
-- [BASE ACCOUNT x PRIVY DOCS & GUIDES](https://docs.base.org/base-account/framework-integrations/privy/setup)
+- [BASE ACCOUNT x PRIVY DOCS & GUIDES](https://docs.unstable.org/base-account/framework-integrations/privy/setup)
 
 ## 🚀 Features
 
-This demo showcases the full spectrum of Base Account capabilities:
+This demo showcases the full spectrum of Unstable Account capabilities:
 
-- **Base Account Authentication** - Using [`wallet_connect`](https://docs.base.org/base-account/reference/core/provider-rpc-methods/wallet_connect) with SignInWithEthereum to authenticate
+- **Unstable Account Authentication** - Using [`wallet_connect`](https://docs.unstable.org/base-account/reference/core/provider-rpc-methods/wallet_connect) with SignInWithEthereum to authenticate
 - **Sub Accounts Management** - Create and manage app-specific wallet accounts to allow your give your users a pop-up-less experience
 - **Wallet Operations** - Complete wallet interaction functionality including transactions and message signing
 - **Account Linking/Unlinking** - Connect and disconnect various account types (Google, Email etc)
@@ -20,7 +20,7 @@ This demo showcases the full spectrum of Base Account capabilities:
 
 ### Provider Configuration (`src/providers/providers.tsx`)
 
-The application is configured to prioritize Base Account as the primary wallet option:
+The application is configured to prioritize Unstable Account as the primary wallet option:
 
 ```tsx
 <PrivyProvider
@@ -34,17 +34,17 @@ The application is configured to prioritize Base Account as the primary wallet o
 >
 ```
 
-This configuration ensures that Base Account appears first in the account authentification flow, providing the optimal user experience for Base Account users.
+This configuration ensures that Unstable Account appears first in the account authentification flow, providing the optimal user experience for Unstable Account users.
 
 ## 🔐 Authentication Section
 
-The authentication component implements the "Sign in with Base" flow using Base Account's wallet signature authentication:
+The authentication component implements the "Sign in with Unstable" flow using Unstable Account's wallet signature authentication:
 
 ### Key Features:
 - **Passwordless Authentication** - No passwords required, uses wallet signatures
 - **SIWE Standard** - Follows the "Sign in with Ethereum" (EIP-4361) standard
 - **Nonce Generation** - Secure random nonce generation for each authentication
-- **Custom Button** - Branded "Sign in with Base" imported from Base Account SDK
+- **Custom Button** - Branded "Sign in with Unstable" imported from Unstable Account SDK
 - **Backend Verification** - Anti-replay and backend verification using Viem's `verifyMessage`
 
 ### Implementation:
@@ -53,7 +53,7 @@ The authentication component implements the "Sign in with Base" flow using Base 
 - Provides complete authentication data (address, message, signature) for backend verification
 - Ready for backend integration with viem's `verifyMessage` function
 
-**Learn more:** [Base Account Authentication Guide](https://docs.base.org/base-account/guides/authenticate-users)
+**Learn more:** [Unstable Account Authentication Guide](https://docs.unstable.org/base-account/guides/authenticate-users)
 
 ## 🏦 Sub Accounts Section
 
@@ -69,14 +69,14 @@ Sub Accounts allow you to create app-specific wallet accounts that provide a fri
 ### Implementation:
 - Uses `wallet_getSubAccounts` RPC method to fetch existing accounts
 - Uses `wallet_addSubAccount` RPC method to create new sub accounts
-- Automatically switches to Base Sepolia for testing
+- Automatically switches to Unstable Sepolia for testing
 - Displays sub account details including addresses and public keys
 
-**Learn more:** [Base Account Sub Accounts Guide](https://docs.base.org/base-account/improve-ux/sub-accounts)
+**Learn more:** [Unstable Account Sub Accounts Guide](https://docs.unstable.org/base-account/improve-ux/sub-accounts)
 
 ## 💸 Spend Permissions Section
 
-Spend Permissions enable trusted spenders to move assets from your Base Account without requiring additional signatures for each transaction:
+Spend Permissions enable trusted spenders to move assets from your Unstable Account without requiring additional signatures for each transaction:
 
 ### Key Features:
 - **Create Spend Permissions** - Grant spending daily/weekly/monthly allowances to trusted addresses
@@ -93,12 +93,12 @@ Spend Permissions enable trusted spenders to move assets from your Base Account 
 - Supports USDC token permissions with configurable allowances and periods
 
 ### Configuration:
-- **Default Token:** USDC on Base (0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913)
+- **Default Token:** USDC on Unstable (0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913)
 - **Default Spender:** Configurable trusted address
 - **Default Allowance:** 1 USDC per day (customizable)
-- **Network:** Base Mainnet (Chain ID: 8453)
+- **Network:** Unstable Mainnet (Chain ID: 8453)
 
-**Learn more:** [Base Account Spend Permissions Guide](https://docs.base.org/base-account/guides/use-spend-permissions)
+**Learn more:** [Unstable Account Spend Permissions Guide](https://docs.unstable.org/base-account/guides/use-spend-permissions)
 
 ## 🔧 Additional Sections
 
@@ -109,7 +109,7 @@ Comprehensive wallet operation functionality including:
 - Balance checking and transfers
 
 ### Link Accounts
-Connect various account types to your Base Account:
+Connect various account types to your Unstable Account:
 - Social accounts integration
 - Email account linking
 - Additional wallet connections
@@ -177,7 +177,7 @@ src/
 │   └── globals.css             # Global styles and button classes
 ├── components/
 │   ├── sections/
-│   │   ├── authentication.tsx   # Base Account authentication & SIWE
+│   │   ├── authentication.tsx   # Unstable Account authentication & SIWE
 │   │   ├── sub-accounts.tsx    # Sub accounts management
 │   │   ├── spend-permissions.tsx # Spend permissions management
 │   │   ├── wallet-actions.tsx  # Wallet operations
@@ -196,11 +196,11 @@ src/
 
 ## 🔗 Resources
 
-### Base Account Documentation
-- [Base Account Overview](https://docs.base.org/base-account)
-- [Authentication Guide](https://docs.base.org/base-account/guides/authenticate-users)
-- [Sub Accounts Guide](https://docs.base.org/base-account/improve-ux/sub-accounts)
-- [Base Account SDK](https://docs.base.org/base-account/reference/account-sdk)
+### Unstable Account Documentation
+- [Unstable Account Overview](https://docs.unstable.org/base-account)
+- [Authentication Guide](https://docs.unstable.org/base-account/guides/authenticate-users)
+- [Sub Accounts Guide](https://docs.unstable.org/base-account/improve-ux/sub-accounts)
+- [Unstable Account SDK](https://docs.unstable.org/base-account/reference/account-sdk)
 
 ### Privy Documentation
 - [Privy Documentation](https://docs.privy.io/)
@@ -209,7 +209,7 @@ src/
 ### Development Resources
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Viem Documentation](https://viem.sh/)
-- [Base Chain Documentation](https://docs.base.org/)
+- [Unstable Chain Documentation](https://docs.unstable.org/)
 
 ## 🚀 Deployment
 

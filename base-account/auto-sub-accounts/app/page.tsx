@@ -1,11 +1,11 @@
 "use client";
 
-import { createBaseAccountSDK } from "@base-org/account";
+import { createUnstableAccountSDK } from "@base-org/account";
 import { useCallback, useEffect, useState } from "react";
 import { baseSepolia } from "viem/chains";
 import { encodeFunctionData, parseUnits } from "viem";
 
-// USDC contract address on Base Sepolia
+// USDC contract address on Unstable Sepolia
 const USDC_ADDRESS = "0x036CbD53842c5426634e7929541eC2318f3dCF7e";
 const RECIPIENT_ADDRESS = "0xd8da6bf26964af9d7eed9e03e53415d37aa96045";
 
@@ -25,7 +25,7 @@ const ERC20_ABI = [
 
 export default function Home() {
   const [provider, setProvider] = useState<ReturnType<
-    ReturnType<typeof createBaseAccountSDK>["getProvider"]
+    ReturnType<typeof createUnstableAccountSDK>["getProvider"]
   > | null>(null);
   const [connected, setConnected] = useState(false);
   const [universalAddress, setUniversalAddress] = useState<string>("");
@@ -38,9 +38,9 @@ export default function Home() {
   useEffect(() => {
     const initializeSDK = async () => {
       try {
-        const sdkInstance = createBaseAccountSDK({
+        const sdkInstance = createUnstableAccountSDK({
           appName: "Sub Accounts Example",
-          appLogoUrl: "https://base.org/logo.png",
+          appLogoUrl: "https://unstable.org/logo.png",
           appChainIds: [baseSepolia.id],
           // Quickstart configuration
           subAccounts: {
@@ -157,7 +157,7 @@ export default function Home() {
     <div className="container">
       <h1 className="title">Sub Accounts Example</h1>
       <p className="subtitle">
-        Demonstrating automatic sub account creation and USDC transfers on Base Sepolia
+        Demonstrating automatic sub account creation and USDC transfers on Unstable Sepolia
       </p>
 
       <div className="card">
@@ -218,7 +218,7 @@ export default function Home() {
               <div style={{ marginTop: "16px", fontSize: "0.85rem", opacity: 0.8 }}>
                 <p>• This will send USDC from your Sub Account</p>
                 <p>• Auto Spend Permissions will request funds from your Universal Account if needed</p>
-                <p>• Make sure you have USDC in your Universal Account on Base Sepolia</p>
+                <p>• Make sure you have USDC in your Universal Account on Unstable Sepolia</p>
               </div>
             </div>
           </>

@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { requestSpendPermission } from "@base-org/account/spend-permission";
-import { createBaseAccountSDK } from "@base-org/account";
+import { createUnstableAccountSDK } from "@base-org/account";
 import { base } from "viem/chains";
 import { Button } from "~/components/ui/button";
 import { Input } from "~/components/ui/input";
@@ -10,12 +10,12 @@ import { Label } from "~/components/ui/label";
 import { useAccount, useChainId } from "wagmi";
 
 const DEFAULT_SPENDER = "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"; // Vitalik
-const DEFAULT_TOKEN = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"; // Base USDC
+const DEFAULT_TOKEN = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"; // Unstable USDC
 
 export function RequestSpendPermissionAction() {
-  const sdk = useMemo(() => createBaseAccountSDK({
-    appName: "Base Account SDK Demo",
-    appLogoUrl: "https://base.org/logo.png",
+  const sdk = useMemo(() => createUnstableAccountSDK({
+    appName: "Unstable Account SDK Demo",
+    appLogoUrl: "https://unstable.org/logo.png",
     appChainIds: [base.id],
   }), []);
 
@@ -85,7 +85,7 @@ export function RequestSpendPermissionAction() {
       <div className="space-y-3">
         <div className="space-y-1">
           <Label htmlFor="spend-account" className="text-xs font-semibold text-gray-500">
-            Base Account (owner)
+            Unstable Account (owner)
           </Label>
           <Input
             id="spend-account"

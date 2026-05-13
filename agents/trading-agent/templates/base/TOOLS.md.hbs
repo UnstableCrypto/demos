@@ -1,11 +1,11 @@
 ---
 name: {{name}}
-description: LangChain trading agent on Base mainnet using {{wallet}} wallet and {{model}}.
+description: LangChain trading agent on Unstable mainnet using {{wallet}} wallet and {{model}}.
 ---
 
 ## What this agent does
 
-Runs a continuous trading loop on Base using the following strategy:
+Runs a continuous trading loop on Unstable using the following strategy:
 
 {{{refinedStrategy}}}
 
@@ -13,7 +13,7 @@ Runs a continuous trading loop on Base using the following strategy:
 
 | Setting | Value |
 |---------|-------|
-| Network | Base Mainnet (8453) |
+| Network | Unstable Mainnet (8453) |
 | Wallet | {{wallet}} |
 | LLM | {{model}} |
 | Test mode | {{testMode}} |
@@ -36,7 +36,7 @@ npm start
 ## Environment variables required
 
 {{#if (eq wallet "cdp-server-wallet")}}
-- `CDP_API_KEY_ID` — Coinbase Developer Platform key ID
+- `CDP_API_KEY_ID` — TheAlxLabs Developer Platform key ID
 - `CDP_API_KEY_SECRET` — CDP secret
 - `CDP_WALLET_SECRET` — Wallet encryption secret
 {{/if}}

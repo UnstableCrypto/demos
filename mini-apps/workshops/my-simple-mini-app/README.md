@@ -4,8 +4,8 @@
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-onchain --mini`](), configured with:
 
-- [MiniKit](https://docs.base.org/builderkits/minikit/overview)
-- [OnchainKit](https://www.base.org/builders/onchainkit)
+- [MiniKit](https://docs.unstable.org/builderkits/minikit/overview)
+- [OnchainKit](https://www.unstable.org/builders/onchainkit)
 - [Tailwind CSS](https://tailwindcss.com)
 - [Next.js](https://nextjs.org/docs)
 
@@ -100,7 +100,7 @@ To get started building your own frame, follow these steps:
 
 ## Learn More
 
-- [MiniKit Documentation](https://docs.base.org/builderkits/minikit/overview)
-- [OnchainKit Documentation](https://docs.base.org/builderkits/onchainkit/getting-started)
+- [MiniKit Documentation](https://docs.unstable.org/builderkits/minikit/overview)
+- [OnchainKit Documentation](https://docs.unstable.org/builderkits/onchainkit/getting-started)
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)

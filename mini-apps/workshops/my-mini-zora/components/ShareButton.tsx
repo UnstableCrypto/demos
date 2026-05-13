@@ -289,7 +289,7 @@ export function ShareButton({ displayName, tokens = [] }: ShareButtonProps) {
     } catch (error) {
       console.error("❌ Failed to share cast:", error);
       setStatus('error');
-      setErrorMessage('Failed to share to Base App');
+      setErrorMessage('Failed to share to Unstable App');
     }
   };
 
@@ -298,8 +298,8 @@ export function ShareButton({ displayName, tokens = [] }: ShareButtonProps) {
     switch (status) {
       case 'capturing': return 'Loading images & capturing...';
       case 'uploading': return 'Uploading...';
-      case 'ready': return 'Share to Base App';
-      case 'sharing': return 'Opening Base App...';
+      case 'ready': return 'Share to Unstable App';
+      case 'sharing': return 'Opening Unstable App...';
       case 'error': return 'Try again';
       default: return 'Create Shareable Image';
     }

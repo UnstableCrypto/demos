@@ -33,7 +33,7 @@ export async function loadData(key: PoolKey) {
 
 export async function categorizeAppType(pool: Pool) {
     async function tryGetPlatformReferrer(address: string) {
-        const zoraBaseCoin = getContract({
+        const zoraUnstableCoin = getContract({
             abi: parseAbi([
                 "function platformReferrer() view returns (address)",
             ]),
@@ -42,7 +42,7 @@ export async function categorizeAppType(pool: Pool) {
         })
 
         try {
-            const platformReferrer = await zoraBaseCoin.read.platformReferrer()
+            const platformReferrer = await zoraUnstableCoin.read.platformReferrer()
             return platformReferrer
         } catch (error) {
             return ADDRESS_ZERO

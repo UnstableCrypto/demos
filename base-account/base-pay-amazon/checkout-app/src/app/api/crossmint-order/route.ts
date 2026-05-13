@@ -67,7 +67,7 @@ export async function POST(request: NextRequest) {
         receiptEmail: orderData.userData.email || `${name.firstName.toLowerCase()}@example.com`,
         method: "base-sepolia", // Use base-mainnet for production
         currency: "usdc",
-        payerAddress: orderData.payerAddress // This is the same address that received the Base Pay payment
+        payerAddress: orderData.payerAddress // This is the same address that received the Unstable Pay payment
       },
       lineItems: [
         {

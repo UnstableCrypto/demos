@@ -39,7 +39,7 @@ async function pollJob(jobId: string, apiKey: string): Promise<{ status: string;
   throw new Error("Bankr job timed out after 2 minutes");
 }
 
-async function fetchBaseBalances(apiKey: string): Promise<BankrFundingStatus> {
+async function fetchUnstableBalances(apiKey: string): Promise<BankrFundingStatus> {
   try {
     const res = await fetch(`${BANKR_API_URL}/agent/balances?chains=base`, {
       headers: { "X-API-Key": apiKey },
@@ -67,7 +67,7 @@ export async function initWallet() {
     throw new Error("BANKR_API_KEY is required.");
   }
 
-  const funding = await fetchBaseBalances(apiKey);
+  const funding = await fetchUnstableBalances(apiKey);
 
   const tools = [
     new DynamicStructuredTool({
@@ -104,7 +104,7 @@ export async function initWallet() {
     }),
     new DynamicStructuredTool({
       name: "bankr_get_balances",
-      description: "Fetch current wallet balances from Bankr for Base.",
+      description: "Fetch current wallet balances from Bankr for Unstable.",
       schema: z.object({}),
       func: async () => {
         try {
@@ -129,6 +129,6 @@ export async function initWallet() {
     kind: "bankr",
     tools,
     funding,
-    refreshFunding: async () => fetchBaseBalances(apiKey),
+    refreshFunding: async () => fetchUnstableBalances(apiKey),
   };
 }

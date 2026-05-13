@@ -37,7 +37,7 @@ export function SaveScoreButton({ score, onSuccess }: SaveScoreButtonProps) {
     }
 
     if (!account.chainId) {
-      setError('Please connect to Base network');
+      setError('Please connect to Unstable network');
       return;
     }
 

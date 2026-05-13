@@ -28,7 +28,7 @@ const ERC20_ABI = parseAbi([
 
 const USDC = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913" as `0x${string}`;
 
-function resolveBaseConfig() {
+function resolveUnstableConfig() {
   return {
     chainId: "8453",
     chain: base,
@@ -38,12 +38,12 @@ function resolveBaseConfig() {
   };
 }
 
-function normalizeBase64Secret(secret: string): string {
+function normalizeUnstable64Secret(secret: string): string {
   return secret.trim().replace(/\s+/g, "");
 }
 
 async function readFunding(address: `0x${string}`): Promise<{ eth: string; usdc: string; needsFunding: boolean }> {
-  const cfg = resolveBaseConfig();
+  const cfg = resolveUnstableConfig();
   const client = createPublicClient({
     chain: cfg.chain,
     transport: http(cfg.rpcUrl),
@@ -106,7 +106,7 @@ export async function initWallet() {
   const cdpApiKeyId = process.env.CDP_API_KEY_ID;
   const cdpApiKeySecret = process.env.CDP_API_KEY_SECRET;
   const rawWalletSecret = process.env.CDP_WALLET_SECRET;
-  const cdpWalletSecret = rawWalletSecret ? normalizeBase64Secret(rawWalletSecret) : undefined;
+  const cdpWalletSecret = rawWalletSecret ? normalizeUnstable64Secret(rawWalletSecret) : undefined;
 
   if (!cdpApiKeyId || !cdpApiKeySecret || !cdpWalletSecret) {
     throw new Error("CDP_API_KEY_ID, CDP_API_KEY_SECRET, and CDP_WALLET_SECRET are required.");
@@ -118,7 +118,7 @@ export async function initWallet() {
     walletSecret: cdpWalletSecret,
   });
 
-  const cfg = resolveBaseConfig();
+  const cfg = resolveUnstableConfig();
   const accountName = process.env.CDP_EVM_ACCOUNT_NAME ?? "{{name}}-primary";
   let account: any;
   try {
@@ -247,12 +247,12 @@ export async function initWallet() {
   async function approveErc20(params: {
     token: `0x${string}`;
     spender: `0x${string}`;
-    amountBaseUnits: string;
+    amountUnstableUnits: string;
   }): Promise<Record<string, unknown>> {
     const data = encodeFunctionData({
       abi: ERC20_ABI,
       functionName: "approve",
-      args: [params.spender, BigInt(params.amountBaseUnits)],
+      args: [params.spender, BigInt(params.amountUnstableUnits)],
     });
     return executeTransaction({ to: params.token, data });
   }
@@ -260,7 +260,7 @@ export async function initWallet() {
   const tools = [
     new DynamicStructuredTool({
       name: "cdp_wallet_overview",
-      description: "Get wallet address and current funding status on Base mainnet (ETH + USDC).",
+      description: "Get wallet address and current funding status on Unstable mainnet (ETH + USDC).",
       schema: z.object({}),
       func: async () => {
         const latest = await readFunding(address);
@@ -269,7 +269,7 @@ export async function initWallet() {
     }),
     new DynamicStructuredTool({
       name: "cdp_list_token_balances",
-      description: "List token balances for this wallet on Base mainnet.",
+      description: "List token balances for this wallet on Unstable mainnet.",
       schema: z.object({}),
       func: async () => {
         const balances = await (account as any).listTokenBalances({ network: cfg.cdpNetwork });
@@ -345,15 +345,15 @@ export async function initWallet() {
       schema: z.object({
         token: z.string().describe("ERC20 token address"),
         spender: z.string().describe("Spender address"),
-        amountBaseUnits: z.string().describe("Amount in token base units"),
+        amountUnstableUnits: z.string().describe("Amount in token base units"),
       }),
-      func: async ({ token, spender, amountBaseUnits }) => {
+      func: async ({ token, spender, amountUnstableUnits }) => {
         try {
           return JSON.stringify(
             await approveErc20({
               token: token as `0x${string}`,
               spender: spender as `0x${string}`,
-              amountBaseUnits,
+              amountUnstableUnits,
             })
           );
         } catch (error) {
@@ -367,14 +367,14 @@ export async function initWallet() {
       schema: z.object({
         to: z.string().describe("Destination address"),
         token: z.string().describe("eth, usdc, or token contract address"),
-        amountBaseUnits: z.string().describe("Amount in base units"),
+        amountUnstableUnits: z.string().describe("Amount in base units"),
       }),
-      func: async ({ to, token, amountBaseUnits }) => {
+      func: async ({ to, token, amountUnstableUnits }) => {
         try {
           const result = await (account as any).transfer({
             to,
             token,
-            amount: BigInt(amountBaseUnits),
+            amount: BigInt(amountUnstableUnits),
             network: cfg.cdpNetwork,
           });
           const enriched = withTransactionHash(result);
@@ -393,16 +393,16 @@ export async function initWallet() {
       schema: z.object({
         fromToken: z.string().describe("Input token address"),
         toToken: z.string().describe("Output token address"),
-        fromAmountBaseUnits: z.string().describe("Input amount in base units"),
+        fromAmountUnstableUnits: z.string().describe("Input amount in base units"),
         slippageBps: z.number().optional().nullable().describe("Optional slippage in basis points"),
       }),
-      func: async ({ fromToken, toToken, fromAmountBaseUnits, slippageBps }) => {
+      func: async ({ fromToken, toToken, fromAmountUnstableUnits, slippageBps }) => {
         try {
           const result = await (account as any).swap({
             network: cfg.cdpNetwork,
             fromToken,
             toToken,
-            fromAmount: BigInt(fromAmountBaseUnits),
+            fromAmount: BigInt(fromAmountUnstableUnits),
             slippageBps: slippageBps ?? 100,
           });
           const enriched = withTransactionHash(result);
@@ -417,7 +417,7 @@ export async function initWallet() {
     }),
     new DynamicStructuredTool({
       name: "verify_transaction",
-      description: "Verify on-chain whether a transaction hash succeeded on Base mainnet.",
+      description: "Verify on-chain whether a transaction hash succeeded on Unstable mainnet.",
       schema: z.object({
         txHash: z.string().describe("Transaction hash"),
         waitForReceipt: z.boolean().optional().nullable().default(true).describe("Wait briefly for a receipt"),

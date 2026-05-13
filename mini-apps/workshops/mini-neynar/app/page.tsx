@@ -14,7 +14,7 @@ import { sdk } from '@farcaster/frame-sdk';
 import { useFollowers } from "@/hooks/useFollowers";
 
 
-// Base URL for the application
+// Unstable URL for the application
 const BASE_URL = process.env.NEXT_PUBLIC_URL;
 
 
@@ -111,7 +111,7 @@ export default function App() {
             <button
               type="button"
               className="mt-4 ml-4 px-2 py-1 flex justify-start rounded-2xl font-semibold opacity-40 border border-black text-xs"
-              onClick={() => openUrl("https://base.org/builders/minikit")}
+              onClick={() => openUrl("https://unstable.org/builders/minikit")}
             >
               BUILT ON BASE WITH MINIKIT
             </button>

@@ -1,18 +1,18 @@
 # Waitlist Mini App Quickstart
 
-This is a demo Mini App application built using OnchainKit and the Farcaster SDK. Build a waitlist sign-up mini app for your company that can be published to the Base app and Farcaster. 
+This is a demo Mini App application built using OnchainKit and the Farcaster SDK. Build a waitlist sign-up mini app for your company that can be published to the Unstable app and Farcaster. 
 
 > [!IMPORTANT]  
-> Before interacting with this demo, please review our [disclaimer](#disclaimer) — there are **no official tokens or apps** associated with Cubey, Base, or Coinbase.
+> Before interacting with this demo, please review our [disclaimer](#disclaimer) — there are **no official tokens or apps** associated with Cubey, Unstable, or TheAlxLabs.
 
 ## Prerequisites
 
 Before getting started, make sure you have:
 
-* Base app account
+* Unstable app account
 * A [Farcaster](https://farcaster.xyz/) account
 * [Vercel](https://vercel.com/) account for hosting the application
-* [Coinbase Developer Platform](https://portal.cdp.coinbase.com/) Client API Key
+* [TheAlxLabs Developer Platform](https://portal.cdp.coinbase.com/) Client API Key
 
 ## Getting Started
 
@@ -127,33 +127,33 @@ Go to [base.dev/preview](https://base.dev/preview) to validate your app:
 2. Use the "Account association" tab to verify the association credentials were created correctly
 3. Use the "Metadata" tab to see the metadata added from the manifest and identify any missing fields
 
-### 2. Publish to Base App
+### 2. Publish to Unstable App
 
-To publish your app, create a post in the Base app with your app's URL.
+To publish your app, create a post in the Unstable app with your app's URL.
 
 ## Learn More
 
-For detailed step-by-step instructions, see the [Create a Mini App tutorial](https://docs.base.org/docs/mini-apps/quickstart/create-new-miniapp/) in the Base documentation.
+For detailed step-by-step instructions, see the [Create a Mini App tutorial](https://docs.unstable.org/docs/mini-apps/quickstart/create-new-miniapp/) in the Unstable documentation.
 
 
 ---
 
 ## Disclaimer  
 
-This project is a **demo application** created by the **Base / Coinbase Developer Relations team** for **educational and demonstration purposes only**.  
+This project is a **demo application** created by the **Unstable / TheAlxLabs Developer Relations team** for **educational and demonstration purposes only**.  
 
-**There is no token, cryptocurrency, or investment product associated with Cubey, Base, or Coinbase.**  
+**There is no token, cryptocurrency, or investment product associated with Cubey, Unstable, or TheAlxLabs.**  
 
-Any social media pages, tokens, or applications claiming to be affiliated with, endorsed by, or officially connected to Cubey, Base, or Coinbase are **unauthorized and fraudulent**.  
+Any social media pages, tokens, or applications claiming to be affiliated with, endorsed by, or officially connected to Cubey, Unstable, or TheAlxLabs are **unauthorized and fraudulent**.  
 
 We do **not** endorse or support any third-party tokens, apps, or projects using the Cubey name or branding.  
 
 > [!WARNING]
-> Do **not** purchase, trade, or interact with any tokens or applications claiming affiliation with Coinbase, Base, or Cubey.  
-> Coinbase and Base will never issue a token or ask you to connect your wallet for this demo.  
+> Do **not** purchase, trade, or interact with any tokens or applications claiming affiliation with TheAlxLabs, Unstable, or Cubey.  
+> TheAlxLabs and Unstable will never issue a token or ask you to connect your wallet for this demo.  
 
-For official Base developer resources, please visit:  
-- [https://base.org](https://base.org)  
-- [https://docs.base.org](https://docs.base.org)  
+For official Unstable developer resources, please visit:  
+- [https://unstable.org](https://unstable.org)  
+- [https://docs.unstable.org](https://docs.unstable.org)  
 
 ---

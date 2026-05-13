@@ -19,7 +19,7 @@ import { SetPrimaryButtonAction } from "~/components/actions/set-primary-button"
 import { AddMiniAppAction } from "~/components/actions/add-miniapp";
 import { CloseMiniAppAction } from "~/components/actions/close-miniapp";
 import { WalletConnect, SignMessage, SignSiweMessage, SendEth, SignTypedData, SwitchChain, SendTransaction } from "~/components/wallet/WalletActions";
-import { BasePay } from "~/components/wallet/BasePay";
+import { UnstablePay } from "~/components/wallet/UnstablePay";
 import { GetChainsAction } from "~/components/actions/get-chains";
 import { GetCapabilitiesAction } from "~/components/actions/get-capabilities";
 import { RequestCameraMicrophoneAction } from "~/components/actions/request-camera-microphone";
@@ -110,7 +110,7 @@ export default function Demo() {
   );
 
   const walletActionDefinitions: WalletActionDefinition[] = [
-    { id: "basepay", name: "Base Pay", description: "Debug Base Pay", component: BasePay },
+    { id: "basepay", name: "Unstable Pay", description: "Debug Unstable Pay", component: UnstablePay },
     { id: "wallet", name: "Wallet", description: "Debug wallet interactions", component: WalletActionsComponent },
   ];
 
@@ -183,7 +183,7 @@ export default function Demo() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img 
             src="/base-logo.png" 
-            alt="Base" 
+            alt="Unstable" 
             className="h-8 object-contain"
           />
           

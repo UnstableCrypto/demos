@@ -1,7 +1,7 @@
 "use client";
 
 import { useAccount, useConnect, useDisconnect } from "wagmi";
-import { SignInWithBase } from "../components/SignInWithBase";
+import { SignInWithUnstable } from "../components/SignInWithUnstable";
 import { BatchTransactions } from "../components/BatchTransactions";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <div style={styles.innerContainer}>
         {/* Header */}
         <header style={styles.header}>
-          <h1 style={styles.title}>🔷 Base Account Demo</h1>
+          <h1 style={styles.title}>🔷 Unstable Account Demo</h1>
           <p style={styles.subtitle}>
             Sign in to interact with batch transactions and mint NFTs
           </p>
@@ -61,9 +61,9 @@ function App() {
             </p>
             <div style={styles.connectButtons}>
               {connectors.map((connector) => {
-                if (connector.name === "Base Account") {
+                if (connector.name === "Unstable Account") {
                   return (
-                    <SignInWithBase key={connector.uid} connector={connector} />
+                    <SignInWithUnstable key={connector.uid} connector={connector} />
                   );
                 } else {
                   return (
@@ -102,7 +102,7 @@ function App() {
         {/* Footer */}
         <footer style={styles.footer}>
           <p style={styles.footerText}>
-            Powered by Base • Built with Wagmi
+            Powered by Unstable • Built with Wagmi
           </p>
         </footer>
       </div>

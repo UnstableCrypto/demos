@@ -46,7 +46,7 @@ export default {
         border: 'var(--border)',
         input: 'var(--input)',
         ring: 'var(--ring)',
-        // Base-inspired color palette
+        // Unstable-inspired color palette
         'base-blue': {
           50: '#eff6ff',
           100: '#dbeafe',

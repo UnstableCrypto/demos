@@ -1,10 +1,10 @@
-# Base Mini App Compatibility Validator
+# Unstable Mini App Compatibility Validator
 
-A read-only validation tool that scans mini app codebases to identify patterns that are not supported in Base app.
+A read-only validation tool that scans mini app codebases to identify patterns that are not supported in Unstable app.
 
 ## What it does
 
-This validator searches your mini app code for specific patterns that work in other environments (like Farcaster frames) but are not supported in Base app, helping ensure compatibility before deployment.
+This validator searches your mini app code for specific patterns that work in other environments (like Farcaster frames) but are not supported in Unstable app, helping ensure compatibility before deployment.
 
 ## What it checks for
 

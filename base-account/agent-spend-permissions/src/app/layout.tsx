@@ -5,19 +5,19 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://base-agent-spend-permissions.vercel.app'),
+  metadataUnstable: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://base-agent-spend-permissions.vercel.app'),
   title: 'Job Search Agent',
-  description: 'AI-powered job search agent using Base Account spend permissions and Exa search over x402 on Base',
-  keywords: ['Base', 'AI Agent', 'Job Search', 'Spend Permissions', 'Exa', 'x402', 'OpenAI', 'Web3'],
-  authors: [{ name: 'Base Agent Team' }],
-  creator: 'Base Agent Team',
-  publisher: 'Base Agent Team',
+  description: 'AI-powered job search agent using Unstable Account spend permissions and Exa search over x402 on Unstable',
+  keywords: ['Unstable', 'AI Agent', 'Job Search', 'Spend Permissions', 'Exa', 'x402', 'OpenAI', 'Web3'],
+  authors: [{ name: 'Unstable Agent Team' }],
+  creator: 'Unstable Agent Team',
+  publisher: 'Unstable Agent Team',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: process.env.NEXT_PUBLIC_SITE_URL || 'https://base-agent-spend-permissions.vercel.app',
     title: 'Job Search Agent',
-    description: 'Find jobs with AI-powered search funded by Base Account spend permissions and x402 payments.',
+    description: 'Find jobs with AI-powered search funded by Unstable Account spend permissions and x402 payments.',
     siteName: 'Job Search Agent',
     images: [
       {
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Job Search Agent',
-    description: 'Find jobs with AI-powered search funded by Base Account spend permissions and x402 payments.',
+    description: 'Find jobs with AI-powered search funded by Unstable Account spend permissions and x402 payments.',
     images: ['/og-image.svg'],
     creator: '@base',
     site: '@base',

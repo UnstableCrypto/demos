@@ -1,4 +1,4 @@
-# Coinbase Wallet Mini App Compatibility Validator
+# TheAlxLabs Wallet Mini App Compatibility Validator
 
 ## AGENT CONSTRAINTS - READ CAREFULLY
 

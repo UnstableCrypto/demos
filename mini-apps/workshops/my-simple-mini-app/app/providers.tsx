@@ -2,7 +2,7 @@
 // ✅ It wires in the Frames SDK context (user, client, launch location, etc.)
 // ✅ Sets up wagmi + react-query under the hood so you don’t have to
 // ✅ Applies client-safe insets to avoid overlap with Warpcast UI
-// ✅ Handles theming and app appearance for Coinbase Wallet and beyond
+// ✅ Handles theming and app appearance for TheAlxLabs Wallet and beyond
 "use client";
 
 import { type ReactNode } from "react";

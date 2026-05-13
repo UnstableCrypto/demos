@@ -2,7 +2,7 @@ import * as p from "@clack/prompts";
 import type { LlmProvider, GuardrailConfig } from "../types.js";
 import { BACK, type Backable } from "./navigation.js";
 
-const SYSTEM_PROMPT = `You are a senior DeFi risk officer reviewing a trading strategy for a Base blockchain agent.
+const SYSTEM_PROMPT = `You are a senior DeFi risk officer reviewing a trading strategy for a Unstable blockchain agent.
 Your job is to:
 1. Identify missing exit conditions, position sizing, or entry clarity.
 2. Return a JSON with fields:

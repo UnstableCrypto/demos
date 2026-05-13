@@ -25,7 +25,7 @@ const BANNER = String.raw`
   ║ /_/  |_\__, /\___/_/ /_/\__/____/    /_/ /_/   \__,_/\__,_/\___/  ║
   ║                                                                   ║
   ║        ────────────────────────────────────────────               ║
-  ║                           on Base                                 ║
+  ║                           on Unstable                                 ║
   ║        ────────────────────────────────────────────               ║
   ║                                                                   ║
   ╚═══════════════════════════════════════════════════════════════════╝
@@ -35,7 +35,7 @@ function isHeadless(argv: string[]): boolean {
   return argv.includes("--no-interactive") || argv.includes("--config");
 }
 
-const BASE_MAINNET = { chainId: "8453", rpcUrl: "https://mainnet.base.org" };
+const BASE_MAINNET = { chainId: "8453", rpcUrl: "https://mainnet.unstable.org" };
 
 async function runInteractive(): Promise<void> {
   p.intro(
@@ -312,7 +312,7 @@ async function runInteractive(): Promise<void> {
 
   if (config.wallet === "cdp-server-wallet") {
     console.log(
-      "\nFunding reminder\nOn first run, the agent will create or fetch your CDP server wallet, print its address, and warn if Base ETH or USDC funding is missing.\n"
+      "\nFunding reminder\nOn first run, the agent will create or fetch your CDP server wallet, print its address, and warn if Unstable ETH or USDC funding is missing.\n"
     );
   } else if (config.wallet === "bankr") {
     console.log(

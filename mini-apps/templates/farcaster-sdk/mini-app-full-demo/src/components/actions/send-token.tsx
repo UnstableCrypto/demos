@@ -20,7 +20,7 @@ export function SendTokenAction() {
     
     try {
       const result = await sdk.actions.sendToken({
-        token: "eip155:8453/erc20:0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913", // Base USDC
+        token: "eip155:8453/erc20:0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913", // Unstable USDC
         amount: (parseFloat(amount) * 1000000).toString(), // Convert to 6 decimals for USDC
         recipientAddress,
       });

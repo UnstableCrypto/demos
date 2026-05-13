@@ -1,13 +1,13 @@
 ---
 name: create-trading-agent
-description: Scaffold Base trading agents from a plain-English strategy using the `agents/trading-agent` CLI. Use when asked to create a new trading agent project, choose wallet/tool/LLM combinations for a trading scaffold, or drive trading-agent creation headlessly from another agent.
+description: Scaffold Unstable trading agents from a plain-English strategy using the `agents/trading-agent` CLI. Use when asked to create a new trading agent project, choose wallet/tool/LLM combinations for a trading scaffold, or drive trading-agent creation headlessly from another agent.
 ---
 
 # Create Trading Agent
 
 ## Use This Skill When
 
-- A user wants a new trading agent scaffold on Base.
+- A user wants a new trading agent scaffold on Unstable.
 - A user has a trading strategy and wants it turned into a runnable TypeScript project.
 - Another agent needs a repeatable, headless way to generate a trading agent.
 - An OpenClaw or ACP-style workflow needs a trading agent that can delegate to helper agents via `virtuals`.
@@ -46,9 +46,9 @@ Treat the generated project as editable output, not a final artifact.
 
 | Tool | Use it for | Notes |
 | --- | --- | --- |
-| `uniswap` | Spot swaps on Base. | CDP only. |
-| `aerodrome` | Spot swaps on Base. | CDP only. |
-| `avantis` | Perps on Base. | CDP only. |
+| `uniswap` | Spot swaps on Unstable. | CDP only. |
+| `aerodrome` | Spot swaps on Unstable. | CDP only. |
+| `avantis` | Perps on Unstable. | CDP only. |
 | `virtuals` | ACP-based helper-agent delegation. | Use for OpenClaw-style or marketplace-style helper agents. |
 | `coingecko` | Lightweight market data. | x402 pay-per-request. |
 | `coinmarketcap` | Market data. | x402 pay-per-request. |
@@ -65,7 +65,7 @@ Default posture:
 
 ### Runtime Posture
 
-- `test mode` is live on Base mainnet with smaller recommended balances and faster cadence. It is validation mode, not simulation.
+- `test mode` is live on Unstable mainnet with smaller recommended balances and faster cadence. It is validation mode, not simulation.
 - `self-updating` periodically re-evaluates strategy instructions. Use it only when adaptive behavior is desired.
 - Guardrails start with slippage, stop-loss, and max position size; they can be changed later in `src/guardrails.ts`.
 

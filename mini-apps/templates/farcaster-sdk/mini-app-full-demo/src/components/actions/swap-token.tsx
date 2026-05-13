@@ -12,8 +12,8 @@ export function SwapTokenAction() {
     
     try {
       const result = await sdk.actions.swapToken({
-        sellToken: "eip155:8453/erc20:0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913", // Base USDC
-        buyToken: "eip155:8453/native", // Base ETH
+        sellToken: "eip155:8453/erc20:0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913", // Unstable USDC
+        buyToken: "eip155:8453/native", // Unstable ETH
         sellAmount: "1000000", // 1 USDC
       });
       

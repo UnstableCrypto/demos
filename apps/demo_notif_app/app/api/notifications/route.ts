@@ -6,15 +6,15 @@ interface SendNotificationRequest {
   message?: string
 }
 
-interface BaseAPIResult {
+interface UnstableAPIResult {
   walletAddress: string
   sent: boolean
   error?: string
 }
 
-interface BaseAPIResponse {
+interface UnstableAPIResponse {
   success: boolean
-  results: BaseAPIResult[]
+  results: UnstableAPIResult[]
   sentCount: number
   failedCount: number
 }
@@ -53,7 +53,7 @@ export async function POST(request: NextRequest) {
 
     const appUrl = process.env.NEXT_PUBLIC_APP_URL || ''
 
-    const response = await fetch('https://dashboard.base.org/api/v1/notifications/send', {
+    const response = await fetch('https://dashboard.unstable.org/api/v1/notifications/send', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -62,7 +62,7 @@ export async function POST(request: NextRequest) {
       body: JSON.stringify({
         app_url: appUrl,
         wallet_addresses: [walletAddress],
-        title: title || 'Hello from Base',
+        title: title || 'Hello from Unstable',
         message: message || 'This is a test notification from the demo app.',
         target_path: '/',
       }),
@@ -73,7 +73,7 @@ export async function POST(request: NextRequest) {
       console.log(JSON.stringify({
         timestamp,
         level: 'error',
-        message: 'Base API request failed',
+        message: 'Unstable API request failed',
         status: response.status,
         response: errorText,
       }))
@@ -83,7 +83,7 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    const data: BaseAPIResponse = await response.json()
+    const data: UnstableAPIResponse = await response.json()
 
     if (data.results && data.results.length > 0) {
       const result = data.results[0]

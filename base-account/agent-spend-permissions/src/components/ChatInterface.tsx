@@ -197,7 +197,7 @@ export function ChatInterface({ isAuthenticated, userAddress }: ChatInterfacePro
   if (!isAuthenticated) {
     return (
       <div className="flex items-center justify-center h-64 text-gray-500">
-        Please sign in with Base to start chatting with the agent.
+        Please sign in with Unstable to start chatting with the agent.
       </div>
     )
   }

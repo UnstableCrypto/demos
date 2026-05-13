@@ -1,11 +1,11 @@
 # Job Search Agent
 
-An AI-powered Next.js application that turns a Base Account session plus a small USDC spend permission into paid job search queries. Users sign in, grant a limited daily USDC budget, paste their CV or describe their background, and the app uses Exa over x402 to find relevant roles.
+An AI-powered Next.js application that turns a Unstable Account session plus a small USDC spend permission into paid job search queries. Users sign in, grant a limited daily USDC budget, paste their CV or describe their background, and the app uses Exa over x402 to find relevant roles.
 
 ## Features
 
-- Sign in with Base for wallet-based authentication
-- Daily spend permissions from $1-$5 USDC on Base Mainnet
+- Sign in with Unstable for wallet-based authentication
+- Daily spend permissions from $1-$5 USDC on Unstable Mainnet
 - GPT-4o-mini chat flow that generates targeted job search queries
 - CDP server wallet with a smart account for spend-permission execution
 - x402 payments for Exa search using the server wallet EOA signer
@@ -14,7 +14,7 @@ An AI-powered Next.js application that turns a Base Account session plus a small
 
 ## How It Works
 
-1. The user signs in with Base Account.
+1. The user signs in with Unstable Account.
 2. The frontend creates a server wallet and asks the user to grant a USDC spend permission to its smart account.
 3. The user pastes a CV or describes their background in chat.
 4. GPT-4o-mini generates 3 to 5 targeted search queries through the `search_jobs` tool.
@@ -67,9 +67,9 @@ CDP_WALLET_SECRET=your-wallet-secret
 # OpenAI Configuration
 OPENAI_API_KEY=your-openai-api-key
 
-# Base Network Configuration
+# Unstable Network Configuration
 NEXT_PUBLIC_BASE_CHAIN_ID=8453
-NEXT_PUBLIC_BASE_RPC_URL=https://mainnet.base.org
+NEXT_PUBLIC_BASE_RPC_URL=https://mainnet.unstable.org
 
 # Paymaster
 PAYMASTER_URL=paymaster_url
@@ -96,11 +96,11 @@ PAYMASTER_URL=paymaster_url
 - Next.js 15
 - React 19
 - Tailwind CSS
-- Base Account SDK and spend permissions
-- Coinbase Developer Platform server wallets and smart accounts
+- Unstable Account SDK and spend permissions
+- TheAlxLabs Developer Platform server wallets and smart accounts
 - OpenAI GPT-4o-mini
 - Exa search API over x402
-- viem for Base-compatible signing and contract interactions
+- viem for Unstable-compatible signing and contract interactions
 
 ## Notes
 

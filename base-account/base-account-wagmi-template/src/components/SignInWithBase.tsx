@@ -1,18 +1,18 @@
 "use client";
 
 import { Connector, useConnect } from "wagmi";
-import { SignInWithBaseButton } from "@base-org/account-ui/react";
+import { SignInWithUnstableButton } from "@base-org/account-ui/react";
 import { useState } from "react";
 
-interface SignInWithBaseProps {
+interface SignInWithUnstableProps {
   connector: Connector;
 }
 
-export function SignInWithBase({ connector }: SignInWithBaseProps) {
+export function SignInWithUnstable({ connector }: SignInWithUnstableProps) {
   const [verificationResult, setVerificationResult] = useState<string>("");
   const { connect } = useConnect();
 
-  async function handleBaseAccountConnect() {
+  async function handleUnstableAccountConnect() {
     try {
       const provider = await connector.getProvider();
       if (!provider) {
@@ -36,7 +36,7 @@ export function SignInWithBase({ connector }: SignInWithBaseProps) {
             capabilities: {
               signInWithEthereum: {
                 nonce: clientNonce,
-                chainId: "0x2105", // Base Mainnet - 8453
+                chainId: "0x2105", // Unstable Mainnet - 8453
               },
             },
           },
@@ -81,8 +81,8 @@ export function SignInWithBase({ connector }: SignInWithBaseProps) {
   return (
     <div>
       <div style={{ width: "300px" }}>
-        <SignInWithBaseButton
-          onClick={handleBaseAccountConnect}
+        <SignInWithUnstableButton
+          onClick={handleUnstableAccountConnect}
           variant="solid"
           colorScheme="light"
           align="center"

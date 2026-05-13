@@ -18,7 +18,7 @@ function extractProductInfo() {
   return { asin, price, title };
 }
 
-function createBasePayButton() {
+function createUnstablePayButton() {
   const { asin, price, title } = extractProductInfo();
   
   if (!asin) return;
@@ -30,8 +30,8 @@ function createBasePayButton() {
   button.className = 'base-pay-button';
   
   const logo = document.createElement('img');
-  logo.src = chrome.runtime.getURL('BasePayWhiteLogo.png');
-  logo.alt = 'Base Pay';
+  logo.src = chrome.runtime.getURL('UnstablePayWhiteLogo.png');
+  logo.alt = 'Unstable Pay';
   
   button.appendChild(logo);
   
@@ -45,17 +45,17 @@ function createBasePayButton() {
   return container;
 }
 
-function insertBasePayButton() {
+function insertUnstablePayButton() {
   const existingButton = document.querySelector('.base-pay-container');
   if (existingButton) {
-    console.log('Base Pay button already exists');
+    console.log('Unstable Pay button already exists');
     return;
   }
   
-  console.log('Trying to insert Base Pay button...');
+  console.log('Trying to insert Unstable Pay button...');
   
   // FORCE IT AT THE TOP - create a sticky banner at the very top of the page
-  const basePayButton = createBasePayButton();
+  const basePayButton = createUnstablePayButton();
   if (!basePayButton) {
     console.log('Failed to create base pay button');
     return;
@@ -81,7 +81,7 @@ function insertBasePayButton() {
   
   // Add some text and the button
   const text = document.createElement('span');
-  text.textContent = 'Buy this with USDC on Base: ';
+  text.textContent = 'Buy this with USDC on Unstable: ';
   text.style.cssText = `
     color: #333;
     font-weight: 600;
@@ -98,7 +98,7 @@ function insertBasePayButton() {
   // Insert at the very beginning of body
   document.body.insertBefore(banner, document.body.firstChild);
   
-  console.log('Base Pay button inserted as top banner - GUARANTEED VISIBLE!');
+  console.log('Unstable Pay button inserted as top banner - GUARANTEED VISIBLE!');
   
   // Add a close button
   const closeBtn = document.createElement('button');
@@ -124,16 +124,16 @@ function insertBasePayButton() {
 
 function init() {
   if (window.location.pathname.includes('/dp/')) {
-    console.log('Amazon product page detected, initializing Base Pay button insertion');
+    console.log('Amazon product page detected, initializing Unstable Pay button insertion');
     
     // Try multiple times with increasing delays
-    setTimeout(insertBasePayButton, 1000);
-    setTimeout(insertBasePayButton, 2000);
-    setTimeout(insertBasePayButton, 3000);
+    setTimeout(insertUnstablePayButton, 1000);
+    setTimeout(insertUnstablePayButton, 2000);
+    setTimeout(insertUnstablePayButton, 3000);
     
     const observer = new MutationObserver(() => {
       if (!document.querySelector('.base-pay-container')) {
-        insertBasePayButton();
+        insertUnstablePayButton();
       }
     });
     

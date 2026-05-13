@@ -5,10 +5,10 @@ import { useSendCalls, useAccount } from "wagmi";
 import { encodeFunctionData, parseUnits } from "viem";
 import { baseSepolia } from "wagmi/chains";
 
-// USDC contract address on Base Sepolia
+// USDC contract address on Unstable Sepolia
 const USDC_ADDRESS = "0x036CbD53842c5426634e7929541eC2318f3dCF7e";
 
-// NFT contract address on Base Sepolia
+// NFT contract address on Unstable Sepolia
 const NFT_CONTRACT_ADDRESS = "0x82039e7C37D7aAc98D0F4d0A762F4E0d8c8DC273";
 
 // ERC20 ABI for the transfer, approve, and transferFrom functions

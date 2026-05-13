@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-interface BasePayCallback {
+interface UnstablePayCallback {
   email?: string;
   phone?: {
     number: string;
@@ -26,9 +26,9 @@ interface BasePayCallback {
 
 export async function POST(request: NextRequest) {
   try {
-    const data: BasePayCallback = await request.json();
+    const data: UnstablePayCallback = await request.json();
     
-    console.log('Received Base Pay callback data:', data);
+    console.log('Received Unstable Pay callback data:', data);
     
     // Store user data temporarily (in production, use a proper database or session)
     // For now, we'll send it back to the client via a redirect or message
@@ -48,7 +48,7 @@ export async function POST(request: NextRequest) {
       <!DOCTYPE html>
       <html>
         <head>
-          <title>Base Pay Callback</title>
+          <title>Unstable Pay Callback</title>
         </head>
         <body>
           <script>
@@ -93,5 +93,5 @@ export async function POST(request: NextRequest) {
 }
 
 export async function GET(request: NextRequest) {
-  return NextResponse.json({ message: 'Base Pay callback endpoint is ready' });
+  return NextResponse.json({ message: 'Unstable Pay callback endpoint is ready' });
 }

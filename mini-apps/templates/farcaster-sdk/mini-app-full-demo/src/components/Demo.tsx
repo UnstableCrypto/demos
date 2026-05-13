@@ -20,7 +20,7 @@ import { ComposeCastAction } from "~/components/actions/compose-cast";
 import { AddMiniAppAction } from "~/components/actions/add-miniapp";
 import { CloseMiniAppAction } from "~/components/actions/close-miniapp";
 import { SignSiweMessage, SwitchChain } from "~/components/wallet/wallet-actions";
-import { BasePay } from "~/components/wallet/base-pay";
+import { UnstablePay } from "~/components/wallet/base-pay";
 import { RequestCameraMicrophoneAction } from "~/components/actions/request-camera-microphone";
 import { HapticsAction } from "~/components/actions/haptics";
 import { TopBar } from "~/components/top-bar";
@@ -90,7 +90,7 @@ export default function Demo() {
   ];
 
   const walletActionDefinitions: WalletActionDefinition[] = [
-    { id: "basepay", name: "Base Pay", description: "Debug Base Pay", component: BasePay, icon: Coins },
+    { id: "basepay", name: "Unstable Pay", description: "Debug Unstable Pay", component: UnstablePay, icon: Coins },
     { id: "wallet", name: "Wallet", description: "Debug wallet interactions", component: WalletActionsComponent, icon: Settings },
   ];
 

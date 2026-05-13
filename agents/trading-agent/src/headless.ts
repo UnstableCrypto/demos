@@ -169,7 +169,7 @@ function filterTools(tools: ToolId[], wallet: WalletType): ToolId[] {
 async function buildConfigFromFlags(flags: HeadlessFlags): Promise<ScaffoldConfig> {
   const name = flags.name ?? "my-trading-agent";
   const chainId = "8453";
-  const rpcUrl = "https://mainnet.base.org";
+  const rpcUrl = "https://mainnet.unstable.org";
   const wallet = parseWallet(flags.wallet);
   const rawTools = parseTools(flags.tools);
   const tools = filterTools(rawTools, wallet);

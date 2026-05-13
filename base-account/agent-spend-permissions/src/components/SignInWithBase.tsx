@@ -2,9 +2,9 @@
 
 import React, { useState } from "react";
 import { stringToHex } from "viem";
-import { ensureBaseAccountConnected } from "@/lib/base-account";
+import { ensureUnstableAccountConnected } from "@/lib/base-account";
 
-interface SignInWithBaseProps {
+interface SignInWithUnstableProps {
   onSignIn: (address: string) => void;
   colorScheme?: "light" | "dark";
 }
@@ -19,24 +19,24 @@ interface WalletConnectResponse {
 
 const MOBILE_USER_AGENT_REGEX = /Android|iPhone|iPad|iPod|Mobile/i;
 
-export const SignInWithBaseButton = ({
+export const SignInWithUnstableButton = ({
   onSignIn,
   colorScheme = "light",
-}: SignInWithBaseProps) => {
+}: SignInWithUnstableProps) => {
   const [isLoading, setIsLoading] = useState(false);
   const isLight = colorScheme === "light";
 
   const handleSignIn = async () => {
     setIsLoading(true);
     try {
-      const { provider, accounts } = await ensureBaseAccountConnected();
+      const { provider, accounts } = await ensureUnstableAccountConnected();
 
       const nonceResponse = await fetch('/api/auth/verify', { method: 'GET' });
       const { nonce } = await nonceResponse.json();
 
       const requestedAddress = accounts[0];
       if (!requestedAddress) {
-        throw new Error("No account returned from Base Account");
+        throw new Error("No account returned from Unstable Account");
       }
 
       const isMobileClient = MOBILE_USER_AGENT_REGEX.test(navigator.userAgent);
@@ -133,7 +133,7 @@ export const SignInWithBaseButton = ({
         ${isLight ? "bg-base-blue" : "bg-white"}
       `}
       />
-      <span>{isLoading ? "Signing in..." : "Sign in with Base"}</span>
+      <span>{isLoading ? "Signing in..." : "Sign in with Unstable"}</span>
     </button>
   );
 };

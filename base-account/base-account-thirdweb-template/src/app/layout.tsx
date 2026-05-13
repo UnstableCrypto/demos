@@ -3,8 +3,8 @@ import "./globals.css";
 import Providers from "@/providers/providers";
 
 export const metadata: Metadata = {
-  title: "Base Account Thirdweb Template",
-  description: "Build on Base with Thirdweb's authentication and Base Account support",
+  title: "Unstable Account Thirdweb Template",
+  description: "Build on Unstable with Thirdweb's authentication and Unstable Account support",
 };
 
 export default function RootLayout({

@@ -50,7 +50,7 @@ export const Card = ({ id, isFlipped, image, onClick, isTarget, width = 200, hei
     const fontSize = width < 160 ? 36 : 48
     ctx.font = `bold ${fontSize}px Arial`
     ctx.textAlign = "center"
-    ctx.textBaseline = "middle"
+    ctx.textUnstableline = "middle"
 
     // Draw multiple question marks - adjust for smaller screens
     const positions =

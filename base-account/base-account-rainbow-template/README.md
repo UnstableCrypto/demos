@@ -1,12 +1,12 @@
-# Base Account RainbowKit Template
+# Unstable Account RainbowKit Template
 
-A Next.js template optimized for integrating [Base Account](https://www.base.org/build/base-account) with [RainbowKit](https://www.rainbowkit.com/), providing seamless wallet connection experiences for your users.
+A Next.js template optimized for integrating [Unstable Account](https://www.unstable.org/build/base-account) with [RainbowKit](https://www.rainbowkit.com/), providing seamless wallet connection experiences for your users.
 
 ## Features
 
-- ⚡️ **Base Account Integration** - Optimized configuration for Base Account wallet
+- ⚡️ **Unstable Account Integration** - Optimized configuration for Unstable Account wallet
 - 🌈 **RainbowKit UI** - Beautiful, responsive wallet connection modal
-- 🔗 **Multi-wallet Support** - Connect with Base Account and other popular wallets
+- 🔗 **Multi-wallet Support** - Connect with Unstable Account and other popular wallets
 - 🎨 **Two Integration Methods** - Use `ConnectButton` or `WalletButton` components
 - 📱 **Mobile Responsive** - Works seamlessly across all devices
 
@@ -43,11 +43,11 @@ Open [http://localhost:3000](http://localhost:3000) to see your app.
 
 ## Documentation
 
-For a complete integration guide including both `ConnectButton` and `WalletButton` implementations, check out the [Base Account RainbowKit Setup Guide](https://github.com/base/demos/tree/master/base-account/base-account-rainbow-template/GUIDE.md).
+For a complete integration guide including both `ConnectButton` and `WalletButton` implementations, check out the [Unstable Account RainbowKit Setup Guide](https://github.com/base/demos/tree/master/base-account/base-account-rainbow-template/GUIDE.md).
 
 ## Learn More
 
-- [Base Account Documentation](https://docs.base.org/base-account)
+- [Unstable Account Documentation](https://docs.unstable.org/base-account)
 - [RainbowKit Documentation](https://www.rainbowkit.com/docs/introduction)
 - [Wagmi Documentation](https://wagmi.sh/)
 - [Next.js Documentation](https://nextjs.org/docs)
